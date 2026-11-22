@@ -1,3 +1,5 @@
+import { asset } from "./asset";
+
 export type Airport = {
   iata: string;
   label: string; // the name travellers know it by, e.g. "Goa–Mopa"
@@ -67,17 +69,17 @@ async function getJson<T>(path: string): Promise<T> {
 
 export async function loadDataset(): Promise<Dataset> {
   const [airportList, routes, meta, airlineInfo, countries] = await Promise.all([
-    getJson<Airport[]>("/data/airports.json"),
-    getJson<Route[]>("/data/routes.json"),
-    getJson<Meta>("/data/meta.json"),
+    getJson<Airport[]>(asset("data/airports.json")),
+    getJson<Route[]>(asset("data/routes.json")),
+    getJson<Meta>(asset("data/meta.json")),
     // Logos and websites are optional extras: without them the site shows initials and plain names.
-    getJson<Record<string, { logo?: string; website?: string | null }>>("/data/airlines.json").catch(() => ({})),
-    getJson<Country[]>("/data/countries.json"),
+    getJson<Record<string, { logo?: string; website?: string | null }>>(asset("data/airlines.json")).catch(() => ({})),
+    getJson<Country[]>(asset("data/countries.json")),
   ]);
   const airlines = new Map<string, AirlineInfo>(
     Object.entries(airlineInfo).map(([title, a]) => [
       title,
-      { logo: a.logo ? `/data/${a.logo}` : undefined, website: a.website ?? undefined },
+      { logo: a.logo ? asset(`data/${a.logo}`) : undefined, website: a.website ?? undefined },
     ]),
   );
 
