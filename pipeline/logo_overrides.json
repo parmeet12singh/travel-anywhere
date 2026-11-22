@@ -1,0 +1,11 @@
+{
+  "_comment": "Logos for airlines whose Wikipedia article has none. Used only when the infobox has no logo. Files are the airlines' own (trademarks).",
+  "Air Astana": {
+    "url": "https://assets-eu-01.kc-usercontent.com/d5eab2ce-d0cf-0106-dfb7-ff2154f01a04/2086c70e-4b88-441a-a57d-17254a69150c/Logo.png",
+    "source": "https://airastana.com/"
+  },
+  "IndiaOne Air": {
+    "url": "https://www.indiaoneair.com/images/logo.svg",
+    "source": "https://www.indiaoneair.com/"
+  }
+}

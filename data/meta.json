@@ -1,0 +1,551 @@
+{
+  "generated_at": "2026-11-22T15:20:53+00:00",
+  "as_of": "2026-11-22",
+  "counts": {
+    "origins_scraped": 127,
+    "airports": 243,
+    "routes": 1709,
+    "routes_active": 1703,
+    "routes_domestic": 1291,
+    "routes_international": 418,
+    "unresolved_destination_links": 7
+  },
+  "source_pages": {
+    "AGR": {
+      "title": "Agra Airport",
+      "revid": 1386870347
+    },
+    "AGX": {
+      "title": "Agatti Airport",
+      "revid": 1384524716
+    },
+    "AHA": {
+      "title": "Maa Mahamaya Airport",
+      "revid": 1381909286
+    },
+    "AIP": {
+      "title": "Sri Guru Ravidas Airport",
+      "revid": 1369310077
+    },
+    "AJL": {
+      "title": "Lengpui Airport",
+      "revid": 1386262980
+    },
+    "AMD": {
+      "title": "Ahmedabad Airport",
+      "revid": 1386300781
+    },
+    "ATQ": {
+      "title": "Sri Guru Ram Das Ji International Airport",
+      "revid": 1379744483
+    },
+    "AVR": {
+      "title": "Amravati Airport",
+      "revid": 1376852391
+    },
+    "AYJ": {
+      "title": "Ayodhya Airport",
+      "revid": 1380733894
+    },
+    "BBI": {
+      "title": "Biju Patnaik Airport",
+      "revid": 1386767584
+    },
+    "BDQ": {
+      "title": "Vadodara Airport",
+      "revid": 1381169947
+    },
+    "BEK": {
+      "title": "Bareilly Airport",
+      "revid": 1373928964
+    },
+    "BHJ": {
+      "title": "Bhuj Airport",
+      "revid": 1380773143
+    },
+    "BHO": {
+      "title": "Raja Bhoj Airport",
+      "revid": 1378860283
+    },
+    "BHU": {
+      "title": "Bhavnagar Airport",
+      "revid": 1365439714
+    },
+    "BKB": {
+      "title": "Bikaner Airport",
+      "revid": 1377688254
+    },
+    "BLR": {
+      "title": "Kempegowda International Airport",
+      "revid": 1387065204
+    },
+    "BOM": {
+      "title": "Chhatrapati Shivaji Maharaj International Airport",
+      "revid": 1386627315
+    },
+    "BUP": {
+      "title": "Bathinda Airport",
+      "revid": 1375433366
+    },
+    "CCJ": {
+      "title": "Calicut International Airport",
+      "revid": 1386010154
+    },
+    "CCU": {
+      "title": "Netaji Subhas Chandra Bose International Airport",
+      "revid": 1385835991
+    },
+    "CDP": {
+      "title": "Kadapa Airport",
+      "revid": 1376433287
+    },
+    "CJB": {
+      "title": "Coimbatore International Airport",
+      "revid": 1382415322
+    },
+    "CNN": {
+      "title": "Kannur International Airport",
+      "revid": 1379748374
+    },
+    "COK": {
+      "title": "Cochin International Airport",
+      "revid": 1383587635
+    },
+    "DBR": {
+      "title": "Darbhanga Airport",
+      "revid": 1385054888
+    },
+    "DED": {
+      "title": "Dehradun Airport",
+      "revid": 1382412275
+    },
+    "DEL": {
+      "title": "Indira Gandhi International Airport",
+      "revid": 1387007647
+    },
+    "DGH": {
+      "title": "Deoghar Airport",
+      "revid": 1381750823
+    },
+    "DHM": {
+      "title": "Kangra Airport",
+      "revid": 1372659423
+    },
+    "DIB": {
+      "title": "Dibrugarh Airport",
+      "revid": 1366844971
+    },
+    "DIU": {
+      "title": "Diu Airport",
+      "revid": 1380427421
+    },
+    "DMU": {
+      "title": "Dimapur Airport",
+      "revid": 1386471046
+    },
+    "DXN": {
+      "title": "Noida International Airport",
+      "revid": 1384033752
+    },
+    "GAU": {
+      "title": "Lokpriya Gopinath Bordoloi International Airport",
+      "revid": 1386322815
+    },
+    "GAY": {
+      "title": "Gaya Airport",
+      "revid": 1381616262
+    },
+    "GBI": {
+      "title": "Kalaburagi Airport",
+      "revid": 1376813737
+    },
+    "GDB": {
+      "title": "Gondia Airport",
+      "revid": 1376504848
+    },
+    "GOI": {
+      "title": "Dabolim Airport",
+      "revid": 1385407009
+    },
+    "GOP": {
+      "title": "Gorakhpur Airport",
+      "revid": 1372781586
+    },
+    "GOX": {
+      "title": "Manohar International Airport",
+      "revid": 1380384800
+    },
+    "GWL": {
+      "title": "Gwalior Airport",
+      "revid": 1373030029
+    },
+    "HBX": {
+      "title": "Hubli Airport",
+      "revid": 1382251133
+    },
+    "HDO": {
+      "title": "Hindon Airport",
+      "revid": 1380871433
+    },
+    "HGI": {
+      "title": "Donyi Polo Airport, Itanagar",
+      "revid": 1386462724
+    },
+    "HJR": {
+      "title": "Khajuraho Airport",
+      "revid": 1372747874
+    },
+    "HSR": {
+      "title": "Rajkot International Airport",
+      "revid": 1386063518
+    },
+    "HSS": {
+      "title": "Hisar Airport",
+      "revid": 1382376337
+    },
+    "HWR": {
+      "title": "Halwara Airport",
+      "revid": 1380362037
+    },
+    "HYD": {
+      "title": "Rajiv Gandhi International Airport",
+      "revid": 1387008873
+    },
+    "IDR": {
+      "title": "Devi Ahilya Bai Holkar Airport",
+      "revid": 1378855764
+    },
+    "IMF": {
+      "title": "Bir Tikendrajit International Airport",
+      "revid": 1376869150
+    },
+    "ISK": {
+      "title": "Nashik Airport",
+      "revid": 1385658117
+    },
+    "IXA": {
+      "title": "Maharaja Bir Bikram Airport",
+      "revid": 1375842308
+    },
+    "IXB": {
+      "title": "Bagdogra Airport",
+      "revid": 1377523320
+    },
+    "IXC": {
+      "title": "Chandigarh Airport",
+      "revid": 1383187475
+    },
+    "IXD": {
+      "title": "Prayagraj Airport",
+      "revid": 1376817053
+    },
+    "IXE": {
+      "title": "Mangalore International Airport",
+      "revid": 1386840989
+    },
+    "IXG": {
+      "title": "Belgaum Airport",
+      "revid": 1378883348
+    },
+    "IXI": {
+      "title": "Lilabari Airport",
+      "revid": 1364980620
+    },
+    "IXJ": {
+      "title": "Jammu Airport",
+      "revid": 1378628703
+    },
+    "IXK": {
+      "title": "Keshod Airport",
+      "revid": 1373933598
+    },
+    "IXL": {
+      "title": "Kushok Bakula Rimpochee Airport",
+      "revid": 1382449149
+    },
+    "IXM": {
+      "title": "Madurai International Airport",
+      "revid": 1386364252
+    },
+    "IXP": {
+      "title": "Pathankot Airport",
+      "revid": 1369401973
+    },
+    "IXR": {
+      "title": "Birsa Munda Airport",
+      "revid": 1381872074
+    },
+    "IXS": {
+      "title": "Silchar Airport",
+      "revid": 1365353413
+    },
+    "IXT": {
+      "title": "Pasighat Airport",
+      "revid": 1368476621
+    },
+    "IXU": {
+      "title": "Aurangabad Airport",
+      "revid": 1375526550
+    },
+    "IXW": {
+      "title": "Sonari Airport",
+      "revid": 1365353872
+    },
+    "IXX": {
+      "title": "Bidar Airport",
+      "revid": 1372384463
+    },
+    "IXY": {
+      "title": "Kandla Airport",
+      "revid": 1379717091
+    },
+    "IXZ": {
+      "title": "Veer Savarkar International Airport",
+      "revid": 1381873268
+    },
+    "JAI": {
+      "title": "Jaipur International Airport",
+      "revid": 1386317654
+    },
+    "JDH": {
+      "title": "Jodhpur Airport",
+      "revid": 1387075818
+    },
+    "JGA": {
+      "title": "Jamnagar Airport",
+      "revid": 1376334853
+    },
+    "JGB": {
+      "title": "Maa Danteswari Airport",
+      "revid": 1381908962
+    },
+    "JLG": {
+      "title": "Jalgaon Airport",
+      "revid": 1378840331
+    },
+    "JLR": {
+      "title": "Jabalpur Airport",
+      "revid": 1382076391
+    },
+    "JRG": {
+      "title": "Veer Surendra Sai Airport",
+      "revid": 1385837680
+    },
+    "JRH": {
+      "title": "Jorhat Airport",
+      "revid": 1381432082
+    },
+    "JSA": {
+      "title": "Jaisalmer Airport",
+      "revid": 1365495691
+    },
+    "KJB": {
+      "title": "Kurnool Airport",
+      "revid": 1382120734
+    },
+    "KLH": {
+      "title": "Kolhapur Airport",
+      "revid": 1383889986
+    },
+    "KNU": {
+      "title": "Kanpur Airport",
+      "revid": 1379235857
+    },
+    "KQH": {
+      "title": "Kishangarh Airport",
+      "revid": 1378466307
+    },
+    "KUU": {
+      "title": "Kullu–Manali Airport",
+      "revid": 1382239967
+    },
+    "LKO": {
+      "title": "Chaudhary Charan Singh International Airport",
+      "revid": 1386326024
+    },
+    "LTU": {
+      "title": "Latur Airport",
+      "revid": 1363052748
+    },
+    "MAA": {
+      "title": "Chennai International Airport",
+      "revid": 1386955295
+    },
+    "MYQ": {
+      "title": "Mysore Airport",
+      "revid": 1365156797
+    },
+    "MZS": {
+      "title": "Moradabad Airport",
+      "revid": 1385955813
+    },
+    "NAG": {
+      "title": "Dr. Babasaheb Ambedkar International Airport",
+      "revid": 1386871235
+    },
+    "NDC": {
+      "title": "Nanded Airport",
+      "revid": 1385437307
+    },
+    "NMB": {
+      "title": "Daman Airport",
+      "revid": 1377834183
+    },
+    "NMI": {
+      "title": "Navi Mumbai International Airport",
+      "revid": 1386768138
+    },
+    "NNS": {
+      "title": "Naini–Saini Airport",
+      "revid": 1369399772
+    },
+    "PAB": {
+      "title": "Bilasa Devi Kevat Airport",
+      "revid": 1372579190
+    },
+    "PAT": {
+      "title": "Jay Prakash Narayan Airport",
+      "revid": 1381609831
+    },
+    "PBD": {
+      "title": "Porbandar Airport",
+      "revid": 1366846929
+    },
+    "PGH": {
+      "title": "Pantnagar Airport",
+      "revid": 1369307780
+    },
+    "PNQ": {
+      "title": "Pune Airport",
+      "revid": 1381872849
+    },
+    "PNY": {
+      "title": "Pondicherry Airport",
+      "revid": 1376711837
+    },
+    "PXN": {
+      "title": "Purnia Airport",
+      "revid": 1382469579
+    },
+    "PYB": {
+      "title": "Jeypore Airport",
+      "revid": 1382633600
+    },
+    "RDP": {
+      "title": "Kazi Nazrul Islam Airport",
+      "revid": 1382193947
+    },
+    "REW": {
+      "title": "Rewa Airport",
+      "revid": 1378719314
+    },
+    "RJA": {
+      "title": "Rajahmundry Airport",
+      "revid": 1380772957
+    },
+    "RPR": {
+      "title": "Swami Vivekananda Airport",
+      "revid": 1385253052
+    },
+    "RQY": {
+      "title": "Shivamogga Airport",
+      "revid": 1376866028
+    },
+    "RRK": {
+      "title": "Rourkela Airport",
+      "revid": 1365352500
+    },
+    "RUP": {
+      "title": "Rupsi Airport",
+      "revid": 1381613073
+    },
+    "SAG": {
+      "title": "Shirdi Airport",
+      "revid": 1380733780
+    },
+    "SDW": {
+      "title": "Sindhudurg Airport",
+      "revid": 1378840660
+    },
+    "SHL": {
+      "title": "Shillong Airport",
+      "revid": 1384239581
+    },
+    "SLV": {
+      "title": "Shimla Airport",
+      "revid": 1369408249
+    },
+    "SSE": {
+      "title": "Solapur Airport",
+      "revid": 1365508559
+    },
+    "STV": {
+      "title": "Surat Airport",
+      "revid": 1387078639
+    },
+    "SXR": {
+      "title": "Srinagar Airport",
+      "revid": 1384032585
+    },
+    "SXV": {
+      "title": "Salem Airport (India)",
+      "revid": 1376780815
+    },
+    "TCR": {
+      "title": "Thoothukudi Airport",
+      "revid": 1376789080
+    },
+    "TEI": {
+      "title": "Tezu Airport",
+      "revid": 1376915467
+    },
+    "TEZ": {
+      "title": "Tezpur Airport",
+      "revid": 1364643706
+    },
+    "TIR": {
+      "title": "Tirupati Airport",
+      "revid": 1381006715
+    },
+    "TRV": {
+      "title": "Thiruvananthapuram International Airport",
+      "revid": 1386842524
+    },
+    "TRZ": {
+      "title": "Tiruchirappalli International Airport",
+      "revid": 1383509822
+    },
+    "UDR": {
+      "title": "Maharana Pratap Airport",
+      "revid": 1380079781
+    },
+    "UKE": {
+      "title": "Utkela Airport",
+      "revid": 1374018832
+    },
+    "VAMA": {
+      "title": "Mundra Airport",
+      "revid": 1373888851
+    },
+    "VDY": {
+      "title": "Jindal Vijayanagar Airport",
+      "revid": 1380451590
+    },
+    "VGA": {
+      "title": "Vijayawada Airport",
+      "revid": 1381225843
+    },
+    "VNS": {
+      "title": "Lal Bahadur Shastri Airport",
+      "revid": 1384084685
+    },
+    "VSV": {
+      "title": "Shravasti Airport",
+      "revid": 1367709936
+    },
+    "VTZ": {
+      "title": "Alluri Sitarama Raju International Airport",
+      "revid": 1382683664
+    }
+  }
+}

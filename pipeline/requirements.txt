@@ -1,0 +1,5 @@
+requests>=2.32
+beautifulsoup4>=4.12
+pytest>=8
+timezonefinder>=6.5
+shapely>=2.0

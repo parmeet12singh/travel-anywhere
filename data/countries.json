@@ -1,0 +1,1042 @@
+[
+ {
+  "iso2": "IN",
+  "name": "India",
+  "bounds": [
+   [
+    68.14,
+    6.75
+   ],
+   [
+    97.36,
+    37.05
+   ]
+  ],
+  "airports": 131,
+  "routes": 1291
+ },
+ {
+  "iso2": "AF",
+  "name": "Afghanistan",
+  "bounds": [
+   [
+    60.49,
+    29.39
+   ],
+   [
+    74.89,
+    38.47
+   ]
+  ],
+  "airports": 1,
+  "routes": 1
+ },
+ {
+  "iso2": "DZ",
+  "name": "Algeria",
+  "bounds": [
+   [
+    -8.68,
+    18.98
+   ],
+   [
+    11.97,
+    37.09
+   ]
+  ],
+  "airports": 1,
+  "routes": 1
+ },
+ {
+  "iso2": "AU",
+  "name": "Australia",
+  "bounds": [
+   [
+    113.16,
+    -39.14
+   ],
+   [
+    153.63,
+    -10.69
+   ]
+  ],
+  "airports": 2,
+  "routes": 3
+ },
+ {
+  "iso2": "AT",
+  "name": "Austria",
+  "bounds": [
+   [
+    9.52,
+    46.38
+   ],
+   [
+    17.15,
+    49.01
+   ]
+  ],
+  "airports": 1,
+  "routes": 1
+ },
+ {
+  "iso2": "AZ",
+  "name": "Azerbaijan",
+  "bounds": [
+   [
+    45.0,
+    38.39
+   ],
+   [
+    50.39,
+    41.89
+   ]
+  ],
+  "airports": 1,
+  "routes": 2
+ },
+ {
+  "iso2": "BH",
+  "name": "Bahrain",
+  "bounds": [
+   [
+    50.45,
+    25.79
+   ],
+   [
+    50.65,
+    26.24
+   ]
+  ],
+  "airports": 1,
+  "routes": 10
+ },
+ {
+  "iso2": "BD",
+  "name": "Bangladesh",
+  "bounds": [
+   [
+    88.02,
+    20.74
+   ],
+   [
+    92.64,
+    26.62
+   ]
+  ],
+  "airports": 1,
+  "routes": 5
+ },
+ {
+  "iso2": "BY",
+  "name": "Belarus",
+  "bounds": [
+   [
+    23.17,
+    51.24
+   ],
+   [
+    32.72,
+    56.16
+   ]
+  ],
+  "airports": 1,
+  "routes": 1
+ },
+ {
+  "iso2": "BT",
+  "name": "Bhutan",
+  "bounds": [
+   [
+    88.73,
+    26.7
+   ],
+   [
+    92.09,
+    28.36
+   ]
+  ],
+  "airports": 2,
+  "routes": 7
+ },
+ {
+  "iso2": "BN",
+  "name": "Brunei",
+  "bounds": [
+   [
+    114.0,
+    4.02
+   ],
+   [
+    115.1,
+    5.06
+   ]
+  ],
+  "airports": 1,
+  "routes": 1
+ },
+ {
+  "iso2": "KH",
+  "name": "Cambodia",
+  "bounds": [
+   [
+    102.31,
+    10.42
+   ],
+   [
+    107.61,
+    14.7
+   ]
+  ],
+  "airports": 3,
+  "routes": 3
+ },
+ {
+  "iso2": "CA",
+  "name": "Canada",
+  "bounds": [
+   [
+    -141.01,
+    41.67
+   ],
+   [
+    -55.62,
+    72.0
+   ]
+  ],
+  "airports": 3,
+  "routes": 4
+ },
+ {
+  "iso2": "CN",
+  "name": "China",
+  "bounds": [
+   [
+    73.6,
+    20.24
+   ],
+   [
+    134.77,
+    53.57
+   ]
+  ],
+  "airports": 4,
+  "routes": 6
+ },
+ {
+  "iso2": "DK",
+  "name": "Denmark",
+  "bounds": [
+   [
+    8.09,
+    54.8
+   ],
+   [
+    10.96,
+    57.75
+   ]
+  ],
+  "airports": 1,
+  "routes": 1
+ },
+ {
+  "iso2": "EG",
+  "name": "Egypt",
+  "bounds": [
+   [
+    24.69,
+    21.99
+   ],
+   [
+    36.9,
+    31.66
+   ]
+  ],
+  "airports": 1,
+  "routes": 2
+ },
+ {
+  "iso2": "ET",
+  "name": "Ethiopia",
+  "bounds": [
+   [
+    32.99,
+    3.4
+   ],
+   [
+    47.98,
+    14.88
+   ]
+  ],
+  "airports": 1,
+  "routes": 5
+ },
+ {
+  "iso2": "FI",
+  "name": "Finland",
+  "bounds": [
+   [
+    20.62,
+    59.81
+   ],
+   [
+    31.57,
+    70.08
+   ]
+  ],
+  "airports": 1,
+  "routes": 1
+ },
+ {
+  "iso2": "FR",
+  "name": "France",
+  "bounds": [
+   [
+    -4.78,
+    42.33
+   ],
+   [
+    8.2,
+    51.09
+   ]
+  ],
+  "airports": 1,
+  "routes": 3
+ },
+ {
+  "iso2": "GE",
+  "name": "Georgia",
+  "bounds": [
+   [
+    39.99,
+    41.04
+   ],
+   [
+    46.69,
+    43.58
+   ]
+  ],
+  "airports": 1,
+  "routes": 1
+ },
+ {
+  "iso2": "DE",
+  "name": "Germany",
+  "bounds": [
+   [
+    5.85,
+    47.27
+   ],
+   [
+    15.02,
+    54.91
+   ]
+  ],
+  "airports": 2,
+  "routes": 8
+ },
+ {
+  "iso2": "GR",
+  "name": "Greece",
+  "bounds": [
+   [
+    20.0,
+    36.39
+   ],
+   [
+    26.64,
+    41.75
+   ]
+  ],
+  "airports": 1,
+  "routes": 2
+ },
+ {
+  "iso2": "HK",
+  "name": "Hong Kong",
+  "bounds": [
+   [
+    113.9,
+    22.26
+   ],
+   [
+    114.4,
+    22.56
+   ]
+  ],
+  "airports": 1,
+  "routes": 5
+ },
+ {
+  "iso2": "ID",
+  "name": "Indonesia",
+  "bounds": [
+   [
+    108.86,
+    -4.18
+   ],
+   [
+    119.01,
+    4.4
+   ]
+  ],
+  "airports": 2,
+  "routes": 4
+ },
+ {
+  "iso2": "IR",
+  "name": "Iran",
+  "bounds": [
+   [
+    44.01,
+    25.06
+   ],
+   [
+    63.32,
+    39.77
+   ]
+  ],
+  "airports": 2,
+  "routes": 2
+ },
+ {
+  "iso2": "IQ",
+  "name": "Iraq",
+  "bounds": [
+   [
+    38.77,
+    29.06
+   ],
+   [
+    48.56,
+    37.38
+   ]
+  ],
+  "airports": 3,
+  "routes": 4
+ },
+ {
+  "iso2": "IL",
+  "name": "Israel",
+  "bounds": [
+   [
+    34.25,
+    29.49
+   ],
+   [
+    35.67,
+    33.28
+   ]
+  ],
+  "airports": 1,
+  "routes": 1
+ },
+ {
+  "iso2": "IT",
+  "name": "Italy",
+  "bounds": [
+   [
+    6.6,
+    37.92
+   ],
+   [
+    18.52,
+    47.09
+   ]
+  ],
+  "airports": 2,
+  "routes": 2
+ },
+ {
+  "iso2": "JP",
+  "name": "Japan",
+  "bounds": [
+   [
+    130.86,
+    33.43
+   ],
+   [
+    142.07,
+    41.55
+   ]
+  ],
+  "airports": 3,
+  "routes": 6
+ },
+ {
+  "iso2": "JO",
+  "name": "Jordan",
+  "bounds": [
+   [
+    34.95,
+    29.19
+   ],
+   [
+    39.29,
+    33.37
+   ]
+  ],
+  "airports": 1,
+  "routes": 2
+ },
+ {
+  "iso2": "KZ",
+  "name": "Kazakhstan",
+  "bounds": [
+   [
+    46.48,
+    40.58
+   ],
+   [
+    87.32,
+    55.43
+   ]
+  ],
+  "airports": 2,
+  "routes": 6
+ },
+ {
+  "iso2": "KE",
+  "name": "Kenya",
+  "bounds": [
+   [
+    33.89,
+    -4.68
+   ],
+   [
+    41.89,
+    5.03
+   ]
+  ],
+  "airports": 1,
+  "routes": 1
+ },
+ {
+  "iso2": "KW",
+  "name": "Kuwait",
+  "bounds": [
+   [
+    46.53,
+    28.53
+   ],
+   [
+    48.43,
+    30.1
+   ]
+  ],
+  "airports": 1,
+  "routes": 11
+ },
+ {
+  "iso2": "KG",
+  "name": "Kyrgyzstan",
+  "bounds": [
+   [
+    69.23,
+    39.19
+   ],
+   [
+    80.26,
+    43.26
+   ]
+  ],
+  "airports": 1,
+  "routes": 1
+ },
+ {
+  "iso2": "MY",
+  "name": "Malaysia",
+  "bounds": [
+   [
+    109.53,
+    0.85
+   ],
+   [
+    119.28,
+    7.03
+   ]
+  ],
+  "airports": 3,
+  "routes": 14
+ },
+ {
+  "iso2": "MV",
+  "name": "Maldives",
+  "bounds": [
+   [
+    73.43,
+    4.16
+   ],
+   [
+    73.55,
+    4.24
+   ]
+  ],
+  "airports": 2,
+  "routes": 7
+ },
+ {
+  "iso2": "MU",
+  "name": "Mauritius",
+  "bounds": [
+   [
+    57.3,
+    -20.52
+   ],
+   [
+    57.8,
+    -19.98
+   ]
+  ],
+  "airports": 1,
+  "routes": 4
+ },
+ {
+  "iso2": "MN",
+  "name": "Mongolia",
+  "bounds": [
+   [
+    87.74,
+    41.59
+   ],
+   [
+    119.91,
+    52.13
+   ]
+  ],
+  "airports": 1,
+  "routes": 1
+ },
+ {
+  "iso2": "MM",
+  "name": "Myanmar",
+  "bounds": [
+   [
+    92.17,
+    9.99
+   ],
+   [
+    101.17,
+    28.54
+   ]
+  ],
+  "airports": 2,
+  "routes": 5
+ },
+ {
+  "iso2": "NP",
+  "name": "Nepal",
+  "bounds": [
+   [
+    80.03,
+    26.34
+   ],
+   [
+    88.17,
+    30.42
+   ]
+  ],
+  "airports": 1,
+  "routes": 5
+ },
+ {
+  "iso2": "NL",
+  "name": "Netherlands",
+  "bounds": [
+   [
+    3.45,
+    50.75
+   ],
+   [
+    7.2,
+    53.46
+   ]
+  ],
+  "airports": 1,
+  "routes": 4
+ },
+ {
+  "iso2": "OM",
+  "name": "Oman",
+  "bounds": [
+   [
+    51.98,
+    16.64
+   ],
+   [
+    59.84,
+    24.98
+   ]
+  ],
+  "airports": 2,
+  "routes": 16
+ },
+ {
+  "iso2": "PH",
+  "name": "Philippines",
+  "bounds": [
+   [
+    119.76,
+    12.54
+   ],
+   [
+    124.19,
+    18.65
+   ]
+  ],
+  "airports": 1,
+  "routes": 2
+ },
+ {
+  "iso2": "PL",
+  "name": "Poland",
+  "bounds": [
+   [
+    14.12,
+    48.99
+   ],
+   [
+    24.14,
+    54.84
+   ]
+  ],
+  "airports": 1,
+  "routes": 1
+ },
+ {
+  "iso2": "QA",
+  "name": "Qatar",
+  "bounds": [
+   [
+    50.75,
+    24.56
+   ],
+   [
+    51.62,
+    26.16
+   ]
+  ],
+  "airports": 1,
+  "routes": 14
+ },
+ {
+  "iso2": "RU",
+  "name": "Russia",
+  "bounds": [
+   [
+    27.33,
+    41.19
+   ],
+   [
+    180.0,
+    77.74
+   ]
+  ],
+  "airports": 4,
+  "routes": 6
+ },
+ {
+  "iso2": "SA",
+  "name": "Saudi Arabia",
+  "bounds": [
+   [
+    34.57,
+    16.37
+   ],
+   [
+    55.64,
+    32.12
+   ]
+  ],
+  "airports": 4,
+  "routes": 33
+ },
+ {
+  "iso2": "SC",
+  "name": "Seychelles",
+  "bounds": [
+   [
+    55.37,
+    -4.8
+   ],
+   [
+    55.54,
+    -4.56
+   ]
+  ],
+  "airports": 1,
+  "routes": 1
+ },
+ {
+  "iso2": "SG",
+  "name": "Singapore",
+  "bounds": [
+   [
+    103.64,
+    1.26
+   ],
+   [
+    104.0,
+    1.45
+   ]
+  ],
+  "airports": 1,
+  "routes": 15
+ },
+ {
+  "iso2": "KR",
+  "name": "South Korea",
+  "bounds": [
+   [
+    126.13,
+    34.29
+   ],
+   [
+    129.59,
+    38.62
+   ]
+  ],
+  "airports": 1,
+  "routes": 1
+ },
+ {
+  "iso2": "LK",
+  "name": "Sri Lanka",
+  "bounds": [
+   [
+    79.7,
+    5.92
+   ],
+   [
+    81.89,
+    9.83
+   ]
+  ],
+  "airports": 2,
+  "routes": 12
+ },
+ {
+  "iso2": "CH",
+  "name": "Switzerland",
+  "bounds": [
+   [
+    5.95,
+    45.82
+   ],
+   [
+    10.47,
+    47.8
+   ]
+  ],
+  "airports": 1,
+  "routes": 3
+ },
+ {
+  "iso2": "TW",
+  "name": "Taiwan",
+  "bounds": [
+   [
+    120.05,
+    21.9
+   ],
+   [
+    122.01,
+    25.29
+   ]
+  ],
+  "airports": 1,
+  "routes": 1
+ },
+ {
+  "iso2": "TJ",
+  "name": "Tajikistan",
+  "bounds": [
+   [
+    67.34,
+    36.68
+   ],
+   [
+    75.16,
+    41.04
+   ]
+  ],
+  "airports": 1,
+  "routes": 1
+ },
+ {
+  "iso2": "TZ",
+  "name": "Tanzania",
+  "bounds": [
+   [
+    29.32,
+    -11.73
+   ],
+   [
+    40.45,
+    -0.99
+   ]
+  ],
+  "airports": 1,
+  "routes": 1
+ },
+ {
+  "iso2": "TH",
+  "name": "Thailand",
+  "bounds": [
+   [
+    97.35,
+    5.63
+   ],
+   [
+    105.65,
+    20.45
+   ]
+  ],
+  "airports": 4,
+  "routes": 37
+ },
+ {
+  "iso2": "TR",
+  "name": "Turkey",
+  "bounds": [
+   [
+    26.07,
+    35.82
+   ],
+   [
+    44.81,
+    42.1
+   ]
+  ],
+  "airports": 1,
+  "routes": 2
+ },
+ {
+  "iso2": "TM",
+  "name": "Turkmenistan",
+  "bounds": [
+   [
+    52.44,
+    35.14
+   ],
+   [
+    66.65,
+    42.79
+   ]
+  ],
+  "airports": 1,
+  "routes": 1
+ },
+ {
+  "iso2": "UG",
+  "name": "Uganda",
+  "bounds": [
+   [
+    29.55,
+    -1.48
+   ],
+   [
+    35.01,
+    4.22
+   ]
+  ],
+  "airports": 1,
+  "routes": 1
+ },
+ {
+  "iso2": "AE",
+  "name": "United Arab Emirates",
+  "bounds": [
+   [
+    51.57,
+    22.62
+   ],
+   [
+    56.38,
+    26.07
+   ]
+  ],
+  "airports": 6,
+  "routes": 79
+ },
+ {
+  "iso2": "GB",
+  "name": "United Kingdom",
+  "bounds": [
+   [
+    -6.24,
+    49.96
+   ],
+   [
+    1.77,
+    58.68
+   ]
+  ],
+  "airports": 4,
+  "routes": 11
+ },
+ {
+  "iso2": "US",
+  "name": "United States",
+  "bounds": [
+   [
+    -124.73,
+    25.12
+   ],
+   [
+    -66.98,
+    49.37
+   ]
+  ],
+  "airports": 4,
+  "routes": 6
+ },
+ {
+  "iso2": "UZ",
+  "name": "Uzbekistan",
+  "bounds": [
+   [
+    55.98,
+    37.19
+   ],
+   [
+    73.15,
+    45.56
+   ]
+  ],
+  "airports": 2,
+  "routes": 5
+ },
+ {
+  "iso2": "VN",
+  "name": "Vietnam",
+  "bounds": [
+   [
+    102.12,
+    8.57
+   ],
+   [
+    109.47,
+    23.37
+   ]
+  ],
+  "airports": 3,
+  "routes": 14
+ },
+ {
+  "iso2": "YE",
+  "name": "Yemen",
+  "bounds": [
+   [
+    42.61,
+    12.6
+   ],
+   [
+    53.09,
+    19.0
+   ]
+  ],
+  "airports": 2,
+  "routes": 2
+ }
+]

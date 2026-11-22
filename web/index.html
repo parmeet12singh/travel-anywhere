@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>Travel Anywhere: everywhere you can fly non-stop from Indian cities</title>
+    <meta name="description" content="Pick an Indian city and see every place you can fly to non-stop, in India and abroad, with the airlines that fly each route." />
+    <meta name="theme-color" content="#F4F6F5" />
+    <script>
+      // Apply the theme before first paint so dark mode doesn't flash white.
+      (function () {
+        var t = null;
+        try { t = localStorage.getItem("travel-anywhere-theme"); } catch (e) {}
+        if (t !== "light" && t !== "dark") t = matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+        document.documentElement.dataset.theme = t;
+        if (t === "dark") document.querySelector('meta[name="theme-color"]').setAttribute("content", "#0f1a23");
+      })();
+    </script>
+    <style>
+      /* First paint, before the stylesheet arrives: the theme's background, never a white flash. */
+      html { background: #f4f6f5; }
+      html[data-theme="dark"] { background: #0f1a23; color-scheme: dark; }
+    </style>
+    <!-- Start the downloads the app needs right away instead of after the JavaScript has run. -->
+    <link rel="preload" href="/data/routes.json" as="fetch" crossorigin />
+    <link rel="preload" href="/data/airports.json" as="fetch" crossorigin />
+    <link rel="preload" href="/data/meta.json" as="fetch" crossorigin />
+    <link rel="preload" href="/data/airlines.json" as="fetch" crossorigin />
+    <link rel="preload" href="/data/borders.geojson" as="fetch" crossorigin />
+    <link rel="preload" href="/data/countries.json" as="fetch" crossorigin />
+    <link rel="preload" href="https://tiles.openfreemap.org/styles/positron" as="fetch" crossorigin />
+    <link rel="preconnect" href="https://tiles.openfreemap.org" crossorigin />
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
