@@ -22,15 +22,15 @@
       html[data-theme="dark"] { background: #0f1a23; color-scheme: dark; }
     </style>
     <!-- Start the downloads the app needs right away instead of after the JavaScript has run. -->
-    <link rel="preload" href="/data/routes.json" as="fetch" crossorigin />
-    <link rel="preload" href="/data/airports.json" as="fetch" crossorigin />
-    <link rel="preload" href="/data/meta.json" as="fetch" crossorigin />
-    <link rel="preload" href="/data/airlines.json" as="fetch" crossorigin />
-    <link rel="preload" href="/data/borders.geojson" as="fetch" crossorigin />
-    <link rel="preload" href="/data/countries.json" as="fetch" crossorigin />
+    <link rel="preload" href="%BASE_URL%data/routes.json" as="fetch" crossorigin />
+    <link rel="preload" href="%BASE_URL%data/airports.json" as="fetch" crossorigin />
+    <link rel="preload" href="%BASE_URL%data/meta.json" as="fetch" crossorigin />
+    <link rel="preload" href="%BASE_URL%data/airlines.json" as="fetch" crossorigin />
+    <link rel="preload" href="%BASE_URL%data/borders.geojson" as="fetch" crossorigin />
+    <link rel="preload" href="%BASE_URL%data/countries.json" as="fetch" crossorigin />
     <link rel="preload" href="https://tiles.openfreemap.org/styles/positron" as="fetch" crossorigin />
     <link rel="preconnect" href="https://tiles.openfreemap.org" crossorigin />
-    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="%BASE_URL%favicon.svg" type="image/svg+xml" />
   </head>
   <body>
     <div id="root"></div>

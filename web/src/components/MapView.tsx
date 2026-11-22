@@ -14,6 +14,7 @@ import type { Destination } from "../lib/destinations";
 import { airwayPath } from "../lib/geo";
 import { useMinuteClock } from "../lib/time";
 import { MapTimeLabel } from "./MapTimeLabel";
+import { assetUrl } from "../lib/asset";
 import type { Link } from "../lib/pairs";
 import { linkKey } from "./PairView";
 
@@ -120,7 +121,7 @@ const CHIP_ROOM = { side: 250, vertical: 60 };
  * - The selected country (picker, top right): its land border highlighted, one step below the routes, plus its
  *   states/provinces, thinner and lighter. Ink, not magenta/teal: those colours already mean route types.
  */
-const BORDERS = { source: "official-borders", layer: "official-borders", url: "/data/borders.geojson" };
+const BORDERS = { source: "official-borders", layer: "official-borders", url: assetUrl("data/borders.geojson") };
 const BORDER_COLOUR: Record<Theme, string> = { light: "hsl(0, 0%, 70%)", dark: "#33475a" };
 const SELECTED = {
   source: "selected-country",
@@ -135,7 +136,7 @@ const PROVINCE_COLOUR: Record<Theme, string> = { light: "rgba(23, 33, 43, 0.4)",
  * view the picker's country turns magenta: our "this side / the other side" colours, outlines only, no fills.
  */
 const PAIR_PROVINCES = { source: "pair-country", layer: "pair-country-provinces" };
-const AREAS = { source: "country-areas", hit: "country-areas-hit", hover: "country-hover", target: "pair-target", url: "/data/country-areas.geojson" };
+const AREAS = { source: "country-areas", hit: "country-areas-hit", hover: "country-hover", target: "pair-target", url: assetUrl("data/country-areas.geojson") };
 const PAIR_COLOURS: Record<Theme, { source: string; target: string }> = {
   light: { source: "#b5176f", target: "#0e6e80" },
   dark: { source: "#e5609f", target: "#46b6c8" },
@@ -143,7 +144,7 @@ const PAIR_COLOURS: Record<Theme, { source: string; target: string }> = {
 const NONE: maplibregl.FilterSpecification = ["==", ["get", "iso2"], ""];
 const onlyCountry = (iso2: string | null): maplibregl.FilterSpecification => (iso2 ? ["==", ["get", "iso2"], iso2] : NONE);
 const EMPTY_FC: GeoJSON.FeatureCollection = { type: "FeatureCollection", features: [] };
-const countryFile = (iso2: string) => `/data/countries/${iso2}.geojson`;
+const countryFile = (iso2: string) => assetUrl(`data/countries/${iso2}.geojson`);
 
 function addOfficialBorders(map: maplibregl.Map, iso2: string) {
   if (map.getSource(BORDERS.source)) return;

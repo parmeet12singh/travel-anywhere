@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import type { Country } from "../lib/data";
+import { asset } from "../lib/asset";
 
 /**
  * The current country's flag in its real layout (4:3 artwork, small rounded rectangle). Not cropped to a circle:
@@ -18,7 +19,7 @@ export function Flag({ country }: { country: Country }) {
   }
   return (
     <img
-      src={`/flags/${country.iso2.toLowerCase()}.svg`}
+      src={asset(`flags/${country.iso2.toLowerCase()}.svg`)}
       alt=""
       width={28}
       height={21}

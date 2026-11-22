@@ -88,7 +88,11 @@ npm run build    # production build in web/dist
 
 ### Deploying
 
-The site is fully static (no server or database). Any static host works; the suggested one is **Cloudflare Pages** (free, unlimited bandwidth, data centres across India):
+The site is fully static (no server or database), so any static host works.
+
+**GitHub Pages (current):** `.github/workflows/deploy-pages.yml` builds and publishes the site on every push to `main`, at `https://<user>.github.io/travel-anywhere/`. One-time setup: repo **Settings → Pages → Source: GitHub Actions**. The workflow builds with `BASE_PATH=/travel-anywhere/` because the site lives in a sub-folder there; every data and flag path goes through `web/src/lib/asset.ts`, so nothing is hard-coded to `/`.
+
+**Cloudflare Pages (alternative):** free, unlimited bandwidth, data centres across India. No `BASE_PATH` needed:
 
 | Setting | Value |
 |---|---|
