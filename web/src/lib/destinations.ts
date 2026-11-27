@@ -1,8 +1,8 @@
 import type { Airport, AirlineOnRoute, Dataset, Route } from "./data";
-import { distanceKm } from "./geo";
+import { distanceKm, unwrapLongitudes, unwrapped } from "./geo";
 
 export type Destination = { airport: Airport; route: Route; km: number };
-export type Scope = "all" | "india" | "abroad";
+export type Scope = "all" | "domestic" | "abroad";
 export type SortKey = "name" | "airlines" | "nearest" | "farthest";
 
 export function destinationsFrom(data: Dataset, origin: Airport): Destination[] {
@@ -11,6 +11,9 @@ export function destinationsFrom(data: Dataset, origin: Airport): Destination[] 
     const airport = data.airports.get(route.dest);
     if (airport) out.push({ airport, route, km: distanceKm(origin, airport) });
   }
+  // Routes across the date line (Auckland → Los Angeles) are drawn the short way.
+  const unwrap = unwrapLongitudes(origin.lon, out.map((d) => d.airport.lon));
+  for (const d of out) d.airport = unwrapped(d.airport, unwrap);
   return out;
 }
 
@@ -27,7 +30,7 @@ export function airlinesFrom(destinations: Destination[]): { name: string; count
 export function filterAndSort(list: Destination[], scope: Scope, airline: string | null, sort: SortKey): Destination[] {
   const out = list.filter(
     (d) =>
-      (scope === "all" || (scope === "india") === d.route.domestic) &&
+      (scope === "all" || (scope === "domestic") === d.route.domestic) &&
       (airline === null || d.route.airlines.some((a) => a.airline === airline)),
   );
   const byName = (a: Destination, b: Destination) => a.airport.label.localeCompare(b.airport.label);

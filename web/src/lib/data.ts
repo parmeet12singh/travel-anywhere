@@ -33,19 +33,22 @@ export type Route = {
   airlines: AirlineOnRoute[];
 };
 
-type Meta = { as_of: string };
+type Meta = { as_of: string; covered: string[] };
 
 export type AirlineInfo = { logo?: string; website?: string };
 
-export const HOME_COUNTRY = "IN";
+/** The country selected for a first-time visitor. Nothing else on the site treats it specially. */
+export const DEFAULT_COUNTRY = "IN";
 
-/** A country you can pick on the map: India, or one with flights to India. */
+/** A country you can pick on the map: one we have full routes for (see `covered`), or one with flights to those. */
 export type Country = {
   iso2: string;
   name: string;
   bounds: [[number, number], [number, number]]; // main landmass, for framing
   airports: number;
   routes: number;
+  /** Marked with a star on the start screen (none for city-territories like Hong Kong). */
+  capital?: { name: string; lon: number; lat: number };
 };
 
 export type Dataset = {
@@ -53,13 +56,49 @@ export type Dataset = {
   /** Every route as published (each airport pair may appear in one or both directions). */
   routes: Route[];
   airports: Map<string, Airport>;
-  /** Every airport you can start from: Indian airports, plus foreign ones (whose routes are their links to India). */
+  /** Countries whose airports' full route lists we have. Elsewhere we only know the links to these. */
+  covered: Set<string>;
+  /** Every airport you can start from, in covered countries and elsewhere. */
   searchable: Airport[];
   airlines: Map<string, AirlineInfo>; // keyed by the airline's Wikipedia title
-  origins: Airport[];
   routesByOrigin: Map<string, Route[]>;
   asOf: string;
 };
+
+/** routes-web.json: routes.json in compact form (written by scripts/copy-data.mjs, which describes the layout). */
+type CompactRoutes = {
+  categories: string[];
+  statuses: Route["status"][];
+  notes: (AirlineOnRoute["note"] | null)[];
+  airlines: [string, string | null][];
+  listings: [number, number, number, number, string | null][];
+  routes: [string, string, number, number[]][];
+};
+
+/**
+ * Back to the usual Route objects. Each distinct listing (airline + kind + status + note) becomes one object shared
+ * by every route that has it: never modified, so sharing is safe, and far fewer objects than one per listing.
+ */
+function expandRoutes(c: CompactRoutes): Route[] {
+  const listings = c.listings.map(([airline, category, status, note, noteDate]): AirlineOnRoute => {
+    const [name, wiki] = c.airlines[airline];
+    const a: AirlineOnRoute = { airline: name, airline_wiki: wiki, category: c.categories[category], status: c.statuses[status] };
+    if (c.notes[note]) {
+      a.note = c.notes[note] ?? undefined;
+      a.note_date = noteDate;
+    }
+    return a;
+  });
+  return c.routes.map(([origin, dest, flags, ids]) => ({
+    origin,
+    dest,
+    domestic: (flags & 1) !== 0,
+    seasonal_only: (flags & 2) !== 0,
+    charter_only: (flags & 4) !== 0,
+    status: c.statuses[flags >> 3],
+    airlines: ids.map((i) => listings[i]),
+  }));
+}
 
 async function getJson<T>(path: string): Promise<T> {
   const res = await fetch(path);
@@ -68,9 +107,9 @@ async function getJson<T>(path: string): Promise<T> {
 }
 
 export async function loadDataset(): Promise<Dataset> {
-  const [airportList, routes, meta, airlineInfo, countries] = await Promise.all([
+  const [airportList, compactRoutes, meta, airlineInfo, countries] = await Promise.all([
     getJson<Airport[]>(asset("data/airports.json")),
-    getJson<Route[]>(asset("data/routes.json")),
+    getJson<CompactRoutes>(asset("data/routes-web.json")),
     getJson<Meta>(asset("data/meta.json")),
     // Logos and websites are optional extras: without them the site shows initials and plain names.
     getJson<Record<string, { logo?: string; website?: string | null }>>(asset("data/airlines.json")).catch(() => ({})),
@@ -83,6 +122,7 @@ export async function loadDataset(): Promise<Dataset> {
     ]),
   );
 
+  const routes = expandRoutes(compactRoutes);
   const airports = new Map(airportList.map((a) => [a.iata, a]));
   const routesByOrigin = new Map<string, Route[]>();
   for (const r of routes) {
@@ -91,15 +131,13 @@ export async function loadDataset(): Promise<Dataset> {
     if (list) list.push(r);
     else routesByOrigin.set(r.origin, [r]);
   }
-  // Indian airports are the real origins (their Wikipedia pages are the data source).
-  const origins = airportList
-    .filter((a) => a.country === HOME_COUNTRY && routesByOrigin.has(a.iata))
-    .sort((a, b) => a.label.localeCompare(b.label));
+  // Airports whose own Wikipedia tables were read (`is_origin`) have full route lists.
+  const covered = new Set(meta.covered);
 
-  // Reverse view for foreign airports: Delhi → Dubai also means Dubai → Delhi, so Dubai's "routes" are its
-  // non-stop links to Indian cities. These are the only routes we know for airports outside India.
+  // Every other airport gets the reverse view: Delhi → Dubai also means Dubai → Delhi. Outside the covered countries
+  // that's all we know; inside them it covers small airports whose article has no table of its own.
   for (const r of routes) {
-    if (r.status === "suspended" || r.domestic) continue;
+    if (r.status === "suspended" || airports.get(r.dest)?.is_origin) continue;
     const back: Route = { ...r, origin: r.dest, dest: r.origin };
     const list = routesByOrigin.get(back.origin);
     if (list) list.push(back);
@@ -110,10 +148,10 @@ export async function loadDataset(): Promise<Dataset> {
   return {
     airports,
     airlines,
-    countries,
+    countries: countries.sort((a, b) => a.name.localeCompare(b.name)),
     routes: routes.filter((r) => r.status !== "suspended"),
+    covered,
     searchable,
-    origins,
     routesByOrigin,
     asOf: meta.as_of,
   };

@@ -1,6 +1,6 @@
 import type { AirlineInfo, Airport, Country } from "../lib/data";
 import { Flag } from "./Flag";
-import { HOME_COUNTRY } from "../lib/data";
+import { inSentence } from "../lib/names";
 import { toggleTheme, useTheme } from "../lib/theme";
 import { ArrowTopRightOnSquareIcon, ChevronLeftIcon, MoonIcon, SunIcon } from "@heroicons/react/24/outline";
 import { AirlineLogo } from "./AirlineLogo";
@@ -71,30 +71,32 @@ export function BackLink({ onClick, children }: { onClick: () => void; children:
 
 /* ------------------------------------------------------------------ welcome */
 
-export function Welcome({ busiest, airportCount, country, onPick, connections, onPickCountry }: {
+export function Welcome({ busiest, airportCount, country, home, onPick, connections, onPickCountry }: {
   busiest: { airport: Airport; count: number }[];
   airportCount: number;
   country: { iso2: string; name: string };
+  /** We have this country's full route lists (not just its links to the covered countries). */
+  home: boolean;
   onPick: (iata: string) => void;
   /** Countries with the most routes to/from this one: open the routes between the two. */
   connections: { country: Country; count: number }[];
   onPickCountry: (iso2: string) => void;
 }) {
-  const home = country.iso2 === HOME_COUNTRY;
+  const place = inSentence(country);
   return (
     <div className="flex flex-col gap-5">
       <div>
         <h1 className="text-[1.75rem]/tight font-semibold text-balance">
-          {home ? "Where can you fly non-stop?" : `Flights between ${country.name} and India`}
+          {home ? "Where can you fly non-stop?" : `Flights to and from ${place}`}
         </h1>
         <p className="mt-2 text-slate">
           {home
-            ? "Pick a city to see every place it has direct flights to, in India and abroad. Or click a dot on the map."
-            : `Pick an airport to see the Indian cities it has non-stop flights to. Only routes to and from India are covered.`}
+            ? `Pick a city to see every place it has direct flights to, in ${place} and abroad. Or click a dot on the map.`
+            : `Pick an airport to see its non-stop flights to the countries covered so far. Its other routes aren't included yet.`}
         </p>
       </div>
       <div>
-        <h2 className="text-sm font-medium text-slate">{home ? "Busiest airports" : `Airports in ${country.name}`}</h2>
+        <h2 className="text-sm font-medium text-slate">{home ? "Busiest airports" : `Airports in ${place}`}</h2>
         <ul className="mt-2 grid grid-cols-2 gap-2">
           {busiest.map(({ airport, count }) => (
             <li key={airport.iata}>
@@ -103,13 +105,14 @@ export function Welcome({ busiest, airportCount, country, onPick, connections, o
                 onClick={() => onPick(airport.iata)}
                 className="flex min-h-14 w-full cursor-pointer items-center justify-between gap-2 rounded-lg border border-rule bg-surface px-3 py-2 text-left transition-colors hover:border-airway"
               >
-                <span>
-                  <span className="block font-medium">{airport.label}</span>
+                <span className="min-w-0">
+                  {/* A break is allowed after a slash ("Maastricht/Aachen"), as it is after a dash. */}
+                  <span className="block font-medium wrap-break-word">{airport.label.replaceAll("/", "/\u200b")}</span>
                   <span className="block text-sm text-slate">
-                    {home ? plural(count, "destination") : plural(count, "Indian city", "Indian cities")}
+                    {plural(count, "destination")}
                   </span>
                 </span>
-                {/* Same colour as the map dots: magenta for India, teal abroad. */}
+                {/* Same colour as the map dots: magenta for countries with full routes, teal elsewhere. */}
                 <span translate="no" className={`font-display text-lg font-semibold ${home ? "text-airway" : "text-ocean"}`}>
                   {airport.iata}
                 </span>
@@ -139,20 +142,28 @@ export function Welcome({ busiest, airportCount, country, onPick, connections, o
           </ul>
         </div>
       ) : null}
-      <p className="text-sm text-slate">
-        {home
-          ? `${airportCount} Indian airports with scheduled flights.`
-          : `${plural(airportCount, "airport")} in ${country.name} with flights to India.`}{" "}
-        Bigger dots on the map have more non-stop destinations. Click a country on the map to see its routes with{" "}
-        {country.name}.
-      </p>
+      <div className="flex flex-col gap-1 text-sm text-slate">
+        <p>
+          {home
+            ? `${plural(airportCount, "airport")} in ${place} with scheduled flights.`
+            : `${plural(airportCount, "airport")} in ${place} with flights to the countries covered so far.`}
+        </p>
+        <p>Click a country on the map to see its routes with {place}.</p>
+      </div>
     </div>
   );
 }
 
 /* ------------------------------------------------------------ origin header */
 
-export function OriginHeader({ origin, total, domestic }: { origin: Airport; total: number; domestic: number }) {
+export function OriginHeader({ origin, total, domestic, full }: {
+  origin: Airport;
+  total: number;
+  domestic: number;
+  /** The airport's country has full route lists. */
+  full: boolean;
+}) {
+  const place = inSentence({ iso2: origin.country, name: origin.country_name });
   const now = useMinuteClock();
   const { hhmm, period } = localTime(origin.tz, now);
   const { offset, zoneName } = utcOffset(origin.tz, now);
@@ -181,14 +192,13 @@ export function OriginHeader({ origin, total, domestic }: { origin: Airport; tot
         <span className="sr-only"> ({origin.iata})</span>
       </h1>
       <p className="text-sm text-slate">{origin.name}</p>
-      {origin.country === HOME_COUNTRY ? (
+      {full ? (
         <p className="mt-3">
-          {plural(total, "non-stop destination")}: {domestic} in India and {total - domestic} abroad.
+          {plural(total, "non-stop destination")}: {domestic} in {place} and {total - domestic} abroad.
         </p>
       ) : (
         <p className="mt-3">
-          {plural(total, "Indian city", "Indian cities")} {total === 1 ? "has" : "have"} non-stop flights to {origin.label},{" "}
-          {origin.country_name}. Only routes to and from India are covered.
+          {plural(total, "non-stop destination")} in the countries covered so far. Other routes from {origin.label} aren't included yet.
         </p>
       )}
     </div>
@@ -197,14 +207,10 @@ export function OriginHeader({ origin, total, domestic }: { origin: Airport; tot
 
 /* ------------------------------------------------------------------ filters */
 
-const SCOPES: { value: Scope; label: string }[] = [
-  { value: "all", label: "All" },
-  { value: "india", label: "India" },
-  { value: "abroad", label: "Abroad" },
-];
-
 export function Filters(props: {
   showScope: boolean;
+  /** Name of the departure airport's country, for the filter ("Sri Lanka" / "Abroad"). */
+  countryName: string;
   scope: Scope;
   counts: Record<Scope, number>;
   onScope: (s: Scope) => void;
@@ -214,13 +220,19 @@ export function Filters(props: {
   sort: SortKey;
   onSort: (s: SortKey) => void;
 }) {
+  const scopes: { value: Scope; label: string }[] = [
+    { value: "all", label: "All" },
+    // Long names ("United Arab Emirates") don't fit a third of the panel.
+    { value: "domestic", label: props.countryName.length > 12 ? "Domestic" : props.countryName },
+    { value: "abroad", label: "Abroad" },
+  ];
   return (
     <div className="flex flex-col gap-3">
       {props.showScope ? (
       <fieldset>
         <legend className="sr-only">Show destinations</legend>
         <div className="grid grid-cols-3 rounded-lg border border-rule bg-surface p-1">
-          {SCOPES.map((s) => (
+          {scopes.map((s) => (
             <label
               key={s.value}
               className="relative flex min-h-10 cursor-pointer items-center justify-center gap-1.5 rounded-md text-sm font-medium text-slate transition-colors hover:text-ink has-checked:bg-ink has-checked:text-paper has-focus-visible:outline-2 has-focus-visible:outline-airway"
@@ -329,7 +341,7 @@ export function DestinationList({ items, airlines, emphasised, onHover, onPick, 
               <span className="min-w-0 flex-1">
                 <span className="block truncate font-medium">{d.airport.label}</span>
                 <span className="block truncate text-sm text-slate">
-                  {d.route.domestic ? "India" : d.airport.country_name}, {formatKm(d.km)}
+                  {d.airport.country_name}, {formatKm(d.km)}
                 </span>
                 <Notes notes={routeNotes(d.route)} />
                 <span className="mt-1.5 flex items-center gap-1" aria-hidden="true">
@@ -385,7 +397,7 @@ export function DestinationDetail({ origin, dest, airlines, onBack }: {
 
       <div>
         <h3 className="text-sm font-medium text-slate">Local time</h3>
-        {/* Same clock at both ends (always within India): one time, not two identical ones. */}
+        {/* Same clock at both ends (always within India, Nepal…): one time, not two identical ones. */}
         {localTime(origin.tz, now).hhmm === localTime(airport.tz, now).hhmm ? (
           <div className="mt-2 rounded-lg border border-rule bg-surface px-3 py-3">
             <LocalTime airport={origin} now={now} place={`${origin.label} and ${airport.label}, same time zone`} />

@@ -3,3 +3,5 @@ beautifulsoup4>=4.12
 pytest>=8
 timezonefinder>=6.5
 shapely>=2.0
+pillow>=11
+pyshp>=2.3

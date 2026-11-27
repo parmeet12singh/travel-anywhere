@@ -34,6 +34,9 @@ function part(map: Map<string, Intl.DateTimeFormat>, timeZone: string, style: "s
   return f.formatToParts(now).find((p) => p.type === "timeZoneName")?.value ?? "";
 }
 
+// Browsers name Colombo's zone "India Standard Time".
+const ZONE_NAMES: Record<string, string> = { "Asia/Colombo": "Sri Lanka Standard Time" };
+
 /**
  * The airport's UTC offset right now, e.g. "UTC+5:30" or "UTC+0" (daylight saving included), and the zone's
  * full name for tooltips and screen readers ("India Standard Time"). No abbreviations: "IST" is ambiguous.
@@ -42,7 +45,7 @@ export function utcOffset(timeZone: string, now: Date): { offset: string; zoneNa
   const gmt = part(offsetFormatters, timeZone, "shortOffset", now); // "GMT+5:30", "GMT"
   // Typographic minus (U+2212), not a hyphen: "UTC−5".
   const offset = gmt === "GMT" ? "UTC+0" : gmt.replace("GMT", "UTC").replace("-", "\u2212");
-  return { offset, zoneName: part(nameFormatters, timeZone, "long", now) };
+  return { offset, zoneName: ZONE_NAMES[timeZone] ?? part(nameFormatters, timeZone, "long", now) };
 }
 
 /** The current time, updated on each new minute (not every second: the display only shows minutes). */

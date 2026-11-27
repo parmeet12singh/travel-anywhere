@@ -1,21 +1,5 @@
 [
  {
-  "iso2": "IN",
-  "name": "India",
-  "bounds": [
-   [
-    68.14,
-    6.75
-   ],
-   [
-    97.36,
-    37.05
-   ]
-  ],
-  "airports": 131,
-  "routes": 1291
- },
- {
   "iso2": "AF",
   "name": "Afghanistan",
   "bounds": [
@@ -28,8 +12,34 @@
     38.47
    ]
   ],
+  "airports": 5,
+  "routes": 34,
+  "capital": {
+   "name": "Kabul",
+   "lon": 69.166,
+   "lat": 34.533
+  }
+ },
+ {
+  "iso2": "AL",
+  "name": "Albania",
+  "bounds": [
+   [
+    19.27,
+    39.64
+   ],
+   [
+    21.04,
+    42.65
+   ]
+  ],
   "airports": 1,
-  "routes": 1
+  "routes": 116,
+  "capital": {
+   "name": "Tirana",
+   "lon": 19.818,
+   "lat": 41.328
+  }
  },
  {
   "iso2": "DZ",
@@ -44,8 +54,160 @@
     37.09
    ]
   ],
+  "airports": 33,
+  "routes": 262,
+  "capital": {
+   "name": "Algiers",
+   "lon": 3.059,
+   "lat": 36.776
+  }
+ },
+ {
+  "iso2": "AS",
+  "name": "American Samoa",
+  "bounds": [
+   [
+    -170.83,
+    -14.37
+   ],
+   [
+    -169.42,
+    -14.18
+   ]
+  ],
+  "airports": 3,
+  "routes": 7,
+  "capital": {
+   "name": "Pago Pago",
+   "lon": -170.701,
+   "lat": -14.279
+  }
+ },
+ {
+  "iso2": "AO",
+  "name": "Angola",
+  "bounds": [
+   [
+    11.74,
+    -18.03
+   ],
+   [
+    24.06,
+    -5.6
+   ]
+  ],
+  "airports": 13,
+  "routes": 64,
+  "capital": {
+   "name": "Luanda",
+   "lon": 13.23,
+   "lat": -8.815
+  }
+ },
+ {
+  "iso2": "AI",
+  "name": "Anguilla",
+  "bounds": [
+   [
+    -63.17,
+    18.17
+   ],
+   [
+    -62.97,
+    18.28
+   ]
+  ],
   "airports": 1,
-  "routes": 1
+  "routes": 17,
+  "capital": {
+   "name": "The Valley",
+   "lon": -63.052,
+   "lat": 18.221
+  }
+ },
+ {
+  "iso2": "AG",
+  "name": "Antigua and Barbuda",
+  "bounds": [
+   [
+    -61.89,
+    16.99
+   ],
+   [
+    -61.67,
+    17.73
+   ]
+  ],
+  "airports": 2,
+  "routes": 35,
+  "capital": {
+   "name": "St. John's",
+   "lon": -61.845,
+   "lat": 17.121
+  }
+ },
+ {
+  "iso2": "AR",
+  "name": "Argentina",
+  "bounds": [
+   [
+    -73.57,
+    -54.84
+   ],
+   [
+    -53.66,
+    -21.79
+   ]
+  ],
+  "airports": 45,
+  "routes": 340,
+  "capital": {
+   "name": "Buenos Aires",
+   "lon": -58.382,
+   "lat": -34.6
+  }
+ },
+ {
+  "iso2": "AM",
+  "name": "Armenia",
+  "bounds": [
+   [
+    43.44,
+    38.86
+   ],
+   [
+    46.6,
+    41.29
+   ]
+  ],
+  "airports": 3,
+  "routes": 102,
+  "capital": {
+   "name": "Yerevan",
+   "lon": 44.514,
+   "lat": 40.181
+  }
+ },
+ {
+  "iso2": "AW",
+  "name": "Aruba",
+  "bounds": [
+   [
+    -70.06,
+    12.42
+   ],
+   [
+    -69.88,
+    12.63
+   ]
+  ],
+  "airports": 1,
+  "routes": 38,
+  "capital": {
+   "name": "Oranjestad",
+   "lon": -70.036,
+   "lat": 12.519
+  }
  },
  {
   "iso2": "AU",
@@ -53,15 +215,20 @@
   "bounds": [
    [
     113.16,
-    -39.14
+    -42.84
    ],
    [
-    153.63,
-    -10.69
+    159.08,
+    -9.23
    ]
   ],
-  "airports": 2,
-  "routes": 3
+  "airports": 189,
+  "routes": 1032,
+  "capital": {
+   "name": "Canberra",
+   "lon": 149.127,
+   "lat": -35.293
+  }
  },
  {
   "iso2": "AT",
@@ -76,8 +243,13 @@
     49.01
    ]
   ],
-  "airports": 1,
-  "routes": 1
+  "airports": 6,
+  "routes": 334,
+  "capital": {
+   "name": "Vienna",
+   "lon": 16.372,
+   "lat": 48.208
+  }
  },
  {
   "iso2": "AZ",
@@ -92,8 +264,34 @@
     41.89
    ]
   ],
-  "airports": 1,
-  "routes": 2
+  "airports": 6,
+  "routes": 100,
+  "capital": {
+   "name": "Baku",
+   "lon": 49.835,
+   "lat": 40.367
+  }
+ },
+ {
+  "iso2": "BS",
+  "name": "Bahamas",
+  "bounds": [
+   [
+    -79.26,
+    20.98
+   ],
+   [
+    -73.01,
+    26.56
+   ]
+  ],
+  "airports": 25,
+  "routes": 132,
+  "capital": {
+   "name": "Nassau",
+   "lon": -77.339,
+   "lat": 25.078
+  }
  },
  {
   "iso2": "BH",
@@ -105,11 +303,16 @@
    ],
    [
     50.65,
-    26.24
+    26.27
    ]
   ],
   "airports": 1,
-  "routes": 10
+  "routes": 71,
+  "capital": {
+   "name": "Manama",
+   "lon": 50.583,
+   "lat": 26.217
+  }
  },
  {
   "iso2": "BD",
@@ -124,8 +327,34 @@
     26.62
    ]
   ],
+  "airports": 8,
+  "routes": 69,
+  "capital": {
+   "name": "Dhaka",
+   "lon": 90.394,
+   "lat": 23.729
+  }
+ },
+ {
+  "iso2": "BB",
+  "name": "Barbados",
+  "bounds": [
+   [
+    -59.65,
+    13.05
+   ],
+   [
+    -59.43,
+    13.34
+   ]
+  ],
   "airports": 1,
-  "routes": 5
+  "routes": 45,
+  "capital": {
+   "name": "Bridgetown",
+   "lon": -59.617,
+   "lat": 13.098
+  }
  },
  {
   "iso2": "BY",
@@ -140,8 +369,97 @@
     56.16
    ]
   ],
+  "airports": 5,
+  "routes": 74,
+  "capital": {
+   "name": "Minsk",
+   "lon": 27.562,
+   "lat": 53.902
+  }
+ },
+ {
+  "iso2": "BE",
+  "name": "Belgium",
+  "bounds": [
+   [
+    2.52,
+    49.5
+   ],
+   [
+    6.37,
+    51.5
+   ]
+  ],
+  "airports": 4,
+  "routes": 335,
+  "capital": {
+   "name": "Brussels",
+   "lon": 4.352,
+   "lat": 50.847
+  }
+ },
+ {
+  "iso2": "BZ",
+  "name": "Belize",
+  "bounds": [
+   [
+    -89.24,
+    15.88
+   ],
+   [
+    -87.97,
+    18.49
+   ]
+  ],
+  "airports": 13,
+  "routes": 79,
+  "capital": {
+   "name": "Belmopan",
+   "lon": -88.767,
+   "lat": 17.25
+  }
+ },
+ {
+  "iso2": "BJ",
+  "name": "Benin",
+  "bounds": [
+   [
+    0.76,
+    6.21
+   ],
+   [
+    3.84,
+    12.4
+   ]
+  ],
   "airports": 1,
-  "routes": 1
+  "routes": 17,
+  "capital": {
+   "name": "Porto-Novo",
+   "lon": 2.617,
+   "lat": 6.483
+  }
+ },
+ {
+  "iso2": "BM",
+  "name": "Bermuda",
+  "bounds": [
+   [
+    -64.89,
+    32.25
+   ],
+   [
+    -64.65,
+    32.39
+   ]
+  ],
+  "airports": 1,
+  "routes": 24,
+  "capital": {
+   "name": "Hamilton",
+   "lon": -64.783,
+   "lat": 32.295
+  }
  },
  {
   "iso2": "BT",
@@ -156,8 +474,118 @@
     28.36
    ]
   ],
-  "airports": 2,
-  "routes": 7
+  "airports": 4,
+  "routes": 20,
+  "capital": {
+   "name": "Thimphu",
+   "lon": 89.634,
+   "lat": 27.471
+  }
+ },
+ {
+  "iso2": "BO",
+  "name": "Bolivia",
+  "bounds": [
+   [
+    -69.67,
+    -22.9
+   ],
+   [
+    -57.47,
+    -9.68
+   ]
+  ],
+  "airports": 12,
+  "routes": 61,
+  "capital": {
+   "name": "Sucre",
+   "lon": -65.26,
+   "lat": -19.047
+  }
+ },
+ {
+  "iso2": "BA",
+  "name": "Bosnia and Herzegovina",
+  "bounds": [
+   [
+    15.72,
+    42.56
+   ],
+   [
+    19.62,
+    45.28
+   ]
+  ],
+  "airports": 4,
+  "routes": 81,
+  "capital": {
+   "name": "Sarajevo",
+   "lon": 18.413,
+   "lat": 43.856
+  }
+ },
+ {
+  "iso2": "BW",
+  "name": "Botswana",
+  "bounds": [
+   [
+    19.98,
+    -26.89
+   ],
+   [
+    29.35,
+    -17.78
+   ]
+  ],
+  "airports": 4,
+  "routes": 23,
+  "capital": {
+   "name": "Gaborone",
+   "lon": 25.909,
+   "lat": -24.657
+  }
+ },
+ {
+  "iso2": "BR",
+  "name": "Brazil",
+  "bounds": [
+   [
+    -74.02,
+    -33.74
+   ],
+   [
+    -32.42,
+    5.27
+   ]
+  ],
+  "airports": 152,
+  "routes": 1133,
+  "capital": {
+   "name": "Brasília",
+   "lon": -47.883,
+   "lat": -15.794
+  }
+ },
+ {
+  "iso2": "VG",
+  "name": "British Virgin Islands",
+  "bounds": [
+   [
+    -64.77,
+    18.38
+   ],
+   [
+    -64.27,
+    18.75
+   ]
+  ],
+  "airports": 3,
+  "routes": 15,
+  "capital": {
+   "name": "Road Town",
+   "lon": -64.617,
+   "lat": 18.433
+  }
  },
  {
   "iso2": "BN",
@@ -168,12 +596,80 @@
     4.02
    ],
    [
-    115.1,
+    115.36,
     5.06
    ]
   ],
   "airports": 1,
-  "routes": 1
+  "routes": 22,
+  "capital": {
+   "name": "Bandar Seri Begawan",
+   "lon": 114.917,
+   "lat": 4.917
+  }
+ },
+ {
+  "iso2": "BG",
+  "name": "Bulgaria",
+  "bounds": [
+   [
+    22.35,
+    41.24
+   ],
+   [
+    28.6,
+    44.23
+   ]
+  ],
+  "airports": 4,
+  "routes": 236,
+  "capital": {
+   "name": "Sofia",
+   "lon": 23.322,
+   "lat": 42.698
+  }
+ },
+ {
+  "iso2": "BF",
+  "name": "Burkina Faso",
+  "bounds": [
+   [
+    -5.52,
+    9.39
+   ],
+   [
+    2.39,
+    15.08
+   ]
+  ],
+  "airports": 2,
+  "routes": 16,
+  "capital": {
+   "name": "Ouagadougou",
+   "lon": -1.528,
+   "lat": 12.369
+  }
+ },
+ {
+  "iso2": "BI",
+  "name": "Burundi",
+  "bounds": [
+   [
+    28.99,
+    -4.46
+   ],
+   [
+    30.83,
+    -2.3
+   ]
+  ],
+  "airports": 1,
+  "routes": 7,
+  "capital": {
+   "name": "Gitega",
+   "lon": 29.925,
+   "lat": -3.428
+  }
  },
  {
   "iso2": "KH",
@@ -188,8 +684,34 @@
     14.7
    ]
   ],
-  "airports": 3,
-  "routes": 3
+  "airports": 4,
+  "routes": 72,
+  "capital": {
+   "name": "Phnom Penh",
+   "lon": 104.921,
+   "lat": 11.57
+  }
+ },
+ {
+  "iso2": "CM",
+  "name": "Cameroon",
+  "bounds": [
+   [
+    8.51,
+    1.65
+   ],
+   [
+    16.21,
+    13.08
+   ]
+  ],
+  "airports": 6,
+  "routes": 45,
+  "capital": {
+   "name": "Yaoundé",
+   "lon": 11.518,
+   "lat": 3.858
+  }
  },
  {
   "iso2": "CA",
@@ -200,12 +722,143 @@
     41.67
    ],
    [
-    -55.62,
-    72.0
+    -52.75,
+    76.43
+   ]
+  ],
+  "airports": 235,
+  "routes": 1933,
+  "capital": {
+   "name": "Ottawa",
+   "lon": -75.695,
+   "lat": 45.425
+  }
+ },
+ {
+  "iso2": "CV",
+  "name": "Cape Verde",
+  "bounds": [
+   [
+    -25.36,
+    14.82
+   ],
+   [
+    -22.67,
+    17.2
+   ]
+  ],
+  "airports": 7,
+  "routes": 103,
+  "capital": {
+   "name": "Praia",
+   "lon": -23.509,
+   "lat": 14.918
+  }
+ },
+ {
+  "iso2": "BQ",
+  "name": "Caribbean Netherlands",
+  "bounds": [
+   [
+    -68.42,
+    12.02
+   ],
+   [
+    -62.98,
+    17.65
    ]
   ],
   "airports": 3,
-  "routes": 4
+  "routes": 14,
+  "capital": {
+   "name": "Kralendijk",
+   "lon": -68.266,
+   "lat": 12.144
+  }
+ },
+ {
+  "iso2": "KY",
+  "name": "Cayman Islands",
+  "bounds": [
+   [
+    -81.42,
+    19.26
+   ],
+   [
+    -79.73,
+    19.76
+   ]
+  ],
+  "airports": 3,
+  "routes": 40,
+  "capital": {
+   "name": "George Town",
+   "lon": -81.382,
+   "lat": 19.296
+  }
+ },
+ {
+  "iso2": "CF",
+  "name": "Central African Republic",
+  "bounds": [
+   [
+    14.39,
+    2.24
+   ],
+   [
+    27.44,
+    11.0
+   ]
+  ],
+  "airports": 1,
+  "routes": 6,
+  "capital": {
+   "name": "Bangui",
+   "lon": 18.563,
+   "lat": 4.373
+  }
+ },
+ {
+  "iso2": "TD",
+  "name": "Chad",
+  "bounds": [
+   [
+    13.45,
+    7.46
+   ],
+   [
+    23.98,
+    23.44
+   ]
+  ],
+  "airports": 1,
+  "routes": 10,
+  "capital": {
+   "name": "N'Djamena",
+   "lon": 15.05,
+   "lat": 12.11
+  }
+ },
+ {
+  "iso2": "CL",
+  "name": "Chile",
+  "bounds": [
+   [
+    -109.42,
+    -54.93
+   ],
+   [
+    -67.01,
+    -17.51
+   ]
+  ],
+  "airports": 19,
+  "routes": 133,
+  "capital": {
+   "name": "Santiago",
+   "lon": -70.65,
+   "lat": -33.438
+  }
  },
  {
   "iso2": "CN",
@@ -213,15 +866,293 @@
   "bounds": [
    [
     73.6,
-    20.24
+    18.3
    ],
    [
     134.77,
     53.57
    ]
   ],
-  "airports": 4,
-  "routes": 6
+  "airports": 264,
+  "routes": 7998,
+  "capital": {
+   "name": "Beijing",
+   "lon": 116.408,
+   "lat": 39.904
+  }
+ },
+ {
+  "iso2": "CX",
+  "name": "Christmas Island",
+  "bounds": [
+   [
+    105.58,
+    -10.57
+   ],
+   [
+    105.71,
+    -10.43
+   ]
+  ],
+  "airports": 1,
+  "routes": 2,
+  "capital": {
+   "name": "Flying Fish Cove",
+   "lon": 105.678,
+   "lat": -10.422
+  }
+ },
+ {
+  "iso2": "CC",
+  "name": "Cocos (Keeling) Islands",
+  "bounds": [
+   [
+    96.82,
+    -12.2
+   ],
+   [
+    96.92,
+    -12.13
+   ]
+  ],
+  "airports": 1,
+  "routes": 2,
+  "capital": {
+   "name": "West Island",
+   "lon": 96.828,
+   "lat": -12.187
+  }
+ },
+ {
+  "iso2": "CO",
+  "name": "Colombia",
+  "bounds": [
+   [
+    -81.71,
+    -4.24
+   ],
+   [
+    -66.88,
+    13.36
+   ]
+  ],
+  "airports": 64,
+  "routes": 431,
+  "capital": {
+   "name": "Bogotá",
+   "lon": -74.082,
+   "lat": 4.61
+  }
+ },
+ {
+  "iso2": "KM",
+  "name": "Comoros",
+  "bounds": [
+   [
+    43.21,
+    -12.38
+   ],
+   [
+    44.53,
+    -11.36
+   ]
+  ],
+  "airports": 1,
+  "routes": 5,
+  "capital": {
+   "name": "Moroni",
+   "lon": 43.254,
+   "lat": -11.704
+  }
+ },
+ {
+  "iso2": "CK",
+  "name": "Cook Islands",
+  "bounds": [
+   [
+    -161.0,
+    -21.9
+   ],
+   [
+    -157.35,
+    -10.38
+   ]
+  ],
+  "airports": 7,
+  "routes": 22,
+  "capital": {
+   "name": "Avarua",
+   "lon": -159.771,
+   "lat": -21.207
+  }
+ },
+ {
+  "iso2": "CR",
+  "name": "Costa Rica",
+  "bounds": [
+   [
+    -85.95,
+    8.03
+   ],
+   [
+    -82.56,
+    11.21
+   ]
+  ],
+  "airports": 14,
+  "routes": 113,
+  "capital": {
+   "name": "San José",
+   "lon": -84.08,
+   "lat": 9.933
+  }
+ },
+ {
+  "iso2": "HR",
+  "name": "Croatia",
+  "bounds": [
+   [
+    13.5,
+    42.56
+   ],
+   [
+    19.41,
+    46.55
+   ]
+  ],
+  "airports": 8,
+  "routes": 351,
+  "capital": {
+   "name": "Zagreb",
+   "lon": 15.977,
+   "lat": 45.813
+  }
+ },
+ {
+  "iso2": "CU",
+  "name": "Cuba",
+  "bounds": [
+   [
+    -84.95,
+    19.83
+   ],
+   [
+    -74.13,
+    23.21
+   ]
+  ],
+  "airports": 9,
+  "routes": 53,
+  "capital": {
+   "name": "Havana",
+   "lon": -82.359,
+   "lat": 23.137
+  }
+ },
+ {
+  "iso2": "CW",
+  "name": "Curaçao",
+  "bounds": [
+   [
+    -69.17,
+    12.04
+   ],
+   [
+    -68.74,
+    12.39
+   ]
+  ],
+  "airports": 1,
+  "routes": 27,
+  "capital": {
+   "name": "Willemstad",
+   "lon": -68.935,
+   "lat": 12.108
+  }
+ },
+ {
+  "iso2": "CY",
+  "name": "Cyprus",
+  "bounds": [
+   [
+    32.27,
+    34.63
+   ],
+   [
+    34.59,
+    35.69
+   ]
+  ],
+  "airports": 3,
+  "routes": 177,
+  "capital": {
+   "name": "Nicosia",
+   "lon": 33.365,
+   "lat": 35.172
+  }
+ },
+ {
+  "iso2": "CZ",
+  "name": "Czech Republic",
+  "bounds": [
+   [
+    12.08,
+    48.56
+   ],
+   [
+    18.84,
+    51.04
+   ]
+  ],
+  "airports": 6,
+  "routes": 270,
+  "capital": {
+   "name": "Prague",
+   "lon": 14.421,
+   "lat": 50.087
+  }
+ },
+ {
+  "iso2": "CI",
+  "name": "Côte d'Ivoire",
+  "bounds": [
+   [
+    -8.62,
+    4.34
+   ],
+   [
+    -2.51,
+    10.73
+   ]
+  ],
+  "airports": 6,
+  "routes": 46,
+  "capital": {
+   "name": "Yamoussoukro",
+   "lon": -5.274,
+   "lat": 6.816
+  }
+ },
+ {
+  "iso2": "CD",
+  "name": "DR Congo",
+  "bounds": [
+   [
+    12.21,
+    -13.46
+   ],
+   [
+    31.28,
+    5.38
+   ]
+  ],
+  "airports": 28,
+  "routes": 119,
+  "capital": {
+   "name": "Kinshasa",
+   "lon": 15.312,
+   "lat": -4.322
+  }
  },
  {
   "iso2": "DK",
@@ -232,12 +1163,101 @@
     54.8
    ],
    [
-    10.96,
+    14.76,
     57.75
    ]
   ],
+  "airports": 12,
+  "routes": 315,
+  "capital": {
+   "name": "Copenhagen",
+   "lon": 12.569,
+   "lat": 55.676
+  }
+ },
+ {
+  "iso2": "DJ",
+  "name": "Djibouti",
+  "bounds": [
+   [
+    41.75,
+    10.93
+   ],
+   [
+    43.42,
+    12.71
+   ]
+  ],
   "airports": 1,
-  "routes": 1
+  "routes": 12,
+  "capital": {
+   "name": "Djibouti",
+   "lon": 43.148,
+   "lat": 11.595
+  }
+ },
+ {
+  "iso2": "DM",
+  "name": "Dominica",
+  "bounds": [
+   [
+    -61.49,
+    15.2
+   ],
+   [
+    -61.25,
+    15.63
+   ]
+  ],
+  "airports": 2,
+  "routes": 16,
+  "capital": {
+   "name": "Roseau",
+   "lon": -61.383,
+   "lat": 15.3
+  }
+ },
+ {
+  "iso2": "DO",
+  "name": "Dominican Republic",
+  "bounds": [
+   [
+    -72.01,
+    17.6
+   ],
+   [
+    -68.33,
+    19.94
+   ]
+  ],
+  "airports": 7,
+  "routes": 191,
+  "capital": {
+   "name": "Santo Domingo",
+   "lon": -69.936,
+   "lat": 18.462
+  }
+ },
+ {
+  "iso2": "EC",
+  "name": "Ecuador",
+  "bounds": [
+   [
+    -90.27,
+    -5.01
+   ],
+   [
+    -75.23,
+    1.43
+   ]
+  ],
+  "airports": 9,
+  "routes": 60,
+  "capital": {
+   "name": "Quito",
+   "lon": -78.513,
+   "lat": -0.22
+  }
  },
  {
   "iso2": "EG",
@@ -252,8 +1272,118 @@
     31.66
    ]
   ],
+  "airports": 17,
+  "routes": 574,
+  "capital": {
+   "name": "Cairo",
+   "lon": 31.236,
+   "lat": 30.044
+  }
+ },
+ {
+  "iso2": "SV",
+  "name": "El Salvador",
+  "bounds": [
+   [
+    -90.11,
+    13.16
+   ],
+   [
+    -87.7,
+    14.45
+   ]
+  ],
+  "airports": 2,
+  "routes": 34,
+  "capital": {
+   "name": "San Salvador",
+   "lon": -89.191,
+   "lat": 13.698
+  }
+ },
+ {
+  "iso2": "GQ",
+  "name": "Equatorial Guinea",
+  "bounds": [
+   [
+    5.62,
+    -1.41
+   ],
+   [
+    11.34,
+    3.76
+   ]
+  ],
+  "airports": 4,
+  "routes": 17,
+  "capital": {
+   "name": "Ciudad de la Paz",
+   "lon": 10.822,
+   "lat": 1.592
+  }
+ },
+ {
+  "iso2": "ER",
+  "name": "Eritrea",
+  "bounds": [
+   [
+    36.42,
+    12.36
+   ],
+   [
+    43.12,
+    18.0
+   ]
+  ],
   "airports": 1,
-  "routes": 2
+  "routes": 6,
+  "capital": {
+   "name": "Asmara",
+   "lon": 38.917,
+   "lat": 15.333
+  }
+ },
+ {
+  "iso2": "EE",
+  "name": "Estonia",
+  "bounds": [
+   [
+    22.51,
+    57.52
+   ],
+   [
+    28.19,
+    59.67
+   ]
+  ],
+  "airports": 6,
+  "routes": 63,
+  "capital": {
+   "name": "Tallinn",
+   "lon": 24.745,
+   "lat": 59.437
+  }
+ },
+ {
+  "iso2": "SZ",
+  "name": "Eswatini",
+  "bounds": [
+   [
+    30.78,
+    -27.32
+   ],
+   [
+    32.12,
+    -25.74
+   ]
+  ],
+  "airports": 1,
+  "routes": 4,
+  "capital": {
+   "name": "Mbabane",
+   "lon": 31.133,
+   "lat": -26.317
+  }
  },
  {
   "iso2": "ET",
@@ -268,15 +1398,83 @@
     14.88
    ]
   ],
+  "airports": 25,
+  "routes": 201,
+  "capital": {
+   "name": "Addis Ababa",
+   "lon": 38.752,
+   "lat": 9.036
+  }
+ },
+ {
+  "iso2": "FK",
+  "name": "Falkland Islands",
+  "bounds": [
+   [
+    -61.04,
+    -52.34
+   ],
+   [
+    -57.73,
+    -51.25
+   ]
+  ],
+  "airports": 2,
+  "routes": 4,
+  "capital": {
+   "name": "Stanley",
+   "lon": -57.85,
+   "lat": -51.694
+  }
+ },
+ {
+  "iso2": "FO",
+  "name": "Faroe Islands",
+  "bounds": [
+   [
+    -7.43,
+    61.39
+   ],
+   [
+    -6.39,
+    62.37
+   ]
+  ],
   "airports": 1,
-  "routes": 5
+  "routes": 12,
+  "capital": {
+   "name": "Tórshavn",
+   "lon": -6.771,
+   "lat": 62.01
+  }
+ },
+ {
+  "iso2": "FJ",
+  "name": "Fiji",
+  "bounds": [
+   [
+    177.07,
+    -19.06
+   ],
+   [
+    181.18,
+    -12.48
+   ]
+  ],
+  "airports": 15,
+  "routes": 60,
+  "capital": {
+   "name": "Suva",
+   "lon": 178.44,
+   "lat": -18.127
+  }
  },
  {
   "iso2": "FI",
   "name": "Finland",
   "bounds": [
    [
-    20.62,
+    19.9,
     59.81
    ],
    [
@@ -284,24 +1482,118 @@
     70.08
    ]
   ],
-  "airports": 1,
-  "routes": 1
+  "airports": 19,
+  "routes": 268,
+  "capital": {
+   "name": "Helsinki",
+   "lon": 24.938,
+   "lat": 60.171
+  }
  },
  {
   "iso2": "FR",
   "name": "France",
   "bounds": [
    [
-    -4.78,
-    42.33
+    -5.06,
+    41.5
    ],
    [
-    8.2,
+    9.48,
     51.09
    ]
   ],
+  "airports": 50,
+  "routes": 1897,
+  "capital": {
+   "name": "Paris",
+   "lon": 2.352,
+   "lat": 48.857
+  }
+ },
+ {
+  "iso2": "GF",
+  "name": "French Guiana",
+  "bounds": [
+   [
+    -54.62,
+    2.11
+   ],
+   [
+    -51.65,
+    5.74
+   ]
+  ],
+  "airports": 6,
+  "routes": 24,
+  "capital": {
+   "name": "Cayenne",
+   "lon": -52.335,
+   "lat": 4.939
+  }
+ },
+ {
+  "iso2": "PF",
+  "name": "French Polynesia",
+  "bounds": [
+   [
+    -152.81,
+    -23.89
+   ],
+   [
+    -134.89,
+    -8.8
+   ]
+  ],
+  "airports": 36,
+  "routes": 143,
+  "capital": {
+   "name": "Papeete",
+   "lon": -149.569,
+   "lat": -17.54
+  }
+ },
+ {
+  "iso2": "GA",
+  "name": "Gabon",
+  "bounds": [
+   [
+    8.7,
+    -3.94
+   ],
+   [
+    14.5,
+    2.32
+   ]
+  ],
+  "airports": 8,
+  "routes": 36,
+  "capital": {
+   "name": "Libreville",
+   "lon": 9.44,
+   "lat": 0.408
+  }
+ },
+ {
+  "iso2": "GM",
+  "name": "Gambia",
+  "bounds": [
+   [
+    -16.83,
+    13.07
+   ],
+   [
+    -13.82,
+    13.82
+   ]
+  ],
   "airports": 1,
-  "routes": 3
+  "routes": 16,
+  "capital": {
+   "name": "Banjul",
+   "lon": -16.578,
+   "lat": 13.453
+  }
  },
  {
   "iso2": "GE",
@@ -316,8 +1608,13 @@
     43.58
    ]
   ],
-  "airports": 1,
-  "routes": 1
+  "airports": 7,
+  "routes": 146,
+  "capital": {
+   "name": "Tbilisi",
+   "lon": 44.792,
+   "lat": 41.722
+  }
  },
  {
   "iso2": "DE",
@@ -332,32 +1629,315 @@
     54.91
    ]
   ],
-  "airports": 2,
-  "routes": 8
+  "airports": 37,
+  "routes": 1716,
+  "capital": {
+   "name": "Berlin",
+   "lon": 13.383,
+   "lat": 52.517
+  }
+ },
+ {
+  "iso2": "GH",
+  "name": "Ghana",
+  "bounds": [
+   [
+    -3.26,
+    4.74
+   ],
+   [
+    1.19,
+    11.16
+   ]
+  ],
+  "airports": 6,
+  "routes": 45,
+  "capital": {
+   "name": "Accra",
+   "lon": -0.197,
+   "lat": 5.556
+  }
+ },
+ {
+  "iso2": "GI",
+  "name": "Gibraltar",
+  "bounds": [
+   [
+    -5.36,
+    36.11
+   ],
+   [
+    -5.34,
+    36.15
+   ]
+  ],
+  "airports": 1,
+  "routes": 5,
+  "capital": {
+   "name": "Gibraltar",
+   "lon": -5.35,
+   "lat": 36.14
+  }
  },
  {
   "iso2": "GR",
   "name": "Greece",
   "bounds": [
    [
-    20.0,
-    36.39
+    19.91,
+    35.22
    ],
    [
-    26.64,
+    29.58,
     41.75
    ]
   ],
+  "airports": 39,
+  "routes": 1316,
+  "capital": {
+   "name": "Athens",
+   "lon": 23.728,
+   "lat": 37.984
+  }
+ },
+ {
+  "iso2": "GL",
+  "name": "Greenland",
+  "bounds": [
+   [
+    -73.06,
+    59.99
+   ],
+   [
+    -11.38,
+    83.63
+   ]
+  ],
+  "airports": 57,
+  "routes": 169,
+  "capital": {
+   "name": "Nuuk",
+   "lon": -51.733,
+   "lat": 64.175
+  }
+ },
+ {
+  "iso2": "GD",
+  "name": "Grenada",
+  "bounds": [
+   [
+    -61.79,
+    12.0
+   ],
+   [
+    -61.42,
+    12.53
+   ]
+  ],
+  "airports": 2,
+  "routes": 18,
+  "capital": {
+   "name": "St. George's",
+   "lon": -61.753,
+   "lat": 12.053
+  }
+ },
+ {
+  "iso2": "GP",
+  "name": "Guadeloupe",
+  "bounds": [
+   [
+    -61.8,
+    15.87
+   ],
+   [
+    -61.16,
+    16.51
+   ]
+  ],
+  "airports": 2,
+  "routes": 23,
+  "capital": {
+   "name": "Basse-Terre",
+   "lon": -61.733,
+   "lat": 15.997
+  }
+ },
+ {
+  "iso2": "GU",
+  "name": "Guam",
+  "bounds": [
+   [
+    144.62,
+    13.24
+   ],
+   [
+    144.95,
+    13.65
+   ]
+  ],
   "airports": 1,
-  "routes": 2
+  "routes": 20,
+  "capital": {
+   "name": "Hagåtña",
+   "lon": 144.75,
+   "lat": 13.483
+  }
+ },
+ {
+  "iso2": "GT",
+  "name": "Guatemala",
+  "bounds": [
+   [
+    -92.25,
+    13.73
+   ],
+   [
+    -88.22,
+    17.82
+   ]
+  ],
+  "airports": 6,
+  "routes": 39,
+  "capital": {
+   "name": "Guatemala City",
+   "lon": -90.513,
+   "lat": 14.642
+  }
+ },
+ {
+  "iso2": "GG",
+  "name": "Guernsey",
+  "bounds": [
+   [
+    -2.67,
+    49.43
+   ],
+   [
+    -2.17,
+    49.73
+   ]
+  ],
+  "airports": 2,
+  "routes": 25,
+  "capital": {
+   "name": "Saint Peter Port",
+   "lon": -2.552,
+   "lat": 49.46
+  }
+ },
+ {
+  "iso2": "GN",
+  "name": "Guinea",
+  "bounds": [
+   [
+    -15.08,
+    7.19
+   ],
+   [
+    -7.66,
+    12.67
+   ]
+  ],
+  "airports": 1,
+  "routes": 18,
+  "capital": {
+   "name": "Conakry",
+   "lon": -13.712,
+   "lat": 9.509
+  }
+ },
+ {
+  "iso2": "GW",
+  "name": "Guinea-Bissau",
+  "bounds": [
+   [
+    -16.73,
+    10.93
+   ],
+   [
+    -13.66,
+    12.68
+   ]
+  ],
+  "airports": 1,
+  "routes": 6,
+  "capital": {
+   "name": "Bissau",
+   "lon": -15.583,
+   "lat": 11.86
+  }
+ },
+ {
+  "iso2": "GY",
+  "name": "Guyana",
+  "bounds": [
+   [
+    -61.4,
+    1.19
+   ],
+   [
+    -56.48,
+    8.56
+   ]
+  ],
+  "airports": 4,
+  "routes": 26,
+  "capital": {
+   "name": "Georgetown",
+   "lon": -58.151,
+   "lat": 6.806
+  }
+ },
+ {
+  "iso2": "HT",
+  "name": "Haiti",
+  "bounds": [
+   [
+    -74.49,
+    18.03
+   ],
+   [
+    -71.64,
+    19.95
+   ]
+  ],
+  "airports": 5,
+  "routes": 27,
+  "capital": {
+   "name": "Port-au-Prince",
+   "lon": -72.34,
+   "lat": 18.547
+  }
+ },
+ {
+  "iso2": "HN",
+  "name": "Honduras",
+  "bounds": [
+   [
+    -89.36,
+    12.98
+   ],
+   [
+    -83.13,
+    16.45
+   ]
+  ],
+  "airports": 8,
+  "routes": 59,
+  "capital": {
+   "name": "Tegucigalpa",
+   "lon": -87.205,
+   "lat": 14.106
+  }
  },
  {
   "iso2": "HK",
   "name": "Hong Kong",
   "bounds": [
    [
-    113.9,
-    22.26
+    113.84,
+    22.19
    ],
    [
     114.4,
@@ -365,23 +1945,91 @@
    ]
   ],
   "airports": 1,
-  "routes": 5
+  "routes": 154
+ },
+ {
+  "iso2": "HU",
+  "name": "Hungary",
+  "bounds": [
+   [
+    16.09,
+    45.74
+   ],
+   [
+    22.88,
+    48.57
+   ]
+  ],
+  "airports": 3,
+  "routes": 177,
+  "capital": {
+   "name": "Budapest",
+   "lon": 19.041,
+   "lat": 47.498
+  }
+ },
+ {
+  "iso2": "IS",
+  "name": "Iceland",
+  "bounds": [
+   [
+    -24.54,
+    63.4
+   ],
+   [
+    -13.5,
+    66.55
+   ]
+  ],
+  "airports": 12,
+  "routes": 116,
+  "capital": {
+   "name": "Reykjavík",
+   "lon": -21.935,
+   "lat": 64.147
+  }
+ },
+ {
+  "iso2": "IN",
+  "name": "India",
+  "bounds": [
+   [
+    68.14,
+    6.75
+   ],
+   [
+    97.36,
+    37.05
+   ]
+  ],
+  "airports": 131,
+  "routes": 1731,
+  "capital": {
+   "name": "New Delhi",
+   "lon": 77.209,
+   "lat": 28.614
+  }
  },
  {
   "iso2": "ID",
   "name": "Indonesia",
   "bounds": [
    [
-    108.86,
-    -4.18
+    95.34,
+    -10.77
    ],
    [
-    119.01,
-    4.4
+    140.63,
+    5.87
    ]
   ],
-  "airports": 2,
-  "routes": 4
+  "airports": 170,
+  "routes": 969,
+  "capital": {
+   "name": "Jakarta",
+   "lon": 106.827,
+   "lat": -6.175
+  }
  },
  {
   "iso2": "IR",
@@ -396,8 +2044,13 @@
     39.77
    ]
   ],
-  "airports": 2,
-  "routes": 2
+  "airports": 54,
+  "routes": 409,
+  "capital": {
+   "name": "Tehran",
+   "lon": 51.39,
+   "lat": 35.689
+  }
  },
  {
   "iso2": "IQ",
@@ -412,8 +2065,55 @@
     37.38
    ]
   ],
-  "airports": 3,
-  "routes": 4
+  "airports": 8,
+  "routes": 129,
+  "capital": {
+   "name": "Baghdad",
+   "lon": 44.366,
+   "lat": 33.315
+  }
+ },
+ {
+  "iso2": "IE",
+  "name": "Ireland",
+  "bounds": [
+   [
+    -10.48,
+    51.45
+   ],
+   [
+    -5.99,
+    55.39
+   ]
+  ],
+  "airports": 10,
+  "routes": 327,
+  "capital": {
+   "name": "Dublin",
+   "lon": -6.26,
+   "lat": 53.35
+  }
+ },
+ {
+  "iso2": "IM",
+  "name": "Isle of Man",
+  "bounds": [
+   [
+    -4.79,
+    54.06
+   ],
+   [
+    -4.31,
+    54.42
+   ]
+  ],
+  "airports": 1,
+  "routes": 15,
+  "capital": {
+   "name": "Douglas",
+   "lon": -4.478,
+   "lat": 54.15
+  }
  },
  {
   "iso2": "IL",
@@ -428,8 +2128,13 @@
     33.28
    ]
   ],
-  "airports": 1,
-  "routes": 1
+  "airports": 3,
+  "routes": 142,
+  "capital": {
+   "name": "Jerusalem",
+   "lon": 35.234,
+   "lat": 31.777
+  }
  },
  {
   "iso2": "IT",
@@ -437,31 +2142,83 @@
   "bounds": [
    [
     6.6,
-    37.92
+    35.5
    ],
    [
     18.52,
     47.09
    ]
   ],
-  "airports": 2,
-  "routes": 2
+  "airports": 41,
+  "routes": 2275,
+  "capital": {
+   "name": "Rome",
+   "lon": 12.483,
+   "lat": 41.893
+  }
+ },
+ {
+  "iso2": "JM",
+  "name": "Jamaica",
+  "bounds": [
+   [
+    -78.37,
+    17.7
+   ],
+   [
+    -76.19,
+    18.53
+   ]
+  ],
+  "airports": 4,
+  "routes": 78,
+  "capital": {
+   "name": "Kingston",
+   "lon": -76.793,
+   "lat": 17.971
+  }
  },
  {
   "iso2": "JP",
   "name": "Japan",
   "bounds": [
    [
-    130.86,
-    33.43
+    122.98,
+    24.4
    ],
    [
-    142.07,
-    41.55
+    144.96,
+    45.4
    ]
   ],
-  "airports": 3,
-  "routes": 6
+  "airports": 84,
+  "routes": 873,
+  "capital": {
+   "name": "Tokyo",
+   "lon": 139.692,
+   "lat": 35.689
+  }
+ },
+ {
+  "iso2": "JE",
+  "name": "Jersey",
+  "bounds": [
+   [
+    -2.24,
+    49.17
+   ],
+   [
+    -2.01,
+    49.27
+   ]
+  ],
+  "airports": 1,
+  "routes": 36,
+  "capital": {
+   "name": "Saint Helier",
+   "lon": -2.11,
+   "lat": 49.186
+  }
  },
  {
   "iso2": "JO",
@@ -476,8 +2233,13 @@
     33.37
    ]
   ],
-  "airports": 1,
-  "routes": 2
+  "airports": 3,
+  "routes": 115,
+  "capital": {
+   "name": "Amman",
+   "lon": 35.933,
+   "lat": 31.95
+  }
  },
  {
   "iso2": "KZ",
@@ -492,8 +2254,13 @@
     55.43
    ]
   ],
-  "airports": 2,
-  "routes": 6
+  "airports": 22,
+  "routes": 326,
+  "capital": {
+   "name": "Astana",
+   "lon": 71.433,
+   "lat": 51.133
+  }
  },
  {
   "iso2": "KE",
@@ -508,8 +2275,55 @@
     5.03
    ]
   ],
+  "airports": 24,
+  "routes": 163,
+  "capital": {
+   "name": "Nairobi",
+   "lon": 36.817,
+   "lat": -1.286
+  }
+ },
+ {
+  "iso2": "KI",
+  "name": "Kiribati",
+  "bounds": [
+   [
+    172.81,
+    -1.22
+   ],
+   [
+    202.83,
+    3.93
+   ]
+  ],
+  "airports": 9,
+  "routes": 21,
+  "capital": {
+   "name": "South Tarawa",
+   "lon": 172.967,
+   "lat": 1.333
+  }
+ },
+ {
+  "iso2": "XK",
+  "name": "Kosovo",
+  "bounds": [
+   [
+    20.44,
+    41.97
+   ],
+   [
+    21.64,
+    43.17
+   ]
+  ],
   "airports": 1,
-  "routes": 1
+  "routes": 47,
+  "capital": {
+   "name": "Pristina",
+   "lon": 21.167,
+   "lat": 42.667
+  }
  },
  {
   "iso2": "KW",
@@ -525,7 +2339,12 @@
    ]
   ],
   "airports": 1,
-  "routes": 11
+  "routes": 106,
+  "capital": {
+   "name": "Kuwait City",
+   "lon": 47.98,
+   "lat": 29.375
+  }
  },
  {
   "iso2": "KG",
@@ -540,15 +2359,246 @@
     43.26
    ]
   ],
+  "airports": 9,
+  "routes": 82,
+  "capital": {
+   "name": "Bishkek",
+   "lon": 74.567,
+   "lat": 42.867
+  }
+ },
+ {
+  "iso2": "LA",
+  "name": "Laos",
+  "bounds": [
+   [
+    100.1,
+    13.92
+   ],
+   [
+    107.66,
+    22.5
+   ]
+  ],
+  "airports": 10,
+  "routes": 66,
+  "capital": {
+   "name": "Vientiane",
+   "lon": 102.63,
+   "lat": 17.98
+  }
+ },
+ {
+  "iso2": "LV",
+  "name": "Latvia",
+  "bounds": [
+   [
+    20.97,
+    55.67
+   ],
+   [
+    28.22,
+    58.08
+   ]
+  ],
   "airports": 1,
-  "routes": 1
+  "routes": 96,
+  "capital": {
+   "name": "Riga",
+   "lon": 24.107,
+   "lat": 56.947
+  }
+ },
+ {
+  "iso2": "LB",
+  "name": "Lebanon",
+  "bounds": [
+   [
+    35.1,
+    33.06
+   ],
+   [
+    36.6,
+    34.69
+   ]
+  ],
+  "airports": 1,
+  "routes": 56,
+  "capital": {
+   "name": "Beirut",
+   "lon": 35.513,
+   "lat": 33.887
+  }
+ },
+ {
+  "iso2": "LS",
+  "name": "Lesotho",
+  "bounds": [
+   [
+    27.0,
+    -30.66
+   ],
+   [
+    29.44,
+    -28.57
+   ]
+  ],
+  "airports": 1,
+  "routes": 1,
+  "capital": {
+   "name": "Maseru",
+   "lon": 27.48,
+   "lat": -29.31
+  }
+ },
+ {
+  "iso2": "LR",
+  "name": "Liberia",
+  "bounds": [
+   [
+    -11.48,
+    4.35
+   ],
+   [
+    -7.38,
+    8.57
+   ]
+  ],
+  "airports": 1,
+  "routes": 12,
+  "capital": {
+   "name": "Monrovia",
+   "lon": -10.805,
+   "lat": 6.311
+  }
+ },
+ {
+  "iso2": "LY",
+  "name": "Libya",
+  "bounds": [
+   [
+    9.29,
+    19.5
+   ],
+   [
+    25.16,
+    33.18
+   ]
+  ],
+  "airports": 10,
+  "routes": 61,
+  "capital": {
+   "name": "Tripoli",
+   "lon": 13.188,
+   "lat": 32.888
+  }
+ },
+ {
+  "iso2": "LT",
+  "name": "Lithuania",
+  "bounds": [
+   [
+    21.04,
+    53.89
+   ],
+   [
+    26.8,
+    56.44
+   ]
+  ],
+  "airports": 3,
+  "routes": 104,
+  "capital": {
+   "name": "Vilnius",
+   "lon": 25.28,
+   "lat": 54.687
+  }
+ },
+ {
+  "iso2": "LU",
+  "name": "Luxembourg",
+  "bounds": [
+   [
+    5.71,
+    49.44
+   ],
+   [
+    6.5,
+    50.17
+   ]
+  ],
+  "airports": 1,
+  "routes": 119,
+  "capital": {
+   "name": "Luxembourg",
+   "lon": 6.13,
+   "lat": 49.611
+  }
+ },
+ {
+  "iso2": "MO",
+  "name": "Macau",
+  "bounds": [
+   [
+    113.52,
+    22.11
+   ],
+   [
+    113.59,
+    22.22
+   ]
+  ],
+  "airports": 2,
+  "routes": 41
+ },
+ {
+  "iso2": "MG",
+  "name": "Madagascar",
+  "bounds": [
+   [
+    43.22,
+    -25.6
+   ],
+   [
+    50.5,
+    -11.94
+   ]
+  ],
+  "airports": 10,
+  "routes": 49,
+  "capital": {
+   "name": "Antananarivo",
+   "lon": 47.525,
+   "lat": -18.91
+  }
+ },
+ {
+  "iso2": "MW",
+  "name": "Malawi",
+  "bounds": [
+   [
+    32.66,
+    -17.14
+   ],
+   [
+    35.9,
+    -9.38
+   ]
+  ],
+  "airports": 4,
+  "routes": 18,
+  "capital": {
+   "name": "Lilongwe",
+   "lon": 33.768,
+   "lat": -13.986
+  }
  },
  {
   "iso2": "MY",
   "name": "Malaysia",
   "bounds": [
    [
-    109.53,
+    99.73,
     0.85
    ],
    [
@@ -556,24 +2606,139 @@
     7.03
    ]
   ],
-  "airports": 3,
-  "routes": 14
+  "airports": 32,
+  "routes": 413,
+  "capital": {
+   "name": "Kuala Lumpur",
+   "lon": 101.695,
+   "lat": 3.148
+  }
  },
  {
   "iso2": "MV",
   "name": "Maldives",
   "bounds": [
    [
-    73.43,
-    4.16
+    72.83,
+    -0.69
    ],
    [
-    73.55,
-    4.24
+    73.58,
+    6.97
    ]
   ],
-  "airports": 2,
-  "routes": 7
+  "airports": 18,
+  "routes": 117,
+  "capital": {
+   "name": "Malé",
+   "lon": 73.508,
+   "lat": 4.175
+  }
+ },
+ {
+  "iso2": "ML",
+  "name": "Mali",
+  "bounds": [
+   [
+    -12.26,
+    10.14
+   ],
+   [
+    4.24,
+    25.0
+   ]
+  ],
+  "airports": 5,
+  "routes": 25,
+  "capital": {
+   "name": "Bamako",
+   "lon": -7.992,
+   "lat": 12.646
+  }
+ },
+ {
+  "iso2": "MT",
+  "name": "Malta",
+  "bounds": [
+   [
+    14.18,
+    35.8
+   ],
+   [
+    14.57,
+    36.08
+   ]
+  ],
+  "airports": 1,
+  "routes": 110,
+  "capital": {
+   "name": "Valletta",
+   "lon": 14.512,
+   "lat": 35.898
+  }
+ },
+ {
+  "iso2": "MH",
+  "name": "Marshall Islands",
+  "bounds": [
+   [
+    162.33,
+    4.6
+   ],
+   [
+    171.98,
+    11.52
+   ]
+  ],
+  "airports": 27,
+  "routes": 94,
+  "capital": {
+   "name": "Majuro",
+   "lon": 171.38,
+   "lat": 7.092
+  }
+ },
+ {
+  "iso2": "MQ",
+  "name": "Martinique",
+  "bounds": [
+   [
+    -61.23,
+    14.41
+   ],
+   [
+    -60.81,
+    14.88
+   ]
+  ],
+  "airports": 1,
+  "routes": 20,
+  "capital": {
+   "name": "Fort-de-France",
+   "lon": -61.067,
+   "lat": 14.6
+  }
+ },
+ {
+  "iso2": "MR",
+  "name": "Mauritania",
+  "bounds": [
+   [
+    -17.08,
+    14.73
+   ],
+   [
+    -4.82,
+    27.29
+   ]
+  ],
+  "airports": 4,
+  "routes": 19,
+  "capital": {
+   "name": "Nouakchott",
+   "lon": -15.979,
+   "lat": 18.086
+  }
  },
  {
   "iso2": "MU",
@@ -584,12 +2749,117 @@
     -20.52
    ],
    [
-    57.8,
-    -19.98
+    63.36,
+    -19.76
+   ]
+  ],
+  "airports": 2,
+  "routes": 34,
+  "capital": {
+   "name": "Port Louis",
+   "lon": 57.499,
+   "lat": -20.162
+  }
+ },
+ {
+  "iso2": "YT",
+  "name": "Mayotte",
+  "bounds": [
+   [
+    45.04,
+    -12.99
+   ],
+   [
+    45.28,
+    -12.65
    ]
   ],
   "airports": 1,
-  "routes": 4
+  "routes": 11,
+  "capital": {
+   "name": "Mamoudzou",
+   "lon": 45.232,
+   "lat": -12.781
+  }
+ },
+ {
+  "iso2": "MX",
+  "name": "Mexico",
+  "bounds": [
+   [
+    -117.13,
+    14.55
+   ],
+   [
+    -86.74,
+    32.71
+   ]
+  ],
+  "airports": 64,
+  "routes": 1078,
+  "capital": {
+   "name": "Mexico City",
+   "lon": -99.136,
+   "lat": 19.354
+  }
+ },
+ {
+  "iso2": "FM",
+  "name": "Micronesia",
+  "bounds": [
+   [
+    138.08,
+    5.36
+   ],
+   [
+    162.96,
+    10.02
+   ]
+  ],
+  "airports": 5,
+  "routes": 30,
+  "capital": {
+   "name": "Palikir",
+   "lon": 158.185,
+   "lat": 6.918
+  }
+ },
+ {
+  "iso2": "MD",
+  "name": "Moldova",
+  "bounds": [
+   [
+    26.62,
+    45.46
+   ],
+   [
+    30.13,
+    48.49
+   ]
+  ],
+  "airports": 1,
+  "routes": 78,
+  "capital": {
+   "name": "Chișinău",
+   "lon": 28.835,
+   "lat": 47.023
+  }
+ },
+ {
+  "iso2": "MC",
+  "name": "Monaco",
+  "bounds": [
+   [
+    7.37,
+    43.72
+   ],
+   [
+    7.44,
+    43.76
+   ]
+  ],
+  "airports": 1,
+  "routes": 2
  },
  {
   "iso2": "MN",
@@ -604,8 +2874,97 @@
     52.13
    ]
   ],
+  "airports": 8,
+  "routes": 48,
+  "capital": {
+   "name": "Ulaanbaatar",
+   "lon": 106.906,
+   "lat": 47.921
+  }
+ },
+ {
+  "iso2": "ME",
+  "name": "Montenegro",
+  "bounds": [
+   [
+    18.43,
+    41.85
+   ],
+   [
+    20.36,
+    43.55
+   ]
+  ],
+  "airports": 2,
+  "routes": 95,
+  "capital": {
+   "name": "Podgorica",
+   "lon": 19.263,
+   "lat": 42.441
+  }
+ },
+ {
+  "iso2": "MS",
+  "name": "Montserrat",
+  "bounds": [
+   [
+    -62.23,
+    16.68
+   ],
+   [
+    -62.14,
+    16.82
+   ]
+  ],
   "airports": 1,
-  "routes": 1
+  "routes": 4,
+  "capital": {
+   "name": "Brades",
+   "lon": -62.211,
+   "lat": 16.793
+  }
+ },
+ {
+  "iso2": "MA",
+  "name": "Morocco",
+  "bounds": [
+   [
+    -17.1,
+    20.77
+   ],
+   [
+    -1.03,
+    35.93
+   ]
+  ],
+  "airports": 17,
+  "routes": 522,
+  "capital": {
+   "name": "Rabat",
+   "lon": -6.841,
+   "lat": 34.021
+  }
+ },
+ {
+  "iso2": "MZ",
+  "name": "Mozambique",
+  "bounds": [
+   [
+    30.21,
+    -26.86
+   ],
+   [
+    40.85,
+    -10.47
+   ]
+  ],
+  "airports": 12,
+  "routes": 58,
+  "capital": {
+   "name": "Maputo",
+   "lon": 32.573,
+   "lat": -25.969
+  }
  },
  {
   "iso2": "MM",
@@ -620,8 +2979,55 @@
     28.54
    ]
   ],
-  "airports": 2,
-  "routes": 5
+  "airports": 28,
+  "routes": 124,
+  "capital": {
+   "name": "Naypyidaw",
+   "lon": 96.115,
+   "lat": 19.747
+  }
+ },
+ {
+  "iso2": "NA",
+  "name": "Namibia",
+  "bounds": [
+   [
+    11.72,
+    -28.96
+   ],
+   [
+    25.26,
+    -16.95
+   ]
+  ],
+  "airports": 11,
+  "routes": 37,
+  "capital": {
+   "name": "Windhoek",
+   "lon": 17.084,
+   "lat": -22.57
+  }
+ },
+ {
+  "iso2": "NR",
+  "name": "Nauru",
+  "bounds": [
+   [
+    166.91,
+    -0.55
+   ],
+   [
+    166.96,
+    -0.49
+   ]
+  ],
+  "airports": 1,
+  "routes": 4,
+  "capital": {
+   "name": "Yaren District",
+   "lon": 166.921,
+   "lat": -0.548
+  }
  },
  {
   "iso2": "NP",
@@ -636,8 +3042,13 @@
     30.42
    ]
   ],
-  "airports": 1,
-  "routes": 5
+  "airports": 33,
+  "routes": 135,
+  "capital": {
+   "name": "Kathmandu",
+   "lon": 85.32,
+   "lat": 27.71
+  }
  },
  {
   "iso2": "NL",
@@ -652,8 +3063,244 @@
     53.46
    ]
   ],
+  "airports": 6,
+  "routes": 453,
+  "capital": {
+   "name": "Amsterdam",
+   "lon": 4.883,
+   "lat": 52.367
+  }
+ },
+ {
+  "iso2": "NC",
+  "name": "New Caledonia",
+  "bounds": [
+   [
+    163.66,
+    -22.59
+   ],
+   [
+    168.04,
+    -19.72
+   ]
+  ],
+  "airports": 11,
+  "routes": 40,
+  "capital": {
+   "name": "Nouméa",
+   "lon": 166.45,
+   "lat": -22.267
+  }
+ },
+ {
+  "iso2": "NZ",
+  "name": "New Zealand",
+  "bounds": [
+   [
+    166.47,
+    -46.9
+   ],
+   [
+    183.53,
+    -35.07
+   ]
+  ],
+  "airports": 33,
+  "routes": 220,
+  "capital": {
+   "name": "Wellington",
+   "lon": 174.777,
+   "lat": -41.289
+  }
+ },
+ {
+  "iso2": "NI",
+  "name": "Nicaragua",
+  "bounds": [
+   [
+    -87.69,
+    10.71
+   ],
+   [
+    -83.06,
+    15.03
+   ]
+  ],
+  "airports": 4,
+  "routes": 17,
+  "capital": {
+   "name": "Managua",
+   "lon": -86.274,
+   "lat": 12.155
+  }
+ },
+ {
+  "iso2": "NE",
+  "name": "Niger",
+  "bounds": [
+   [
+    0.15,
+    11.7
+   ],
+   [
+    15.97,
+    23.52
+   ]
+  ],
+  "airports": 2,
+  "routes": 16,
+  "capital": {
+   "name": "Niamey",
+   "lon": 2.118,
+   "lat": 13.515
+  }
+ },
+ {
+  "iso2": "NG",
+  "name": "Nigeria",
+  "bounds": [
+   [
+    2.67,
+    4.27
+   ],
+   [
+    14.67,
+    13.88
+   ]
+  ],
+  "airports": 24,
+  "routes": 128,
+  "capital": {
+   "name": "Abuja",
+   "lon": 7.491,
+   "lat": 9.056
+  }
+ },
+ {
+  "iso2": "NU",
+  "name": "Niue",
+  "bounds": [
+   [
+    -169.95,
+    -19.14
+   ],
+   [
+    -169.78,
+    -18.96
+   ]
+  ],
   "airports": 1,
-  "routes": 4
+  "routes": 1,
+  "capital": {
+   "name": "Alofi",
+   "lon": -169.921,
+   "lat": -19.056
+  }
+ },
+ {
+  "iso2": "NF",
+  "name": "Norfolk Island",
+  "bounds": [
+   [
+    167.91,
+    -29.08
+   ],
+   [
+    168.0,
+    -29.0
+   ]
+  ],
+  "airports": 1,
+  "routes": 2,
+  "capital": {
+   "name": "Kingston",
+   "lon": 167.967,
+   "lat": -29.05
+  }
+ },
+ {
+  "iso2": "KP",
+  "name": "North Korea",
+  "bounds": [
+   [
+    124.32,
+    37.68
+   ],
+   [
+    130.7,
+    43.01
+   ]
+  ],
+  "airports": 5,
+  "routes": 12,
+  "capital": {
+   "name": "Pyongyang",
+   "lon": 125.748,
+   "lat": 39.017
+  }
+ },
+ {
+  "iso2": "MK",
+  "name": "North Macedonia",
+  "bounds": [
+   [
+    20.44,
+    40.85
+   ],
+   [
+    23.01,
+    42.37
+   ]
+  ],
+  "airports": 2,
+  "routes": 71,
+  "capital": {
+   "name": "Skopje",
+   "lon": 21.432,
+   "lat": 41.996
+  }
+ },
+ {
+  "iso2": "MP",
+  "name": "Northern Mariana Islands",
+  "bounds": [
+   [
+    145.24,
+    14.17
+   ],
+   [
+    145.82,
+    15.27
+   ]
+  ],
+  "airports": 3,
+  "routes": 9,
+  "capital": {
+   "name": "Saipan",
+   "lon": 145.755,
+   "lat": 15.212
+  }
+ },
+ {
+  "iso2": "NO",
+  "name": "Norway",
+  "bounds": [
+   [
+    4.93,
+    57.99
+   ],
+   [
+    31.08,
+    78.93
+   ]
+  ],
+  "airports": 48,
+  "routes": 612,
+  "capital": {
+   "name": "Q585",
+   "lon": 10.739,
+   "lat": 59.913
+  }
  },
  {
   "iso2": "OM",
@@ -665,27 +3312,163 @@
    ],
    [
     59.84,
-    24.98
+    26.17
    ]
   ],
-  "airports": 2,
-  "routes": 16
+  "airports": 6,
+  "routes": 123,
+  "capital": {
+   "name": "Muscat",
+   "lon": 58.592,
+   "lat": 23.614
+  }
+ },
+ {
+  "iso2": "PK",
+  "name": "Pakistan",
+  "bounds": [
+   [
+    60.84,
+    23.69
+   ],
+   [
+    75.36,
+    36.9
+   ]
+  ],
+  "airports": 14,
+  "routes": 149,
+  "capital": {
+   "name": "Islamabad",
+   "lon": 73.037,
+   "lat": 33.699
+  }
+ },
+ {
+  "iso2": "PW",
+  "name": "Palau",
+  "bounds": [
+   [
+    134.35,
+    7.22
+   ],
+   [
+    134.66,
+    7.73
+   ]
+  ],
+  "airports": 1,
+  "routes": 9,
+  "capital": {
+   "name": "Ngerulmud",
+   "lon": 134.624,
+   "lat": 7.501
+  }
+ },
+ {
+  "iso2": "PA",
+  "name": "Panama",
+  "bounds": [
+   [
+    -83.05,
+    7.21
+   ],
+   [
+    -77.16,
+    9.63
+   ]
+  ],
+  "airports": 23,
+  "routes": 136,
+  "capital": {
+   "name": "Panama City",
+   "lon": -79.535,
+   "lat": 8.971
+  }
+ },
+ {
+  "iso2": "PG",
+  "name": "Papua New Guinea",
+  "bounds": [
+   [
+    140.85,
+    -10.7
+   ],
+   [
+    155.73,
+    -2.06
+   ]
+  ],
+  "airports": 43,
+  "routes": 146,
+  "capital": {
+   "name": "Port Moresby",
+   "lon": 147.149,
+   "lat": -9.479
+  }
+ },
+ {
+  "iso2": "PY",
+  "name": "Paraguay",
+  "bounds": [
+   [
+    -62.65,
+    -27.59
+   ],
+   [
+    -54.25,
+    -19.29
+   ]
+  ],
+  "airports": 1,
+  "routes": 14,
+  "capital": {
+   "name": "Asunción",
+   "lon": -57.634,
+   "lat": -25.28
+  }
+ },
+ {
+  "iso2": "PE",
+  "name": "Peru",
+  "bounds": [
+   [
+    -81.34,
+    -18.34
+   ],
+   [
+    -68.68,
+    -0.03
+   ]
+  ],
+  "airports": 28,
+  "routes": 122,
+  "capital": {
+   "name": "Lima",
+   "lon": -77.037,
+   "lat": -12.06
+  }
  },
  {
   "iso2": "PH",
   "name": "Philippines",
   "bounds": [
    [
-    119.76,
-    12.54
+    118.76,
+    5.05
    ],
    [
-    124.19,
-    18.65
+    126.01,
+    20.72
    ]
   ],
-  "airports": 1,
-  "routes": 2
+  "airports": 45,
+  "routes": 307,
+  "capital": {
+   "name": "Manila",
+   "lon": 120.977,
+   "lat": 14.596
+  }
  },
  {
   "iso2": "PL",
@@ -700,8 +3483,55 @@
     54.84
    ]
   ],
-  "airports": 1,
-  "routes": 1
+  "airports": 15,
+  "routes": 787,
+  "capital": {
+   "name": "Warsaw",
+   "lon": 21.011,
+   "lat": 52.23
+  }
+ },
+ {
+  "iso2": "PT",
+  "name": "Portugal",
+  "bounds": [
+   [
+    -31.13,
+    32.7
+   ],
+   [
+    -6.21,
+    42.15
+   ]
+  ],
+  "airports": 19,
+  "routes": 559,
+  "capital": {
+   "name": "Lisbon",
+   "lon": -9.139,
+   "lat": 38.708
+  }
+ },
+ {
+  "iso2": "PR",
+  "name": "Puerto Rico",
+  "bounds": [
+   [
+    -67.27,
+    17.92
+   ],
+   [
+    -65.3,
+    18.52
+   ]
+  ],
+  "airports": 8,
+  "routes": 87,
+  "capital": {
+   "name": "San Juan",
+   "lon": -66.117,
+   "lat": 18.465
+  }
  },
  {
   "iso2": "QA",
@@ -716,24 +3546,286 @@
     26.16
    ]
   ],
-  "airports": 1,
-  "routes": 14
+  "airports": 2,
+  "routes": 196,
+  "capital": {
+   "name": "Doha",
+   "lon": 51.529,
+   "lat": 25.286
+  }
+ },
+ {
+  "iso2": "CG",
+  "name": "Republic of the Congo",
+  "bounds": [
+   [
+    11.11,
+    -5.02
+   ],
+   [
+    18.64,
+    3.71
+   ]
+  ],
+  "airports": 4,
+  "routes": 26,
+  "capital": {
+   "name": "Brazzaville",
+   "lon": 15.271,
+   "lat": -4.269
+  }
+ },
+ {
+  "iso2": "RO",
+  "name": "Romania",
+  "bounds": [
+   [
+    20.24,
+    43.65
+   ],
+   [
+    29.7,
+    48.27
+   ]
+  ],
+  "airports": 16,
+  "routes": 410,
+  "capital": {
+   "name": "Bucharest",
+   "lon": 26.098,
+   "lat": 44.413
+  }
  },
  {
   "iso2": "RU",
   "name": "Russia",
   "bounds": [
    [
-    27.33,
+    20.6,
     41.19
    ],
    [
-    180.0,
+    189.0,
     77.74
    ]
   ],
-  "airports": 4,
-  "routes": 6
+  "airports": 189,
+  "routes": 2462,
+  "capital": {
+   "name": "Moscow",
+   "lon": 37.617,
+   "lat": 55.751
+  }
+ },
+ {
+  "iso2": "RW",
+  "name": "Rwanda",
+  "bounds": [
+   [
+    28.86,
+    -2.83
+   ],
+   [
+    30.89,
+    -1.06
+   ]
+  ],
+  "airports": 2,
+  "routes": 28,
+  "capital": {
+   "name": "Kigali",
+   "lon": 30.115,
+   "lat": -1.952
+  }
+ },
+ {
+  "iso2": "RE",
+  "name": "Réunion",
+  "bounds": [
+   [
+    55.23,
+    -21.37
+   ],
+   [
+    55.85,
+    -20.86
+   ]
+  ],
+  "airports": 2,
+  "routes": 15,
+  "capital": {
+   "name": "Saint-Denis",
+   "lon": 55.448,
+   "lat": -20.879
+  }
+ },
+ {
+  "iso2": "BL",
+  "name": "Saint Barthélemy",
+  "bounds": [
+   [
+    -62.87,
+    17.88
+   ],
+   [
+    -62.79,
+    17.93
+   ]
+  ],
+  "airports": 1,
+  "routes": 8,
+  "capital": {
+   "name": "Gustavia",
+   "lon": -62.849,
+   "lat": 17.899
+  }
+ },
+ {
+  "iso2": "SH",
+  "name": "Saint Helena",
+  "bounds": [
+   [
+    -14.39,
+    -16.02
+   ],
+   [
+    -5.65,
+    -7.97
+   ]
+  ],
+  "airports": 2,
+  "routes": 3,
+  "capital": {
+   "name": "Jamestown",
+   "lon": -5.718,
+   "lat": -15.925
+  }
+ },
+ {
+  "iso2": "KN",
+  "name": "Saint Kitts and Nevis",
+  "bounds": [
+   [
+    -62.86,
+    17.1
+   ],
+   [
+    -62.54,
+    17.42
+   ]
+  ],
+  "airports": 2,
+  "routes": 22,
+  "capital": {
+   "name": "Basseterre",
+   "lon": -62.734,
+   "lat": 17.298
+  }
+ },
+ {
+  "iso2": "LC",
+  "name": "Saint Lucia",
+  "bounds": [
+   [
+    -61.08,
+    13.71
+   ],
+   [
+    -60.88,
+    14.11
+   ]
+  ],
+  "airports": 2,
+  "routes": 24,
+  "capital": {
+   "name": "Castries",
+   "lon": -60.989,
+   "lat": 14.011
+  }
+ },
+ {
+  "iso2": "MF",
+  "name": "Saint Martin",
+  "bounds": [
+   [
+    -63.15,
+    18.03
+   ],
+   [
+    -63.01,
+    18.12
+   ]
+  ],
+  "airports": 1,
+  "routes": 4,
+  "capital": {
+   "name": "Marigot",
+   "lon": -63.085,
+   "lat": 18.067
+  }
+ },
+ {
+  "iso2": "PM",
+  "name": "Saint Pierre and Miquelon",
+  "bounds": [
+   [
+    -56.4,
+    46.75
+   ],
+   [
+    -56.14,
+    47.14
+   ]
+  ],
+  "airports": 2,
+  "routes": 6,
+  "capital": {
+   "name": "Saint-Pierre",
+   "lon": -56.178,
+   "lat": 46.778
+  }
+ },
+ {
+  "iso2": "VC",
+  "name": "Saint Vincent and the Grenadines",
+  "bounds": [
+   [
+    -61.41,
+    12.6
+   ],
+   [
+    -61.12,
+    13.38
+   ]
+  ],
+  "airports": 5,
+  "routes": 35,
+  "capital": {
+   "name": "Kingstown",
+   "lon": -61.227,
+   "lat": 13.155
+  }
+ },
+ {
+  "iso2": "WS",
+  "name": "Samoa",
+  "bounds": [
+   [
+    -172.78,
+    -14.05
+   ],
+   [
+    -171.44,
+    -13.46
+   ]
+  ],
+  "airports": 3,
+  "routes": 8,
+  "capital": {
+   "name": "Apia",
+   "lon": -171.833,
+   "lat": -13.833
+  }
  },
  {
   "iso2": "SA",
@@ -748,8 +3840,55 @@
     32.12
    ]
   ],
-  "airports": 4,
-  "routes": 33
+  "airports": 28,
+  "routes": 640,
+  "capital": {
+   "name": "Riyadh",
+   "lon": 46.715,
+   "lat": 24.638
+  }
+ },
+ {
+  "iso2": "SN",
+  "name": "Senegal",
+  "bounds": [
+   [
+    -17.54,
+    12.31
+   ],
+   [
+    -11.38,
+    16.69
+   ]
+  ],
+  "airports": 3,
+  "routes": 49,
+  "capital": {
+   "name": "Dakar",
+   "lon": -17.432,
+   "lat": 14.673
+  }
+ },
+ {
+  "iso2": "RS",
+  "name": "Serbia",
+  "bounds": [
+   [
+    18.84,
+    41.84
+   ],
+   [
+    22.98,
+    46.17
+   ]
+  ],
+  "airports": 3,
+  "routes": 151,
+  "capital": {
+   "name": "Belgrade",
+   "lon": 20.457,
+   "lat": 44.818
+  }
  },
  {
   "iso2": "SC",
@@ -760,12 +3899,38 @@
     -4.8
    ],
    [
-    55.54,
-    -4.56
+    55.69,
+    -4.32
+   ]
+  ],
+  "airports": 2,
+  "routes": 20,
+  "capital": {
+   "name": "Victoria",
+   "lon": 55.454,
+   "lat": -4.624
+  }
+ },
+ {
+  "iso2": "SL",
+  "name": "Sierra Leone",
+  "bounds": [
+   [
+    -13.3,
+    6.92
+   ],
+   [
+    -10.28,
+    10.0
    ]
   ],
   "airports": 1,
-  "routes": 1
+  "routes": 13,
+  "capital": {
+   "name": "Freetown",
+   "lon": -13.236,
+   "lat": 8.487
+  }
  },
  {
   "iso2": "SG",
@@ -780,8 +3945,134 @@
     1.45
    ]
   ],
+  "airports": 2,
+  "routes": 175
+ },
+ {
+  "iso2": "SX",
+  "name": "Sint Maarten",
+  "bounds": [
+   [
+    -63.12,
+    18.02
+   ],
+   [
+    -63.02,
+    18.06
+   ]
+  ],
   "airports": 1,
-  "routes": 15
+  "routes": 45,
+  "capital": {
+   "name": "Philipsburg",
+   "lon": -63.043,
+   "lat": 18.024
+  }
+ },
+ {
+  "iso2": "SK",
+  "name": "Slovakia",
+  "bounds": [
+   [
+    16.84,
+    47.75
+   ],
+   [
+    22.54,
+    49.6
+   ]
+  ],
+  "airports": 4,
+  "routes": 108,
+  "capital": {
+   "name": "Bratislava",
+   "lon": 17.109,
+   "lat": 48.152
+  }
+ },
+ {
+  "iso2": "SI",
+  "name": "Slovenia",
+  "bounds": [
+   [
+    13.37,
+    45.42
+   ],
+   [
+    16.52,
+    46.86
+   ]
+  ],
+  "airports": 1,
+  "routes": 36,
+  "capital": {
+   "name": "Ljubljana",
+   "lon": 14.506,
+   "lat": 46.051
+  }
+ },
+ {
+  "iso2": "SB",
+  "name": "Solomon Islands",
+  "bounds": [
+   [
+    155.56,
+    -11.55
+   ],
+   [
+    166.33,
+    -6.71
+   ]
+  ],
+  "airports": 18,
+  "routes": 39,
+  "capital": {
+   "name": "Honiara",
+   "lon": 159.95,
+   "lat": -9.433
+  }
+ },
+ {
+  "iso2": "SO",
+  "name": "Somalia",
+  "bounds": [
+   [
+    40.97,
+    -1.7
+   ],
+   [
+    51.42,
+    11.99
+   ]
+  ],
+  "airports": 11,
+  "routes": 49,
+  "capital": {
+   "name": "Mogadishu",
+   "lon": 45.342,
+   "lat": 2.039
+  }
+ },
+ {
+  "iso2": "ZA",
+  "name": "South Africa",
+  "bounds": [
+   [
+    16.47,
+    -34.82
+   ],
+   [
+    32.89,
+    -22.13
+   ]
+  ],
+  "airports": 21,
+  "routes": 192,
+  "capital": {
+   "name": "Pretoria",
+   "lon": 28.188,
+   "lat": -25.746
+  }
  },
  {
   "iso2": "KR",
@@ -789,15 +4080,62 @@
   "bounds": [
    [
     126.13,
-    34.29
+    33.51
    ],
    [
     129.59,
     38.62
    ]
   ],
-  "airports": 1,
-  "routes": 1
+  "airports": 15,
+  "routes": 341,
+  "capital": {
+   "name": "Seoul",
+   "lon": 126.99,
+   "lat": 37.56
+  }
+ },
+ {
+  "iso2": "SS",
+  "name": "South Sudan",
+  "bounds": [
+   [
+    24.12,
+    3.49
+   ],
+   [
+    35.92,
+    12.22
+   ]
+  ],
+  "airports": 4,
+  "routes": 13,
+  "capital": {
+   "name": "Juba",
+   "lon": 31.582,
+   "lat": 4.854
+  }
+ },
+ {
+  "iso2": "ES",
+  "name": "Spain",
+  "bounds": [
+   [
+    -17.89,
+    27.81
+   ],
+   [
+    4.22,
+    43.79
+   ]
+  ],
+  "airports": 43,
+  "routes": 2307,
+  "capital": {
+   "name": "Madrid",
+   "lon": -3.703,
+   "lat": 40.417
+  }
  },
  {
   "iso2": "LK",
@@ -812,8 +4150,76 @@
     9.83
    ]
   ],
-  "airports": 2,
-  "routes": 12
+  "airports": 12,
+  "routes": 99,
+  "capital": {
+   "name": "Sri Jayawardenepura Kotte",
+   "lon": 79.916,
+   "lat": 6.9
+  }
+ },
+ {
+  "iso2": "SD",
+  "name": "Sudan",
+  "bounds": [
+   [
+    21.81,
+    8.68
+   ],
+   [
+    38.6,
+    22.23
+   ]
+  ],
+  "airports": 9,
+  "routes": 32,
+  "capital": {
+   "name": "Khartoum",
+   "lon": 32.527,
+   "lat": 15.603
+  }
+ },
+ {
+  "iso2": "SR",
+  "name": "Suriname",
+  "bounds": [
+   [
+    -58.07,
+    1.83
+   ],
+   [
+    -53.99,
+    6.01
+   ]
+  ],
+  "airports": 5,
+  "routes": 14,
+  "capital": {
+   "name": "Paramaribo",
+   "lon": -55.167,
+   "lat": 5.867
+  }
+ },
+ {
+  "iso2": "SE",
+  "name": "Sweden",
+  "bounds": [
+   [
+    11.11,
+    55.34
+   ],
+   [
+    24.16,
+    69.04
+   ]
+  ],
+  "airports": 38,
+  "routes": 394,
+  "capital": {
+   "name": "Stockholm",
+   "lon": 18.069,
+   "lat": 59.329
+  }
  },
  {
   "iso2": "CH",
@@ -828,24 +4234,76 @@
     47.8
    ]
   ],
-  "airports": 1,
-  "routes": 3
+  "airports": 5,
+  "routes": 400,
+  "capital": {
+   "name": "Bern",
+   "lon": 7.447,
+   "lat": 46.948
+  }
+ },
+ {
+  "iso2": "SY",
+  "name": "Syria",
+  "bounds": [
+   [
+    35.59,
+    32.31
+   ],
+   [
+    42.38,
+    37.32
+   ]
+  ],
+  "airports": 3,
+  "routes": 56,
+  "capital": {
+   "name": "Damascus",
+   "lon": 36.292,
+   "lat": 33.513
+  }
+ },
+ {
+  "iso2": "ST",
+  "name": "São Tomé and Principe",
+  "bounds": [
+   [
+    6.46,
+    0.02
+   ],
+   [
+    7.46,
+    1.7
+   ]
+  ],
+  "airports": 2,
+  "routes": 8,
+  "capital": {
+   "name": "São Tomé",
+   "lon": 6.728,
+   "lat": 0.338
+  }
  },
  {
   "iso2": "TW",
   "name": "Taiwan",
   "bounds": [
    [
-    120.05,
+    118.36,
     21.9
    ],
    [
     122.01,
-    25.29
+    26.22
    ]
   ],
-  "airports": 1,
-  "routes": 1
+  "airports": 16,
+  "routes": 214,
+  "capital": {
+   "name": "Taipei",
+   "lon": 121.562,
+   "lat": 25.038
+  }
  },
  {
   "iso2": "TJ",
@@ -860,8 +4318,13 @@
     41.04
    ]
   ],
-  "airports": 1,
-  "routes": 1
+  "airports": 5,
+  "routes": 65,
+  "capital": {
+   "name": "Dushanbe",
+   "lon": 68.786,
+   "lat": 38.573
+  }
  },
  {
   "iso2": "TZ",
@@ -876,8 +4339,13 @@
     -0.99
    ]
   ],
-  "airports": 1,
-  "routes": 1
+  "airports": 25,
+  "routes": 189,
+  "capital": {
+   "name": "Dodoma",
+   "lon": 35.746,
+   "lat": -6.184
+  }
  },
  {
   "iso2": "TH",
@@ -892,8 +4360,118 @@
     20.45
    ]
   ],
-  "airports": 4,
-  "routes": 37
+  "airports": 31,
+  "routes": 489,
+  "capital": {
+   "name": "Bangkok",
+   "lon": 100.517,
+   "lat": 13.75
+  }
+ },
+ {
+  "iso2": "TL",
+  "name": "Timor-Leste",
+  "bounds": [
+   [
+    124.34,
+    -9.49
+   ],
+   [
+    127.31,
+    -8.31
+   ]
+  ],
+  "airports": 5,
+  "routes": 11,
+  "capital": {
+   "name": "Dili",
+   "lon": 125.578,
+   "lat": -8.554
+  }
+ },
+ {
+  "iso2": "TG",
+  "name": "Togo",
+  "bounds": [
+   [
+    -0.17,
+    6.1
+   ],
+   [
+    1.78,
+    11.13
+   ]
+  ],
+  "airports": 1,
+  "routes": 34,
+  "capital": {
+   "name": "Lomé",
+   "lon": 1.216,
+   "lat": 6.13
+  }
+ },
+ {
+  "iso2": "TO",
+  "name": "Tonga",
+  "bounds": [
+   [
+    -175.63,
+    -21.38
+   ],
+   [
+    -173.79,
+    -15.57
+   ]
+  ],
+  "airports": 6,
+  "routes": 13,
+  "capital": {
+   "name": "Nukuʻalofa",
+   "lon": -175.202,
+   "lat": -21.134
+  }
+ },
+ {
+  "iso2": "TT",
+  "name": "Trinidad and Tobago",
+  "bounds": [
+   [
+    -61.93,
+    10.04
+   ],
+   [
+    -60.83,
+    11.15
+   ]
+  ],
+  "airports": 2,
+  "routes": 35,
+  "capital": {
+   "name": "Port of Spain",
+   "lon": -61.517,
+   "lat": 10.667
+  }
+ },
+ {
+  "iso2": "TN",
+  "name": "Tunisia",
+  "bounds": [
+   [
+    7.48,
+    30.23
+   ],
+   [
+    11.56,
+    37.35
+   ]
+  ],
+  "airports": 6,
+  "routes": 184,
+  "capital": {
+   "name": "Tunis",
+   "lon": 10.18,
+   "lat": 36.801
+  }
  },
  {
   "iso2": "TR",
@@ -908,8 +4486,13 @@
     42.1
    ]
   ],
-  "airports": 1,
-  "routes": 2
+  "airports": 52,
+  "routes": 1307,
+  "capital": {
+   "name": "Ankara",
+   "lon": 32.839,
+   "lat": 39.936
+  }
  },
  {
   "iso2": "TM",
@@ -924,8 +4507,76 @@
     42.79
    ]
   ],
+  "airports": 7,
+  "routes": 38,
+  "capital": {
+   "name": "Ashgabat",
+   "lon": 58.383,
+   "lat": 37.95
+  }
+ },
+ {
+  "iso2": "TC",
+  "name": "Turks and Caicos Islands",
+  "bounds": [
+   [
+    -72.48,
+    21.33
+   ],
+   [
+    -71.13,
+    21.96
+   ]
+  ],
+  "airports": 5,
+  "routes": 45,
+  "capital": {
+   "name": "Cockburn Town",
+   "lon": -71.141,
+   "lat": 21.46
+  }
+ },
+ {
+  "iso2": "TV",
+  "name": "Tuvalu",
+  "bounds": [
+   [
+    179.19,
+    -8.54
+   ],
+   [
+    179.22,
+    -8.46
+   ]
+  ],
   "airports": 1,
-  "routes": 1
+  "routes": 2,
+  "capital": {
+   "name": "Funafuti",
+   "lon": 179.117,
+   "lat": -8.505
+  }
+ },
+ {
+  "iso2": "VI",
+  "name": "U.S. Virgin Islands",
+  "bounds": [
+   [
+    -65.04,
+    17.68
+   ],
+   [
+    -64.56,
+    18.39
+   ]
+  ],
+  "airports": 4,
+  "routes": 38,
+  "capital": {
+   "name": "Charlotte Amalie",
+   "lon": -64.95,
+   "lat": 18.35
+  }
  },
  {
   "iso2": "UG",
@@ -940,8 +4591,34 @@
     4.22
    ]
   ],
+  "airports": 7,
+  "routes": 43,
+  "capital": {
+   "name": "Kampala",
+   "lon": 32.581,
+   "lat": 0.314
+  }
+ },
+ {
+  "iso2": "UA",
+  "name": "Ukraine",
+  "bounds": [
+   [
+    22.13,
+    44.38
+   ],
+   [
+    40.16,
+    52.37
+   ]
+  ],
   "airports": 1,
-  "routes": 1
+  "routes": 5,
+  "capital": {
+   "name": "Kyiv",
+   "lon": 30.524,
+   "lat": 50.45
+  }
  },
  {
   "iso2": "AE",
@@ -956,40 +4633,76 @@
     26.07
    ]
   ],
-  "airports": 6,
-  "routes": 79
+  "airports": 8,
+  "routes": 636,
+  "capital": {
+   "name": "Abu Dhabi",
+   "lon": 54.397,
+   "lat": 24.451
+  }
  },
  {
   "iso2": "GB",
   "name": "United Kingdom",
   "bounds": [
    [
-    -6.24,
-    49.96
+    -7.44,
+    49.91
    ],
    [
     1.77,
-    58.68
+    60.19
    ]
   ],
-  "airports": 4,
-  "routes": 11
+  "airports": 54,
+  "routes": 2298,
+  "capital": {
+   "name": "London",
+   "lon": -0.128,
+   "lat": 51.507
+  }
  },
  {
   "iso2": "US",
   "name": "United States",
   "bounds": [
    [
-    -124.73,
-    25.12
+    -176.64,
+    19.72
    ],
    [
     -66.98,
-    49.37
+    71.29
    ]
   ],
-  "airports": 4,
-  "routes": 6
+  "airports": 686,
+  "routes": 10255,
+  "capital": {
+   "name": "Washington, D.C.",
+   "lon": -77.037,
+   "lat": 38.895
+  }
+ },
+ {
+  "iso2": "UY",
+  "name": "Uruguay",
+  "bounds": [
+   [
+    -58.44,
+    -34.97
+   ],
+   [
+    -53.11,
+    -30.1
+   ]
+  ],
+  "airports": 2,
+  "routes": 26,
+  "capital": {
+   "name": "Montevideo",
+   "lon": -56.191,
+   "lat": -34.906
+  }
  },
  {
   "iso2": "UZ",
@@ -1004,8 +4717,55 @@
     45.56
    ]
   ],
-  "airports": 2,
-  "routes": 5
+  "airports": 13,
+  "routes": 259,
+  "capital": {
+   "name": "Tashkent",
+   "lon": 69.28,
+   "lat": 41.311
+  }
+ },
+ {
+  "iso2": "VU",
+  "name": "Vanuatu",
+  "bounds": [
+   [
+    166.52,
+    -19.46
+   ],
+   [
+    169.22,
+    -13.67
+   ]
+  ],
+  "airports": 15,
+  "routes": 42,
+  "capital": {
+   "name": "Port Vila",
+   "lon": 168.317,
+   "lat": -17.733
+  }
+ },
+ {
+  "iso2": "VE",
+  "name": "Venezuela",
+  "bounds": [
+   [
+    -73.39,
+    0.65
+   ],
+   [
+    -59.82,
+    12.2
+   ]
+  ],
+  "airports": 28,
+  "routes": 138,
+  "capital": {
+   "name": "Caracas",
+   "lon": -66.914,
+   "lat": 10.506
+  }
  },
  {
   "iso2": "VN",
@@ -1020,8 +4780,50 @@
     23.37
    ]
   ],
-  "airports": 3,
-  "routes": 14
+  "airports": 22,
+  "routes": 412,
+  "capital": {
+   "name": "Hanoi",
+   "lon": 105.841,
+   "lat": 21.024
+  }
+ },
+ {
+  "iso2": "WF",
+  "name": "Wallis and Futuna",
+  "bounds": [
+   [
+    -176.2,
+    -13.35
+   ],
+   [
+    -176.13,
+    -13.21
+   ]
+  ],
+  "airports": 1,
+  "routes": 1,
+  "capital": {
+   "name": "Mata-Utu",
+   "lon": -176.174,
+   "lat": -13.283
+  }
+ },
+ {
+  "iso2": "EH",
+  "name": "Western Sahara",
+  "bounds": [
+   [
+    -16.53,
+    23.12
+   ],
+   [
+    -13.22,
+    27.14
+   ]
+  ],
+  "airports": 2,
+  "routes": 16
  },
  {
   "iso2": "YE",
@@ -1032,11 +4834,58 @@
     12.6
    ],
    [
-    53.09,
+    53.91,
     19.0
    ]
   ],
-  "airports": 2,
-  "routes": 2
+  "airports": 6,
+  "routes": 25,
+  "capital": {
+   "name": "Sanaa",
+   "lon": 44.2,
+   "lat": 15.35
+  }
+ },
+ {
+  "iso2": "ZM",
+  "name": "Zambia",
+  "bounds": [
+   [
+    21.98,
+    -18.07
+   ],
+   [
+    33.67,
+    -8.19
+   ]
+  ],
+  "airports": 7,
+  "routes": 44,
+  "capital": {
+   "name": "Lusaka",
+   "lon": 28.283,
+   "lat": -15.417
+  }
+ },
+ {
+  "iso2": "ZW",
+  "name": "Zimbabwe",
+  "bounds": [
+   [
+    25.22,
+    -22.4
+   ],
+   [
+    33.04,
+    -15.61
+   ]
+  ],
+  "airports": 5,
+  "routes": 37,
+  "capital": {
+   "name": "Harare",
+   "lon": 31.052,
+   "lat": -17.829
+  }
  }
 ]

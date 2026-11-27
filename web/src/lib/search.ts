@@ -50,6 +50,8 @@ export type SearchResult = {
   airport: Airport;
   nearby?: { of: Airport; km: number };
   inCountry?: string; // set when the result came from matching a country name
+  /** Matches in more than one country (London, UK and Ontario): the country this one is listed under. */
+  group?: string;
 };
 
 type Entry = { airport: Airport; primary: string[]; secondary: string[] };
@@ -110,7 +112,7 @@ export function createOriginSearch(origins: Airport[], routeCount: (iata: string
     minMatchCharLength: 3,
   });
 
-  return (query: string, limit = 6): SearchResult[] => {
+  return (query: string, limit = 8): SearchResult[] => {
     const q = normalise(query);
     if (!q) return [];
     const qCode = q.toUpperCase();
@@ -133,27 +135,43 @@ export function createOriginSearch(origins: Airport[], routeCount: (iata: string
     const exactCountry = countryResults(true);
     if (exactCountry) return exactCountry;
 
-    let matches = entries
-      .map((e) => ({ e, s: score(e, q, qCode) }))
-      .filter((m) => m.s > 0)
-      .sort((a, b) => b.s - a.s || a.e.airport.label.localeCompare(b.e.airport.label))
-      .map((m) => m.e.airport);
+    const scored = entries.map((e) => ({ e, s: score(e, q, qCode) })).filter((m) => m.s > 0);
+    // An exact code ("lhr") comes first on its own. The rest are grouped by country, each country's airports busiest
+    // first. Countries in order of their best match (the city's exact name, London or San Jose; then names that start
+    // with or contain the search, East London; then only the airport's full name, Porlamar's "Santiago Mariño"),
+    // then by their total routes: London lists the UK's six airports, then Ontario's, then East London.
+    const exact = scored.filter((m) => m.s === 100).map((m) => m.e.airport);
+    const tierOf = (s: number) => (s >= 95 ? 0 : s >= 70 ? 1 : 2);
+    const byCountry = new Map<string, { airports: Airport[]; tier: number; routes: number }>();
+    for (const { e, s } of scored.filter((m) => m.s < 100)) {
+      const g = byCountry.get(e.airport.country) ?? { airports: [], tier: 2, routes: 0 };
+      g.airports.push(e.airport);
+      g.tier = Math.min(g.tier, tierOf(s));
+      g.routes += routeCount(e.airport.iata);
+      byCountry.set(e.airport.country, g);
+    }
+    const grouped = [...byCountry.values()]
+      .sort((a, b) => a.tier - b.tier || b.routes - a.routes || a.airports[0].country_name.localeCompare(b.airports[0].country_name))
+      .flatMap((g) => g.airports.sort((a, b) => routeCount(b.iata) - routeCount(a.iata) || a.label.localeCompare(b.label)));
+    let matches = [...exact, ...grouped];
     if (matches.length === 0 && q.length >= 4) {
       matches = fuse.search(q, { limit: 3 }).map((r) => r.item.airport);
     }
     matches = matches.slice(0, limit);
     if (matches.length === 0) return countryResults(false) ?? [];
+    const severalCountries = new Set(matches.map((a) => a.country)).size > 1;
 
-    // Nearby airports: around the best match, closest first, excluding ones already listed.
+    // Nearby airports: around the best match, closest first, excluding ones already listed. Same country only:
+    // Lahore is 50 km from Amritsar, but not a practical alternative to it.
     const top = matches[0];
     const shown = new Set(matches.map((a) => a.iata));
     const nearby = origins
-      .filter((a) => !shown.has(a.iata))
+      .filter((a) => !shown.has(a.iata) && a.country === top.country)
       .map((a) => ({ airport: a, nearby: { of: top, km: distanceKm(top, a) } }))
       .filter((r) => r.nearby.km <= NEARBY_KM)
       .sort((a, b) => a.nearby.km - b.nearby.km)
       .slice(0, 4);
 
-    return [...matches.map((airport) => ({ airport })), ...nearby];
+    return [...matches.map((airport) => (severalCountries ? { airport, group: airport.country_name } : { airport })), ...nearby];
   };
 }

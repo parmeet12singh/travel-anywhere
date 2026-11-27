@@ -78,13 +78,15 @@
   margin-bottom: 16px;
 }
 [data-theme="dark"] .maplibregl-ctrl-group,
-[data-theme="dark"] .maplibregl-ctrl-attrib {
+[data-theme="dark"] .maplibregl-ctrl-attrib,
+[data-theme="dark"] .maplibregl-map .maplibregl-ctrl-attrib.maplibregl-compact {
   background: var(--color-surface);
   color: var(--color-slate);
 }
 [data-theme="dark"] .maplibregl-ctrl-attrib a {
   color: var(--color-slate);
 }
+[data-theme="dark"] .maplibregl-ctrl-attrib-button,
 [data-theme="dark"] .maplibregl-ctrl button .maplibregl-ctrl-icon {
   filter: invert(1);
 }

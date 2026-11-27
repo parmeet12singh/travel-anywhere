@@ -7,10 +7,11 @@ import type { Link } from "./lib/pairs";
 import { countryLinks, linkCountsFrom } from "./lib/pairs";
 import { AppHeader, BackLink, DestinationDetail, DestinationList, Filters, OriginHeader, Welcome } from "./components/PanelSections";
 import type { Dataset } from "./lib/data";
-import { HOME_COUNTRY } from "./lib/data";
+import { DEFAULT_COUNTRY } from "./lib/data";
 import { loadDataset } from "./lib/data";
 import type { Scope, SortKey } from "./lib/destinations";
 import { airlinesFrom, destinationsFrom, filterAndSort } from "./lib/destinations";
+import { unwrapLongitudes, unwrapped } from "./lib/geo";
 import { createOriginSearch } from "./lib/search";
 import type { UrlState } from "./lib/url";
 import { readUrlState, writeUrlState } from "./lib/url";
@@ -27,7 +28,9 @@ function selectionFrom(data: Dataset, { from, to }: UrlState): Selection {
   const dest = origin && to && data.routesByOrigin.get(origin)!.some((r) => r.dest === to) ? to : null;
   return { origin, dest };
 }
-const scopeFrom = (show: string | null): Scope => (show === "india" || show === "abroad" ? show : "all");
+// "india" is how older links spelled "domestic".
+const scopeFrom = (show: string | null): Scope =>
+  show === "domestic" || show === "india" ? "domestic" : show === "abroad" ? "abroad" : "all";
 
 export default function App() {
   const [data, setData] = useState<Dataset | null>(null);
@@ -74,7 +77,7 @@ function Explorer({ data }: { data: Dataset }) {
     } catch {
       /* private mode */
     }
-    return valid(initial.country) ?? valid(saved) ?? HOME_COUNTRY;
+    return valid(initial.country) ?? valid(saved) ?? DEFAULT_COUNTRY;
   });
   const country = data.countries.find((c) => c.iso2 === countryCode) ?? data.countries[0];
   // Second country (map click or "Most connected countries"): routes between it and the picker's country.
@@ -95,10 +98,15 @@ function Explorer({ data }: { data: Dataset }) {
         }),
     [data, linkCounts],
   );
-  // Start-screen airports: India's own, or the picked country's airports with flights to India.
+  // Start-screen airports: every airport of the picked country that has routes in our data.
   const homeAirports = useMemo(
-    () => (country.iso2 === HOME_COUNTRY ? data.origins : data.searchable.filter((a) => a.country === country.iso2)),
-    [data, country.iso2],
+    () => {
+      const list = data.searchable.filter((a) => a.country === country.iso2);
+      // Countries across the date line (Fiji, New Zealand): keep their dots together, where the map frames them.
+      const unwrap = unwrapLongitudes((country.bounds[0][0] + country.bounds[1][0]) / 2, list.map((a) => a.lon));
+      return list.map((a) => unwrapped(a, unwrap));
+    },
+    [data, country],
   );
 
   const search = useMemo(
@@ -109,14 +117,15 @@ function Explorer({ data }: { data: Dataset }) {
 
   const all = useMemo(() => (origin ? destinationsFrom(data, origin) : []), [data, origin]);
   const airlines = useMemo(() => airlinesFrom(all), [all]);
-  // Outside India every destination is an Indian city, so the India/Abroad filter doesn't apply.
-  const effectiveScope: Scope = origin && origin.country !== HOME_COUNTRY ? "all" : scope;
+  // Outside the covered countries every known destination is abroad, so the domestic/abroad filter doesn't apply.
+  const fullRoutes = origin !== null && data.covered.has(origin.country);
+  const effectiveScope: Scope = origin && !fullRoutes ? "all" : scope;
   const visible = useMemo(() => filterAndSort(all, effectiveScope, airline, sort), [all, effectiveScope, airline, sort]);
   const domesticCount = all.filter((d) => d.route.domestic).length;
   const byAirline = airline ? all.filter((d) => d.route.airlines.some((a) => a.airline === airline)) : all;
   const counts: Record<Scope, number> = {
     all: byAirline.length,
-    india: byAirline.filter((d) => d.route.domestic).length,
+    domestic: byAirline.filter((d) => d.route.domestic).length,
     abroad: byAirline.filter((d) => !d.route.domestic).length,
   };
   const dest = selection.dest ? all.find((d) => d.airport.iata === selection.dest) ?? null : null;
@@ -125,11 +134,10 @@ function Explorer({ data }: { data: Dataset }) {
     () => new Map([...data.routesByOrigin].map(([iata, routes]) => [iata, routes.length])),
     [data],
   );
-  // Airports per country, counted the same way as each country's start screen (India: airports with their own
-  // route lists; elsewhere: airports with flights to India).
+  // Airports per country, counted the same way as each country's start screen.
   const airportCounts = useMemo(() => {
-    const m = new Map<string, number>([[HOME_COUNTRY, data.origins.length]]);
-    for (const a of data.searchable) if (a.country !== HOME_COUNTRY) m.set(a.country, (m.get(a.country) ?? 0) + 1);
+    const m = new Map<string, number>();
+    for (const a of data.searchable) m.set(a.country, (m.get(a.country) ?? 0) + 1);
     return m;
   }, [data]);
   const airportCount = (iso2: string) => airportCounts.get(iso2) ?? 0;
@@ -204,7 +212,7 @@ function Explorer({ data }: { data: Dataset }) {
     const onPop = () => {
       const url = readUrlState();
       const next = selectionFrom(data, url);
-      const nextCountry = url.country && data.countries.some((c) => c.iso2 === url.country) ? url.country : HOME_COUNTRY;
+      const nextCountry = url.country && data.countries.some((c) => c.iso2 === url.country) ? url.country : DEFAULT_COUNTRY;
       const nextPair = next.origin ? null : validPair(url.pair, nextCountry);
       written.current = { ...next, country: nextCountry, pair: nextPair };
       setCountryCode(nextCountry);
@@ -244,6 +252,7 @@ function Explorer({ data }: { data: Dataset }) {
         <MapView
           origins={homeAirports}
           country={country}
+          covered={data.covered.has(country.iso2)}
           dotWeights={dotWeights}
           origin={origin}
           destinations={dest ? [dest] : visible}
@@ -271,14 +280,15 @@ function Explorer({ data }: { data: Dataset }) {
         <div className="flex flex-col gap-5 border-b border-rule p-5">
           <AppHeader onHome={goHome} />
           {/* Search only on the start screen; once a city is picked, a back link replaces it. */}
-          {!origin && !pairCountry ? <OriginSearch search={search} onPick={pickOrigin} hasOrigin={false} focusOnMount={focusSearch} /> : null}
+          {!origin && !pairCountry ? <OriginSearch search={search} onPick={pickOrigin} hasOrigin={false} country={country.iso2} focusOnMount={focusSearch} /> : null}
           {!origin && pairCountry ? <BackLink onClick={() => setPairCode(null)}>{`All of ${country.name}`}</BackLink> : null}
           {origin && !dest ? (
             <>
               <BackLink onClick={goHome}>Change city</BackLink>
-              <OriginHeader origin={origin} total={all.length} domestic={domesticCount} />
+              <OriginHeader origin={origin} total={all.length} domestic={domesticCount} full={fullRoutes} />
               <Filters
-                showScope={origin.country === HOME_COUNTRY}
+                showScope={fullRoutes}
+                countryName={origin.country_name}
                 scope={scope}
                 counts={counts}
                 onScope={setScope}
@@ -298,6 +308,7 @@ function Explorer({ data }: { data: Dataset }) {
               key={pairCountry.iso2}
               source={country}
               target={pairCountry}
+              covered={data.covered.has(country.iso2) || data.covered.has(pairCountry.iso2)}
               links={links}
               airlines={data.airlines}
               emphasised={hoveredLink}
@@ -309,6 +320,7 @@ function Explorer({ data }: { data: Dataset }) {
               busiest={busiest}
               airportCount={homeAirports.length}
               country={country}
+              home={data.covered.has(country.iso2)}
               onPick={pickOrigin}
               connections={connections}
               onPickCountry={pickCountry}

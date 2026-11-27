@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { Fragment, useEffect, useMemo, useRef, useState } from "react";
 import {
   Combobox,
   ComboboxInput,
@@ -16,7 +16,7 @@ const plural = (n: number, one: string, many = `${one}s`) => `${n} ${n === 1 ? o
 const normalise = (s: string) =>
   s.normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]+/g, " ").trim();
 // Everyday names people type for some countries.
-const ALIASES: Record<string, string[]> = { AE: ["uae", "emirates"], US: ["usa", "america"], GB: ["uk", "britain", "england"], SA: ["ksa"] };
+const ALIASES: Record<string, string[]> = { AE: ["uae", "emirates"], US: ["usa", "america"], GB: ["uk", "britain", "england"], SA: ["ksa"], CD: ["democratic", "drc"], CI: ["ivory"], CZ: ["czechia"], TR: ["turkiye"] };
 
 function useWide() {
   const query = "(min-width: 768px)";
@@ -32,9 +32,9 @@ function useWide() {
 
 
 /**
- * Country picker on the map, top right. Closed: a pill with the country code in the airport-code face ("IN India").
- * Open: a card (bottom sheet on phones) with search, the most-connected countries, and the full list with route
- * counts. Headless UI provides the keyboard and screen-reader behaviour; "/" opens it from anywhere.
+ * Country picker on the map, top right. Closed: a pill with the country's flag and name (flag only on phones).
+ * Open: a card (bottom sheet on phones) with search, the selected country first, then every country A–Z with its
+ * airport count. Headless UI provides the keyboard and screen-reader behaviour; "/" opens it from anywhere.
  */
 export function CountryPicker({ countries, value, onChange, airportCount }: {
   countries: Country[];
@@ -61,12 +61,13 @@ export function CountryPicker({ countries, value, onChange, airportCount }: {
     <Popover className="relative">
       <PopoverButton
         ref={buttonRef}
+        data-country-pill
         aria-label={`Country: ${current.name}. Change country`}
         className="group flex h-11 min-w-11 cursor-pointer items-center gap-1.5 rounded-full bg-surface/80 py-1 pr-2.5 pl-2.5 shadow-lg md:gap-2 md:pr-3 ring-1 shadow-ink/10 ring-ink/10 backdrop-blur-md transition-colors hover:bg-surface focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-airway data-open:bg-surface dark:shadow-black/40 dark:ring-white/10"
       >
         <Flag country={current} />
         {/* Name on wider screens; on phones the pill is flag-only to save map space (the sheet shows the name). */}
-        <span className="hidden max-w-44 truncate text-base font-medium text-ink md:inline">{current.name}</span>
+        <span className="hidden max-w-64 truncate text-base font-medium text-ink md:inline">{current.name}</span>
         <ChevronDownIcon aria-hidden="true" className="size-5 text-slate transition-transform group-data-open:rotate-180" />
       </PopoverButton>
 
@@ -129,9 +130,14 @@ function CountryList({ countries, current, wide, onPick, airportCount }: {
               c.iso2.toLowerCase() === q ||
               (ALIASES[c.iso2] ?? []).some((a) => a.startsWith(q)),
           )
-        : countries,
-    [countries, q],
+        : // The selected country first, so it's in view on opening, then the rest A–Z. On phones the sheet's header
+          // already shows it, so the list is simply A–Z.
+          wide
+          ? [current, ...countries.filter((c) => c.iso2 !== current.iso2)]
+          : countries,
+    [countries, q, wide, current],
   );
+  const pinned = wide && !q;
 
   return (
     <Combobox value={current} by="iso2" onChange={(c: Country | null) => c && onPick(c.iso2)}>
@@ -170,14 +176,15 @@ function CountryList({ countries, current, wide, onPick, airportCount }: {
       <ComboboxOptions static className="min-h-0 flex-1 overflow-y-auto overscroll-contain p-1.5 md:max-h-[min(55vh,22rem)]">
         {filtered.length === 0 ? (
           <p className="px-3 py-8 text-center text-sm text-slate">
-            No country matches “{query.trim()}”. Only countries with flights to India are listed.
+            No country matches “{query.trim()}”. It may not be covered yet.
           </p>
         ) : (
-          filtered.map((c) => (
+          filtered.map((c, i) => (
+            <Fragment key={c.iso2}>
             <ComboboxOption
-              key={c.iso2}
               value={c}
-              className="group flex min-h-11 cursor-pointer items-center gap-2.5 rounded-lg px-2.5 py-1.5 data-focus:bg-airway-soft"
+              // content-visibility: rows out of view aren't drawn (90+ countries).
+              className="group flex [content-visibility:auto] [contain-intrinsic-size:auto_44px] min-h-11 cursor-pointer items-center gap-2.5 rounded-lg px-2.5 py-1.5 data-focus:bg-airway-soft"
             >
               <CheckIcon aria-hidden="true" className="invisible size-4 shrink-0 stroke-2 text-airway group-data-selected:visible" />
               <span translate="no" className="w-7 shrink-0 font-display text-sm font-semibold text-slate group-data-selected:text-ink">
@@ -188,6 +195,8 @@ function CountryList({ countries, current, wide, onPick, airportCount }: {
                 {plural(airportCount(c.iso2), "airport")}
               </span>
             </ComboboxOption>
+            {pinned && i === 0 ? <div aria-hidden="true" className="mx-2.5 my-1.5 border-t border-rule" /> : null}
+            </Fragment>
           ))
         )}
       </ComboboxOptions>
