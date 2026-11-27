@@ -2,12 +2,15 @@
 
 import csv
 import io
+import json
+import re
+import sqlite3
 from dataclasses import dataclass
-from urllib.parse import unquote
+from urllib.parse import quote, unquote
 
 from . import http
-from .config import (OURAIRPORTS_AIRPORTS_CSV, OURAIRPORTS_COUNTRIES_CSV,
-                     WIKIDATA_SPARQL, WIKIPEDIA_API)
+from .config import (CACHE_DIR, COUNTRY_NAMES, OURAIRPORTS_AIRPORTS_CSV, OURAIRPORTS_COUNTRIES_CSV,
+                     WIKIDATA_SPARQL, WIKIPEDIA_API, WIKIPEDIA_PAGE)
 
 
 def normalize_title(title: str) -> str:
@@ -79,27 +82,57 @@ def load_ourairports_by_icao(refresh: bool = False) -> dict[str, Airport]:
 
 def load_countries(refresh: bool = False) -> dict[str, str]:
     text = http.get_text(OURAIRPORTS_COUNTRIES_CSV, refresh=refresh)
-    return {r["code"]: r["name"] for r in csv.DictReader(io.StringIO(text))}
+    # "Western Sahara (disputed territory)" -> "Western Sahara"
+    names = {r["code"]: re.sub(r"\s*\(.*\)$", "", r["name"]) for r in csv.DictReader(io.StringIO(text))}
+    return names | COUNTRY_NAMES
 
 
 # ------------------------------------------------------------------ Wikidata
 
-def load_wikidata_iata_titles(refresh: bool = False) -> dict[str, set[str]]:
-    """English Wikipedia article title -> IATA airport code(s), from Wikidata property P238."""
+def load_wikidata_iata_titles(refresh: bool = False) -> dict[str, dict[str, tuple[float, float] | None]]:
+    """English Wikipedia article title -> IATA airport code(s), each with the article's (lat, lon) when known, from
+    Wikidata property P238."""
     query = """
-    SELECT ?iata ?article WHERE {
+    SELECT ?iata ?article ?at WHERE {
       ?item wdt:P238 ?iata .
       ?article schema:about ?item ;
                schema:isPartOf <https://en.wikipedia.org/> .
+      OPTIONAL { ?item wdt:P625 ?at . }
     }"""
     data = http.get_json(WIKIDATA_SPARQL, {"query": query, "format": "json"}, refresh=refresh)
-    mapping: dict[str, set[str]] = {}
+    mapping: dict[str, dict[str, tuple[float, float] | None]] = {}
     for b in data["results"]["bindings"]:
         title = title_from_url(b["article"]["value"])
         iata = b["iata"]["value"].strip().upper()
         if title and len(iata) == 3:
-            mapping.setdefault(title, set()).add(iata)
+            at = re.match(r"Point\(([-\d.]+) ([-\d.]+)\)", b.get("at", {}).get("value", ""))
+            mapping.setdefault(title, {})[iata] = (float(at[2]), float(at[1])) if at else None
     return mapping
+
+
+def load_capitals(refresh: bool = False) -> dict[str, tuple[str, float, float]]:
+    """ISO 3166-1 alpha-2 code -> (capital, lon, lat), from Wikidata (P297 country code, P36 capital, P625
+    coordinates), with the choices and additions in config."""
+    from .config import CAPITAL_CHOICE, CAPITAL_EXTRA, NO_CAPITAL
+
+    query = """
+    SELECT ?iso ?capLabel ?at WHERE {
+      ?country wdt:P297 ?iso ; wdt:P36 ?cap .
+      ?cap wdt:P625 ?at .
+      SERVICE wikibase:label { bd:serviceParam wikibase:language "en". }
+    }"""
+    data = http.get_json(WIKIDATA_SPARQL, {"query": query, "format": "json"}, refresh=refresh)
+    found: dict[str, dict[str, tuple[float, float]]] = {}
+    for b in data["results"]["bindings"]:
+        at = re.match(r"Point\(([-\d.]+) ([-\d.]+)\)", b["at"]["value"])
+        if at:
+            found.setdefault(b["iso"]["value"], {})[b["capLabel"]["value"]] = (float(at[1]), float(at[2]))
+    out = {}
+    for iso2, caps in found.items():
+        name = CAPITAL_CHOICE.get(iso2) if len(caps) > 1 else next(iter(caps))
+        if iso2 not in NO_CAPITAL and name in caps:
+            out[iso2] = (name, *caps[name])
+    return out | CAPITAL_EXTRA
 
 
 # ----------------------------------------------------------------- Wikipedia
@@ -113,20 +146,64 @@ class WikiPage:
 
 
 def fetch_page(title: str, refresh: bool = False) -> WikiPage | None:
-    params = {"action": "parse", "page": title, "prop": "text|revid", "redirects": "1",
-              "format": "json", "formatversion": "2", "disablelimitreport": "1",
-              "disableeditsection": "1"}
-    data = http.get_json(WIKIPEDIA_API, params, refresh=refresh)
-    if "error" in data:
+    # Pages fetched through the API by earlier runs are still good.
+    old = None if refresh else http.cached(WIKIPEDIA_API, {
+        "action": "parse", "page": title, "prop": "text|revid", "redirects": "1", "format": "json",
+        "formatversion": "2", "disablelimitreport": "1", "disableeditsection": "1"}, ".json")
+    if old:
+        data = json.loads(old)
+        if "error" in data:
+            return None
+        p = data["parse"]
+        return WikiPage(requested=title, title=normalize_title(p["title"]), revid=p["revid"], html=p["text"])
+    # The article itself, not the API: cached by Wikimedia, so it's quick and costs them little (robot policy).
+    url = WIKIPEDIA_PAGE + quote(title.replace(" ", "_"), safe="/:(),'!*")
+    p = json.loads(http.get_bytes(url, refresh=refresh, suffix=".json", keep=_keep_article))
+    if not p:
         return None
-    p = data["parse"]
-    return WikiPage(requested=title, title=normalize_title(p["title"]), revid=p["revid"],
-                    html=p["text"])
+    return WikiPage(requested=title, title=normalize_title(p["title"]), revid=p["revid"], html=p["html"])
+
+
+def _keep_article(content: bytes | None) -> bytes:
+    """The part of an article page we need, as JSON: its name, revision and content, in the layout the API gives."""
+    from bs4 import BeautifulSoup, Comment
+
+    if content is None:
+        return b"null"
+    page = content.decode("utf-8")
+    soup = BeautifulSoup(page, "html.parser").select_one("#mw-content-text .mw-parser-output")
+    if soup is None:
+        return b"null"
+    for el in soup.select(".mw-editsection, style, link, meta"):
+        el.decompose()
+    for el in soup.find_all(string=lambda t: isinstance(t, Comment)):
+        el.extract()
+    direct = set()                                   # articles linked by their own name, not through a redirect
+    for el in soup.find_all(True):
+        for name in ("data-mw", "about", "typeof", "rel"):
+            el.attrs.pop(name, None)
+        if el.name == "a":
+            href, kind = el.get("href", ""), el.get("class") or []
+            if "new" in kind:
+                el["href"] = "/w/index.php?redlink=1"       # no such article
+            elif "//en.wikipedia.org/wiki/" in href:
+                el["href"] = "/wiki/" + href.split("//en.wikipedia.org/wiki/", 1)[1]
+                target = title_from_url(el["href"])
+                if target and "mw-redirect" not in kind and "?" not in href and ":" not in target:
+                    direct.add(target)
+    for el in soup.find_all("section"):
+        el.unwrap()
+    db = _redirect_db()
+    db.executemany("INSERT OR IGNORE INTO redirects VALUES (?, ?)", [(t, t) for t in direct])
+    db.commit()
+    db.close()
+    name = json.loads(re.search(r'"wgPageName":("(?:[^"\\]|\\.)*")', page).group(1))
+    revid = int(re.search(r'"wgRevisionId":(\d+)', page).group(1))
+    return json.dumps({"title": name, "revid": revid, "html": str(soup)}, ensure_ascii=False).encode()
 
 
 def infobox_codes(title: str, refresh: bool = False) -> tuple[str | None, str | None]:
     """(IATA, ICAO) codes from an airport article's infobox."""
-    import re
     from bs4 import BeautifulSoup
 
     page = fetch_page(title, refresh)
@@ -139,12 +216,27 @@ def infobox_codes(title: str, refresh: bool = False) -> tuple[str | None, str | 
     return (iata.group(1) if iata else None), (icao.group(1) if icao else None)
 
 
+def _redirect_db() -> sqlite3.Connection:
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
+    db = sqlite3.connect(CACHE_DIR / "redirects.db", timeout=60)
+    db.execute("CREATE TABLE IF NOT EXISTS redirects (title TEXT PRIMARY KEY, target TEXT)")
+    return db
+
+
 def resolve_redirects(titles: list[str], refresh: bool = False) -> dict[str, str | None]:
-    """Map each title to its canonical article title (None if the page does not exist)."""
-    out: dict[str, str | None] = {}
+    """Map each title to its canonical article title (None if the page does not exist). Remembered per title, so
+    covering more countries doesn't ask again."""
     unique = sorted(set(titles))
-    for i in range(0, len(unique), 50):
-        batch = unique[i:i + 50]
+    db = _redirect_db()
+    out: dict[str, str | None] = {}
+    if not refresh:
+        for t in unique:
+            row = db.execute("SELECT target FROM redirects WHERE title = ?", (t,)).fetchone()
+            if row:
+                out[t] = row[0]
+    todo = [t for t in unique if t not in out]
+    for i in range(0, len(todo), 50):
+        batch = todo[i:i + 50]
         params = {"action": "query", "titles": "|".join(batch), "redirects": "1",
                   "format": "json", "formatversion": "2"}
         q = http.get_json(WIKIPEDIA_API, params, refresh=refresh)["query"]
@@ -160,4 +252,7 @@ def resolve_redirects(titles: list[str], refresh: bool = False) -> dict[str, str
                 seen.add(cur)
                 cur = redirects[cur]
             out[t] = None if cur in missing else normalize_title(cur)
+        db.executemany("INSERT OR REPLACE INTO redirects VALUES (?, ?)", [(t, out[t]) for t in batch])
+        db.commit()
+    db.close()
     return out

@@ -1,5 +1,5 @@
 {
-  "_comment": "Logos for airlines whose Wikipedia article has none. Used only when the infobox has no logo. Files are the airlines' own (trademarks).",
+  "_comment": "Logos for airlines whose Wikipedia article has none (or only a JPG/GIF). Used only when the infobox has no SVG/PNG logo. Files are the airlines' own (trademarks); 'source' is where the file was found.",
   "Air Astana": {
     "url": "https://assets-eu-01.kc-usercontent.com/d5eab2ce-d0cf-0106-dfb7-ff2154f01a04/2086c70e-4b88-441a-a57d-17254a69150c/Logo.png",
     "source": "https://airastana.com/"
@@ -7,5 +7,30 @@
   "IndiaOne Air": {
     "url": "https://www.indiaoneair.com/images/logo.svg",
     "source": "https://www.indiaoneair.com/"
+  },
+  "SATENA": {
+    "url": "https://satena.com/images/logo.svg",
+    "source": "https://satena.com/en"
+  },
+  "InterCaribbean Airways": {
+    "url": "https://d3fdhx4jd6oyi2.cloudfront.net/2025/07/interCaribbean-logo-theme.png",
+    "source": "https://www.intercaribbean.com/"
+  },
+  "Zagros Airlines": {
+    "url": "https://www.zagrosairlines.ir/assets/zagros-logo-header.png",
+    "source": "https://www.zagrosairlines.ir/en"
+  },
+  "Gazpromavia": {
+    "url": "https://upload.wikimedia.org/wikipedia/en/a/a8/Logo_gazpromavia_eng.gif",
+    "source": "File:Logo gazpromavia eng.gif",
+    "license": "Fair use"
+  },
+  "Wasaya Airways": {
+    "url": "https://wasaya.com/wp-content/themes/wasaya/img/logo.svg",
+    "source": "https://wasaya.com/"
+  },
+  "SVG Air": {
+    "url": "https://flysvgair.com/wp-content/uploads/2024/05/cropped-cropped-SVG-Air-Logo-Open-e1715969031405-1.png",
+    "source": "https://flysvgair.com/"
   }
 }

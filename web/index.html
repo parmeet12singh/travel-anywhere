@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
-    <title>Travel Anywhere: everywhere you can fly non-stop from Indian cities</title>
-    <meta name="description" content="Pick an Indian city and see every place you can fly to non-stop, in India and abroad, with the airlines that fly each route." />
+    <title>Travel Anywhere: everywhere you can fly non-stop</title>
+    <meta name="description" content="Pick a city and see every place you can fly to non-stop, with the airlines that fly each route." />
     <meta name="theme-color" content="#F4F6F5" />
     <script>
       // Apply the theme before first paint so dark mode doesn't flash white.
@@ -22,7 +22,7 @@
       html[data-theme="dark"] { background: #0f1a23; color-scheme: dark; }
     </style>
     <!-- Start the downloads the app needs right away instead of after the JavaScript has run. -->
-    <link rel="preload" href="%BASE_URL%data/routes.json" as="fetch" crossorigin />
+    <link rel="preload" href="%BASE_URL%data/routes-web.json" as="fetch" crossorigin />
     <link rel="preload" href="%BASE_URL%data/airports.json" as="fetch" crossorigin />
     <link rel="preload" href="%BASE_URL%data/meta.json" as="fetch" crossorigin />
     <link rel="preload" href="%BASE_URL%data/airlines.json" as="fetch" crossorigin />

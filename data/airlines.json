@@ -1,4 +1,156 @@
 {
+ "2nd Arkhangelsk United Aviation Division": {
+  "file": "File:2nd Arkhangelsk United Aviation Division logo.png",
+  "license": "Fair use",
+  "logo": "logos/2nd-arkhangelsk-united-aviation-division.png",
+  "name": "2nd Arkhangelsk United Aviation Division",
+  "non_free": true,
+  "website": "https://2aoao.ru/"
+ },
+ "748 Air Services": {
+  "file": "File:748 Air Services Logo.png",
+  "license": "Fair use",
+  "logo": "logos/748-air-services.png",
+  "name": "748 Air",
+  "non_free": true,
+  "website": "http://www.748airservicesltd.com/"
+ },
+ "9 Air": {
+  "file": "File:9 Air Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/9-air.svg",
+  "name": "9 Air",
+  "non_free": false,
+  "website": "http://9air.com"
+ },
+ "AJet": {
+  "file": "File:AJet logo.svg",
+  "license": "Public domain",
+  "logo": "logos/ajet.svg",
+  "name": "AJet",
+  "non_free": false,
+  "website": "http://www.ajet.com"
+ },
+ "ANA Wings": {
+  "file": "File:All Nippon Airways Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/ana-wings.svg",
+  "name": "ANA Wings",
+  "non_free": false,
+  "website": "http://www.anawings.co.jp"
+ },
+ "ARM Aviación": {
+  "name": "ARM Aviación",
+  "website": "https://en.armaviacion.com/"
+ },
+ "ASL Airlines France": {
+  "file": "File:ASL Airlines France logo.svg",
+  "license": "Public domain",
+  "logo": "logos/asl-airlines-france.svg",
+  "name": "ASL Airlines France",
+  "non_free": false,
+  "website": "http://www.aslairlines.fr/en/"
+ },
+ "ATA Airlines (Iran)": {
+  "file": "File:Logo ATA Airlines Iran (2025).png",
+  "license": "Fair use",
+  "logo": "logos/ata-airlines-iran.png",
+  "name": "ATA Airlines",
+  "non_free": true,
+  "website": "http://www.ataair.ir/"
+ },
+ "AVA Airlines": {
+  "file": "File:Ava airline.png",
+  "license": "CC0",
+  "logo": "logos/ava-airlines.png",
+  "name": "AVA Airlines",
+  "non_free": false,
+  "website": "https://avaair.ir/"
+ },
+ "Abaeté Aviação": {
+  "file": "File:Abaeté Linhas Aéreas.png",
+  "license": "Public domain",
+  "logo": "logos/abaet-avia-o.png",
+  "name": "Abaeté Aviação",
+  "non_free": false,
+  "website": "http://www.voeabaete.com.br"
+ },
+ "Abu Dhabi Aviation": {
+  "file": "File:ADA Logo.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/abu-dhabi-aviation.png",
+  "name": "Abu Dhabi Aviation",
+  "non_free": false,
+  "website": "https://ada.ae/"
+ },
+ "Advanced Air": {
+  "name": "Advanced Air",
+  "website": "http://advancedairlines.com"
+ },
+ "Aegean Airlines": {
+  "file": "File:Aegean Airlines Logo 2020.svg",
+  "license": "Public domain",
+  "logo": "logos/aegean-airlines.svg",
+  "name": "Aegean Airlines",
+  "non_free": false,
+  "website": "http://aegeanair.com"
+ },
+ "Aer Arann Islands": {
+  "file": "File:Aer Arann Islands logo.png",
+  "license": "Fair use",
+  "logo": "logos/aer-arann-islands.png",
+  "name": "Aer Arann Islands",
+  "non_free": true,
+  "website": "http://aerarannislands.ie"
+ },
+ "Aer Lingus": {
+  "file": "File:Aer Lingus logo 2019.svg",
+  "license": "Fair use",
+  "logo": "logos/aer-lingus.svg",
+  "name": "Aer Lingus",
+  "non_free": true,
+  "website": "https://www.aerlingus.com"
+ },
+ "Aero (American airline)": {
+  "file": "File:AeroLogo.svg",
+  "license": "Public domain",
+  "logo": "logos/aero-american-airline.svg",
+  "name": "Aero",
+  "non_free": false,
+  "website": "https://www.aero.com/"
+ },
+ "Aero Contractors (Nigeria)": {
+  "file": "File:Aero Contractors logo.png",
+  "license": "PD",
+  "logo": "logos/aero-contractors-nigeria.png",
+  "name": "Aero Contractors",
+  "non_free": false,
+  "website": "http://www.flyaero.com/"
+ },
+ "Aero Dili": {
+  "file": "File:AD tagline 23 final.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/aero-dili.png",
+  "name": "Aero Dili",
+  "non_free": false,
+  "website": "http://www.aerodili.com"
+ },
+ "Aero K": {
+  "file": "File:Aero K logo.svg",
+  "license": "Public domain",
+  "logo": "logos/aero-k.svg",
+  "name": "Aero K",
+  "non_free": false,
+  "website": "http://www.aerok.com/kr"
+ },
+ "Aero Mongolia": {
+  "file": "File:Aero Mongolia logo.png",
+  "license": "Fair use",
+  "logo": "logos/aero-mongolia.png",
+  "name": "Aero Mongolia",
+  "non_free": true,
+  "website": "https://www.aeromongolia.com/"
+ },
  "Aero Nomad Airlines": {
   "file": "File:Aero Nomad logo.png",
   "license": "Fair use",
@@ -15,6 +167,142 @@
   "non_free": true,
   "website": "https://www.aeroflot.ru"
  },
+ "Aerogaviota": {
+  "name": "Aerogaviota",
+  "website": null
+ },
+ "Aeroitalia": {
+  "file": "File:Logo-aeroitalia.svg",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/aeroitalia.svg",
+  "name": "Aeroitalia",
+  "non_free": false,
+  "website": "http://www.aeroitalia.com"
+ },
+ "Aerolink Uganda": {
+  "file": "File:Aerolink Uganda logo.svg",
+  "license": "Fair use",
+  "logo": "logos/aerolink-uganda.svg",
+  "name": "Aerolink Uganda",
+  "non_free": true,
+  "website": "https://www.aerolinkuganda.com/"
+ },
+ "Aerolíneas Argentinas": {
+  "file": "File:Logo Aerolíneas Argentinas (2010).svg",
+  "license": "Fair use",
+  "logo": "logos/aerol-neas-argentinas.svg",
+  "name": "Aerolíneas Argentinas",
+  "non_free": true,
+  "website": "https://www.aerolineas.com.ar/en-us"
+ },
+ "Aerolíneas Estelar": {
+  "file": "File:Logo Aerolíneas Estelar Latinoamérica (2025).png",
+  "license": "PD",
+  "logo": "logos/aerol-neas-estelar.png",
+  "name": "Aerolineas Estelar",
+  "non_free": false,
+  "website": "http://flyestelar.com"
+ },
+ "Aerolíneas Sosa": {
+  "file": "File:Logo-aerolineasosa.png",
+  "license": "CC BY 4.0",
+  "logo": "logos/aerol-neas-sosa.png",
+  "name": "Aerolineas Sosa",
+  "non_free": false,
+  "website": "https://als.aerocrs.net"
+ },
+ "Aeroméxico": {
+  "file": "File:Aeroméxico Logo 2024 - Navy.svg",
+  "license": "Fair use",
+  "logo": "logos/aerom-xico.svg",
+  "name": "Aeroméxico",
+  "non_free": true,
+  "website": "http://www.aeromexico.com"
+ },
+ "Aeroméxico Connect": {
+  "file": "File:Aeroméxico Connect logo.svg",
+  "license": "Fair use",
+  "logo": "logos/aerom-xico-connect.svg",
+  "name": "Aeroméxico Connect",
+  "non_free": true,
+  "website": "http://www.aeromexico.com"
+ },
+ "Aeropostal Alas de Venezuela": {
+  "file": "File:Aeropostal logo.svg",
+  "license": "Public domain",
+  "logo": "logos/aeropostal-alas-de-venezuela.svg",
+  "name": "Aeropostal",
+  "non_free": false,
+  "website": "http://www.aeropostal.com"
+ },
+ "Aeroregional": {
+  "file": "File:Logo Aeroregional (2018).png",
+  "license": "Fair use",
+  "logo": "logos/aeroregional.png",
+  "name": "Aeroregional",
+  "non_free": true,
+  "website": "https://aeroregional.net/"
+ },
+ "Aeroservis": {
+  "file": "File:Aeroservis Logo.png",
+  "license": "Fair use",
+  "logo": "logos/aeroservis.png",
+  "name": "Aeroservis",
+  "non_free": true,
+  "website": "https://airss.ru/"
+ },
+ "Aerotucán": {
+  "name": "Aerotucán",
+  "website": null
+ },
+ "Aerovías DAP": {
+  "file": "File:Aerovías Dap.png",
+  "license": "Public domain",
+  "logo": "logos/aerov-as-dap.png",
+  "name": "Aerovías DAP",
+  "non_free": false,
+  "website": "https://dapairline.com/"
+ },
+ "Aerus (airline)": {
+  "file": "File:Aerus logo.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/aerus-airline.png",
+  "name": "Aerus",
+  "non_free": false,
+  "website": "https://flyaerus.com"
+ },
+ "AfriJet": {
+  "name": "Afrijet",
+  "website": "https://flyafrijet.online/en"
+ },
+ "Africa World Airlines": {
+  "name": "Africa World Airlines",
+  "website": "http://www.flyafricaworld.com"
+ },
+ "African Express Airways": {
+  "file": "File:African Express Airways Logo.png",
+  "license": "Fair use",
+  "logo": "logos/african-express-airways.png",
+  "name": "African Express Airways",
+  "non_free": true,
+  "website": "https://flyafricanexpress.com/"
+ },
+ "Afriqiyah Airways": {
+  "file": "File:Afriqiyah Airways logo.svg",
+  "license": "PD",
+  "logo": "logos/afriqiyah-airways.svg",
+  "name": "Afriqiyah Airways",
+  "non_free": false,
+  "website": "https://afriqiyah.aero"
+ },
+ "Air Adelphi": {
+  "file": "File:Air Adelphi logo.png",
+  "license": "Fair use",
+  "logo": "logos/air-adelphi.png",
+  "name": "Air Adelphi",
+  "non_free": true,
+  "website": null
+ },
  "Air Algérie": {
   "file": "File:Air Algérie logo.svg",
   "license": "Public domain",
@@ -22,6 +310,14 @@
   "name": "Air Algérie",
   "non_free": false,
   "website": "http://www.airalgerie.dz/en/"
+ },
+ "Air Anka": {
+  "file": "File:Air Anka Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/air-anka.svg",
+  "name": "Air Anka",
+  "non_free": true,
+  "website": "http://www.airanka.com.tr"
  },
  "Air Arabia": {
   "file": "File:Air Arabia logo 2018.svg",
@@ -39,13 +335,21 @@
   "non_free": false,
   "website": "http://www.airarabia.com"
  },
- "Air Asia": {
-  "file": "File:AirAsia New Logo.svg",
+ "Air Arabia Egypt": {
+  "file": "File:Air Arabia Logo.svg",
   "license": "Public domain",
-  "logo": "logos/air-asia.svg",
-  "name": "Air Asia",
+  "logo": "logos/air-arabia-egypt.svg",
+  "name": "Air Arabia Egypt",
   "non_free": false,
-  "website": "http://www.airasia.com"
+  "website": "https://www.airarabia.com"
+ },
+ "Air Arabia Maroc": {
+  "file": "File:Air Arabia Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/air-arabia-maroc.svg",
+  "name": "Air Arabia",
+  "non_free": false,
+  "website": "http://www.airarabia.com"
  },
  "Air Astana": {
   "file": "https://airastana.com/",
@@ -54,6 +358,62 @@
   "name": "Air Astana",
   "non_free": true,
   "website": "http://www.airastana.com/"
+ },
+ "Air Astra": {
+  "file": "File:Air Astra Logo.svg",
+  "license": "PD",
+  "logo": "logos/air-astra.svg",
+  "name": "Air Astra",
+  "non_free": false,
+  "website": "http://www.airastra.com"
+ },
+ "Air Austral": {
+  "file": "File:Air Austral logo (2015).svg",
+  "license": "Fair use",
+  "logo": "logos/air-austral.svg",
+  "name": "Air Austral",
+  "non_free": true,
+  "website": "http://www.air-austral.com"
+ },
+ "Air Botswana": {
+  "file": "File:Air Botswana logo.svg",
+  "license": "PD",
+  "logo": "logos/air-botswana.svg",
+  "name": "Air Botswana",
+  "non_free": false,
+  "website": "http://airbotswana.co.bw/"
+ },
+ "Air Burkina": {
+  "file": "File:Air Burkina logo.svg",
+  "license": "Fair use",
+  "logo": "logos/air-burkina.svg",
+  "name": "Air Burkina",
+  "non_free": true,
+  "website": "http://www.air-burkina.com"
+ },
+ "Air Busan": {
+  "file": "File:Air Busan logo.svg",
+  "license": "Public domain",
+  "logo": "logos/air-busan.svg",
+  "name": "Air Busan",
+  "non_free": false,
+  "website": "http://www.airbusan.com"
+ },
+ "Air Cairo": {
+  "file": "File:Air Cairo logo.svg",
+  "license": "Public domain",
+  "logo": "logos/air-cairo.svg",
+  "name": "Air Cairo",
+  "non_free": false,
+  "website": "http://www.aircairo.com"
+ },
+ "Air Calédonie": {
+  "file": "File:Air Calédonie logo.svg",
+  "license": "Fair use",
+  "logo": "logos/air-cal-donie.svg",
+  "name": "Air Calédonie",
+  "non_free": true,
+  "website": "http://air-caledonie.nc"
  },
  "Air Cambodia": {
   "file": "File:Air Cambodia new logo.png",
@@ -71,6 +431,58 @@
   "non_free": false,
   "website": "https://www.aircanada.com"
  },
+ "Air Canada Express": {
+  "file": "File:Air Canada Express logo.svg",
+  "license": "Public domain",
+  "logo": "logos/air-canada-express.svg",
+  "name": "Air Canada Express",
+  "non_free": false,
+  "website": "http://www.aircanada.com"
+ },
+ "Air Canada Rouge": {
+  "file": "File:Air Canada Rouge logo.svg",
+  "license": "Public domain",
+  "logo": "logos/air-canada-rouge.svg",
+  "name": "Air Canada Rouge",
+  "non_free": false,
+  "website": "http://www.flyrouge.com"
+ },
+ "Air Caraïbes": {
+  "file": "File:Air Caraibes 2019 logo.svg",
+  "license": "Public domain",
+  "logo": "logos/air-cara-bes.svg",
+  "name": "Air Caraïbes",
+  "non_free": false,
+  "website": "http://www.aircaraibes.com"
+ },
+ "Air Century": {
+  "file": "File:Air-century.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/air-century.png",
+  "name": "Air Century",
+  "non_free": false,
+  "website": "http://www.aircentury.com"
+ },
+ "Air Changan": {
+  "file": "File:Air Chang'an logo.png",
+  "license": "Fair use",
+  "logo": "logos/air-changan.png",
+  "name": "Air Chang'an",
+  "non_free": true,
+  "website": "http://www.airchangan.com"
+ },
+ "Air Charter Scotland": {
+  "name": "Air Charter Scotland",
+  "website": "https://aircharterscotland.com"
+ },
+ "Air Chathams": {
+  "file": "File:Air Chathams logo.png",
+  "license": "Fair use",
+  "logo": "logos/air-chathams.png",
+  "name": "Air Chathams",
+  "non_free": true,
+  "website": "http://www.airchathams.co.nz"
+ },
  "Air China": {
   "file": "File:Air China logo.svg",
   "license": "Fair use",
@@ -79,6 +491,86 @@
   "non_free": true,
   "website": "https://www.airchina.com.cn/"
  },
+ "Air Congo (2024)": {
+  "file": "File:Air Congo Logo.png",
+  "license": "Fair use",
+  "logo": "logos/air-congo-2024.png",
+  "name": "Air Congo",
+  "non_free": true,
+  "website": "https://www.air-congo.com/en/home"
+ },
+ "Air Corsica": {
+  "file": "File:Air Corsica logo.svg",
+  "license": "Fair use",
+  "logo": "logos/air-corsica.svg",
+  "name": "Air Corsica",
+  "non_free": true,
+  "website": "http://www.aircorsica.com/"
+ },
+ "Air Creebec": {
+  "file": "File:Air Creebec new logo.png",
+  "license": "Public domain",
+  "logo": "logos/air-creebec.png",
+  "name": "Air Creebec",
+  "non_free": false,
+  "website": "https://www.aircreebec.ca/"
+ },
+ "Air Côte d'Ivoire": {
+  "file": "File:Air Côte d'Ivoire logo.svg",
+  "license": "PD",
+  "logo": "logos/air-c-te-d-ivoire.svg",
+  "name": "Air Côte d'Ivoire",
+  "non_free": false,
+  "website": "http://www.aircotedivoire.com"
+ },
+ "Air Djibouti": {
+  "file": "File:Air Djibouti logo.svg",
+  "license": "Fair use",
+  "logo": "logos/air-djibouti.svg",
+  "name": "Air Djibouti",
+  "non_free": true,
+  "website": "http://www.air-djibouti.com"
+ },
+ "Air Do": {
+  "file": "File:Air Do.svg",
+  "license": "Public domain",
+  "logo": "logos/air-do.svg",
+  "name": "Air Do",
+  "non_free": false,
+  "website": "http://www.airdo.jp"
+ },
+ "Air Dolomiti": {
+  "file": "File:Air Dolomiti-Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/air-dolomiti.svg",
+  "name": "Air Dolomiti",
+  "non_free": false,
+  "website": "http://www.airdolomiti.eu"
+ },
+ "Air Europa": {
+  "file": "File:Air Europa Logo (2015).svg",
+  "license": "Public domain",
+  "logo": "logos/air-europa.svg",
+  "name": "Air Europa",
+  "non_free": false,
+  "website": "https://www.aireuropa.com/"
+ },
+ "Air Excel": {
+  "file": "File:Air Excel Logo.png",
+  "license": "Fair use",
+  "logo": "logos/air-excel.png",
+  "name": "Air Excel",
+  "non_free": true,
+  "website": "http://www.airexcelonline.com/"
+ },
+ "Air Flamenco": {
+  "file": "File:AirFlamenco.png",
+  "license": "Public domain",
+  "logo": "logos/air-flamenco.png",
+  "name": "Air Flamenco",
+  "non_free": false,
+  "website": "https://www.flyairflamenco.com"
+ },
  "Air France": {
   "file": "File:Air France Logo.svg",
   "license": "Public domain",
@@ -86,6 +578,34 @@
   "name": "Air France",
   "non_free": false,
   "website": "https://www.airfrance.com"
+ },
+ "Air Greenland": {
+  "file": "File:Air Greenland logo.svg",
+  "license": "Public domain",
+  "logo": "logos/air-greenland.svg",
+  "name": "Air Greenland",
+  "non_free": false,
+  "website": "http://airgreenland.com"
+ },
+ "Air Guilin": {
+  "file": "File:Air Guilin Logo.png",
+  "license": "Fair use",
+  "logo": "logos/air-guilin.png",
+  "name": "Air Guilin",
+  "non_free": true,
+  "website": "https://www.airguilin.com/"
+ },
+ "Air Haifa": {
+  "file": "File:Air Haifa 2024 logo.svg",
+  "license": "Public domain",
+  "logo": "logos/air-haifa.svg",
+  "name": "airHaifa",
+  "non_free": false,
+  "website": "https://airhaifa.com/"
+ },
+ "Air Horizont": {
+  "name": "Air Horizont",
+  "website": "https://airhorizont.com"
  },
  "Air India": {
   "file": "File:Air India 2023.svg",
@@ -103,6 +623,74 @@
   "non_free": false,
   "website": "http://airindiaexpress.com"
  },
+ "Air Inuit": {
+  "file": "File:Air Inuit logo.svg",
+  "license": "Public domain",
+  "logo": "logos/air-inuit.svg",
+  "name": "Air Inuit",
+  "non_free": false,
+  "website": "https://www.airinuit.com"
+ },
+ "Air Kasaï": {
+  "file": "File:Air Kasaï logo.svg",
+  "license": "Public domain",
+  "logo": "logos/air-kasa.svg",
+  "name": "Air Kasaï",
+  "non_free": false,
+  "website": "http://www.airkasai.cd/"
+ },
+ "Air Kiribati": {
+  "file": "File:Air Kiribati logo.svg",
+  "license": "Fair use",
+  "logo": "logos/air-kiribati.svg",
+  "name": "Air Kiribati",
+  "non_free": true,
+  "website": "http://www.airkiribati.com.ki"
+ },
+ "Air Koryo": {
+  "file": "File:Air koryo logo.png",
+  "license": "CC0",
+  "logo": "logos/air-koryo.png",
+  "name": "Air Koryo",
+  "non_free": false,
+  "website": "http://www.airkoryo.com.kp"
+ },
+ "Air Liaison": {
+  "file": "File:Air Liaison 2.png",
+  "license": "Public domain",
+  "logo": "logos/air-liaison.png",
+  "name": "Air Liaison",
+  "non_free": false,
+  "website": "https://www.airliaison.ca/"
+ },
+ "Air Libya": {
+  "name": "Air Libya",
+  "website": "http://www.airlibya.aero/"
+ },
+ "Air Link": {
+  "file": "File:Air Link logo.svg",
+  "license": "Fair use",
+  "logo": "logos/air-link.svg",
+  "name": "Air Link",
+  "non_free": true,
+  "website": "http://www.airlinkairlines.com.au/"
+ },
+ "Air Macau": {
+  "file": "File:Air Macau logo.svg",
+  "license": "Fair use",
+  "logo": "logos/air-macau.svg",
+  "name": "Air Macau",
+  "non_free": true,
+  "website": "http://www.airmacau.com.mo"
+ },
+ "Air Marshall Islands": {
+  "file": "File:Air-marshall-islands-logo.png",
+  "license": "Fair use",
+  "logo": "logos/air-marshall-islands.png",
+  "name": "Air Marshall Islands",
+  "non_free": true,
+  "website": "http://airmarshallislands.net"
+ },
  "Air Mauritius": {
   "file": "File:Air Mauritius Logo.svg",
   "license": "Fair use",
@@ -110,6 +698,162 @@
   "name": "Air Mauritius",
   "non_free": true,
   "website": "http://www.airmauritius.com"
+ },
+ "Air Mediterranean": {
+  "file": "File:Air Mediterranean logo.svg",
+  "license": "Fair use",
+  "logo": "logos/air-mediterranean.svg",
+  "name": "Air Mediterranean",
+  "non_free": true,
+  "website": "http://air-mediterranean.com"
+ },
+ "Air Moana": {
+  "name": "Air Moana",
+  "website": "https://www.airmoana.com"
+ },
+ "Air Montenegro": {
+  "file": "File:Logo Air Montenegro (2025).svg",
+  "license": "Fair use",
+  "logo": "logos/air-montenegro.svg",
+  "name": "Air Montenegro",
+  "non_free": true,
+  "website": "https://airmontenegro.com/en"
+ },
+ "Air New Zealand": {
+  "file": "File:Air New Zealand logo.svg",
+  "license": "Public domain",
+  "logo": "logos/air-new-zealand.svg",
+  "name": "Air New Zealand",
+  "non_free": false,
+  "website": "http://www.airnewzealand.co.nz"
+ },
+ "Air Niugini": {
+  "file": "File:Air Niugini Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/air-niugini.svg",
+  "name": "Air Niugini",
+  "non_free": true,
+  "website": "https://www.airniugini.com.pg/"
+ },
+ "Air North": {
+  "file": "File:Air North logo.png",
+  "license": "Fair use",
+  "logo": "logos/air-north.png",
+  "name": "Air North",
+  "non_free": true,
+  "website": "https://www.flyairnorth.com/"
+ },
+ "Air Nostrum": {
+  "file": "File:Logo Air Nostrum (Spain).svg",
+  "license": "Fair use",
+  "logo": "logos/air-nostrum.svg",
+  "name": "Air Nostrum",
+  "non_free": true,
+  "website": "http://www.airnostrum.com"
+ },
+ "Air Oceania": {
+  "name": "Air Oceania",
+  "website": "https://www.air-loyaute.nc"
+ },
+ "Air Panama": {
+  "file": "File:Air Panama logo.svg",
+  "license": "Fair use",
+  "logo": "logos/air-panama.svg",
+  "name": "Air Panama",
+  "non_free": true,
+  "website": "http://www.airpanama.com"
+ },
+ "Air Peace": {
+  "file": "File:Air Peace logo.png",
+  "license": "Fair use",
+  "logo": "logos/air-peace.png",
+  "name": "Air Peace",
+  "non_free": true,
+  "website": "http://flyairpeace.com"
+ },
+ "Air Premia": {
+  "file": "File:Air Premia logo.svg",
+  "license": "Public domain",
+  "logo": "logos/air-premia.svg",
+  "name": "Air Premia",
+  "non_free": false,
+  "website": "http://www.airpremia.com/kr/en"
+ },
+ "Air Rarotonga": {
+  "name": "Air Rarotonga",
+  "website": "http://airraro.com/"
+ },
+ "Air Saint-Pierre": {
+  "file": "File:Air Saint-Pierre logo.png",
+  "license": "Fair use",
+  "logo": "logos/air-saint-pierre.png",
+  "name": "Air Saint-Pierre",
+  "non_free": true,
+  "website": "https://www.airsaintpierre.com/"
+ },
+ "Air Samarkand": {
+  "name": "Air Samarkand",
+  "website": "https://airsamarkand.com/en"
+ },
+ "Air Senegal": {
+  "file": "File:Air Senegal Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/air-senegal.svg",
+  "name": "Air Senegal",
+  "non_free": true,
+  "website": "http://www.flyairsenegal.com"
+ },
+ "Air Senok": {
+  "name": "Air Senok",
+  "website": "https://senokair.com"
+ },
+ "Air Seoul": {
+  "file": "File:Logo of Air Seoul.svg",
+  "license": "Public domain",
+  "logo": "logos/air-seoul.svg",
+  "name": "Air Seoul",
+  "non_free": false,
+  "website": "http://www.flyairseoul.com"
+ },
+ "Air Serbia": {
+  "file": "File:Air Serbia logo-en.svg",
+  "license": "Fair use",
+  "logo": "logos/air-serbia.svg",
+  "name": "Air Serbia",
+  "non_free": true,
+  "website": "https://www.airserbia.com/en"
+ },
+ "Air Seychelles": {
+  "file": "File:Air Seychelles logo.svg",
+  "license": "Fair use",
+  "logo": "logos/air-seychelles.svg",
+  "name": "Air Seychelles",
+  "non_free": true,
+  "website": "https://www.airseychelles.com"
+ },
+ "Air Sierra Leone": {
+  "file": "File:Logo AirSierraLeone.svg",
+  "license": "Public domain",
+  "logo": "logos/air-sierra-leone.svg",
+  "name": "Air Sierra Leone",
+  "non_free": false,
+  "website": "https://flysierraleone.com/"
+ },
+ "Air Tahiti": {
+  "file": "File:Air Tahiti logo.svg",
+  "license": "Fair use",
+  "logo": "logos/air-tahiti.svg",
+  "name": "Air Tahiti",
+  "non_free": true,
+  "website": "https://www.airtahiti.com"
+ },
+ "Air Tahiti Nui": {
+  "file": "File:Air Tahiti Nui logo.svg",
+  "license": "Fair use",
+  "logo": "logos/air-tahiti-nui.svg",
+  "name": "Air Tahiti Nui",
+  "non_free": true,
+  "website": "https://airtahitinui.com"
  },
  "Air Tanzania": {
   "file": "File:Air Tanzania logo.svg",
@@ -119,11 +863,75 @@
   "non_free": false,
   "website": "http://www.airtanzania.co.tz"
  },
+ "Air Thanlwin": {
+  "file": "File:Air Thanlwin logo.png",
+  "license": "Fair use",
+  "logo": "logos/air-thanlwin.png",
+  "name": "Air Thanlwin",
+  "non_free": true,
+  "website": "http://www.airthanlwin.com"
+ },
+ "Air Tindi": {
+  "file": "File:ATL (LS) Logo COLOUR.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/air-tindi.png",
+  "name": "Air Tindi",
+  "non_free": false,
+  "website": "http://www.airtindi.com"
+ },
+ "Air Transat": {
+  "file": "File:Air Transat logo.svg",
+  "license": "Public domain",
+  "logo": "logos/air-transat.svg",
+  "name": "Air Transat",
+  "non_free": false,
+  "website": "https://airtransat.com"
+ },
+ "Air Travel (airline)": {
+  "file": "File:Air Travel (airline) Logo.png",
+  "license": "PD",
+  "logo": "logos/air-travel-airline.png",
+  "name": "Air Travel",
+  "non_free": true,
+  "website": "http://www.a6air.com"
+ },
+ "Air Vanuatu": {
+  "file": "File:Air Vanuatu logo new.svg",
+  "license": "PD",
+  "logo": "logos/air-vanuatu.svg",
+  "name": "Air Vanuatu",
+  "non_free": false,
+  "website": "http://www.airvanuatu.com"
+ },
+ "Air Zimbabwe": {
+  "file": "File:Air Zimbabwe Logo 2011.svg",
+  "license": "Fair use",
+  "logo": "logos/air-zimbabwe.svg",
+  "name": "Air Zimbabwe",
+  "non_free": true,
+  "website": "http://airzimbabwe.aero/"
+ },
+ "Air1Air": {
+  "file": "File:Logo Air1Air (Iran).png",
+  "license": "Public domain",
+  "logo": "logos/air1air.png",
+  "name": "Air1Air",
+  "non_free": false,
+  "website": "https://en.air1air.com/"
+ },
  "AirAsia": {
   "file": "File:AirAsia New Logo.svg",
   "license": "Public domain",
   "logo": "logos/airasia.svg",
   "name": "AirAsia",
+  "non_free": false,
+  "website": "http://www.airasia.com"
+ },
+ "AirAsia Cambodia": {
+  "file": "File:AirAsia New Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/airasia-cambodia.svg",
+  "name": "AirAsia Cambodia",
   "non_free": false,
   "website": "http://www.airasia.com"
  },
@@ -135,6 +943,90 @@
   "non_free": false,
   "website": "http://www.airasia.com"
  },
+ "AirBaltic": {
+  "file": "File:AirBaltic Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/airbaltic.svg",
+  "name": "airBaltic",
+  "non_free": false,
+  "website": "http://airbaltic.com"
+ },
+ "AirBorneo": {
+  "file": "File:Air Borneo Logo.png",
+  "license": "Public domain",
+  "logo": "logos/airborneo.png",
+  "name": "AirBorneo",
+  "non_free": false,
+  "website": "http://www.airborneo.com/en"
+ },
+ "AirLink Express": {
+  "file": "File:International AirLink Logo.png",
+  "license": "Fair use",
+  "logo": "logos/airlink-express.png",
+  "name": "International AirLink",
+  "non_free": true,
+  "website": "http://flyairlink.net/"
+ },
+ "AirSial": {
+  "file": "File:AirSial.png",
+  "license": "Public domain",
+  "logo": "logos/airsial.png",
+  "name": "AirSial",
+  "non_free": false,
+  "website": "http://www.airsial.com"
+ },
+ "Airblue": {
+  "file": "File:Airblue Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/airblue.svg",
+  "name": "Airblue",
+  "non_free": false,
+  "website": "http://www.airblue.com"
+ },
+ "Aircalin": {
+  "file": "File:Aircalin logo.svg",
+  "license": "Fair use",
+  "logo": "logos/aircalin.svg",
+  "name": "Aircalin",
+  "non_free": true,
+  "website": "http://www.aircalin.com"
+ },
+ "Aircraft Leasing Services": {
+  "name": "Aircraft Leasing Services",
+  "website": "http://als.co.ke"
+ },
+ "Airfast Indonesia": {
+  "file": "File:Airfast Indonesia logo.png",
+  "license": "PD",
+  "logo": "logos/airfast-indonesia.png",
+  "name": "Airfast Indonesia",
+  "non_free": false,
+  "website": "http://www.airfastindonesia.com/"
+ },
+ "Airkenya Express": {
+  "file": "File:Airkenya Express logo.svg",
+  "license": "Fair use",
+  "logo": "logos/airkenya-express.svg",
+  "name": "Airkenya Express",
+  "non_free": true,
+  "website": "http://airkenya.com"
+ },
+ "Airlink": {
+  "file": "File:Airlink logo.svg",
+  "license": "Fair use",
+  "logo": "logos/airlink.svg",
+  "name": "Airlink",
+  "non_free": true,
+  "website": "http://www.flyairlink.com"
+ },
+ "Airnorth": {
+  "file": "File:Airnorth logo.svg",
+  "license": "Fair use",
+  "logo": "logos/airnorth.svg",
+  "name": "Airnorth",
+  "non_free": true,
+  "website": "http://airnorth.com.au"
+ },
  "Akasa Air": {
   "file": "File:Akasa Air logo.svg",
   "license": "Public domain",
@@ -142,6 +1034,50 @@
   "name": "Akasa Air",
   "non_free": false,
   "website": "http://akasaair.com"
+ },
+ "AlMasria Universal Airlines": {
+  "file": "File:AlMasria Airlines logo.png",
+  "license": "PD",
+  "logo": "logos/almasria-universal-airlines.png",
+  "name": "AlMasria Universal Airlines",
+  "non_free": false,
+  "website": "http://www.almasriaairlines.com"
+ },
+ "Alaska Airlines": {
+  "file": "File:Alaska Airlines logo with tagline.svg",
+  "license": "Public domain",
+  "logo": "logos/alaska-airlines.svg",
+  "name": "Alaska Airlines",
+  "non_free": false,
+  "website": "https://www.alaskaair.com"
+ },
+ "AlbaStar": {
+  "file": "File:Albastar logo.png",
+  "license": "PD",
+  "logo": "logos/albastar.png",
+  "name": "AlbaStar",
+  "non_free": false,
+  "website": "http://www.albastar.es"
+ },
+ "Albatros Airlines (Venezuela)": {
+  "file": "File:Albatros-air-venezuela.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/albatros-airlines-venezuela.png",
+  "name": "Albatros Airlines",
+  "non_free": false,
+  "website": "http://goalbatros.com"
+ },
+ "Aleutian Airways": {
+  "file": "File:Aleutian Airways Logo.png",
+  "license": "Fair use",
+  "logo": "logos/aleutian-airways.png",
+  "name": "Aleutian Airways",
+  "non_free": true,
+  "website": "https://flyaleutian.com/"
+ },
+ "Alexandria Airlines": {
+  "name": "Alexandria Airlines",
+  "website": "http://alexandriaairlines.net/"
  },
  "All Nippon Airways": {
   "file": "File:All Nippon Airways Logo.svg",
@@ -151,6 +1087,14 @@
   "non_free": false,
   "website": "https://www.ana.co.jp/en/us/"
  },
+ "Allegiant Air": {
+  "file": "File:Allegiant Air logo.svg",
+  "license": "Public domain",
+  "logo": "logos/allegiant-air.svg",
+  "name": "Allegiant Air",
+  "non_free": false,
+  "website": "http://www.allegiantair.com"
+ },
  "Alliance Air (India)": {
   "file": "File:Alliance Air logo 2017.png",
   "license": "Fair use",
@@ -158,6 +1102,46 @@
   "name": "Alliance Air",
   "non_free": true,
   "website": "http://www.allianceair.in"
+ },
+ "Alliance Airlines": {
+  "file": "File:Alliance Airlines logo.svg",
+  "license": "PD",
+  "logo": "logos/alliance-airlines.svg",
+  "name": "Alliance Airlines",
+  "non_free": false,
+  "website": "http://www.allianceairlines.com.au"
+ },
+ "Alrosa (airline)": {
+  "file": "File:Logo of the ALROSA (airline).svg",
+  "license": "Fair use",
+  "logo": "logos/alrosa-airline.svg",
+  "name": "Alrosa",
+  "non_free": true,
+  "website": "http://www.alrosa.aero"
+ },
+ "Alsie Express": {
+  "file": "File:Alsie Express logo.svg",
+  "license": "Public domain",
+  "logo": "logos/alsie-express.svg",
+  "name": "Alsie Express",
+  "non_free": false,
+  "website": "http://www.alsieexpress.com"
+ },
+ "Amakusa Airlines": {
+  "file": "File:AmakusaAirlines.png",
+  "license": "Fair use",
+  "logo": "logos/amakusa-airlines.png",
+  "name": "Amakusa Airlines",
+  "non_free": true,
+  "website": "http://www.amx.co.jp"
+ },
+ "Amelia (airline)": {
+  "file": "File:Amelia logo.svg",
+  "license": "Public domain",
+  "logo": "logos/amelia-airline.svg",
+  "name": "Amelia International",
+  "non_free": false,
+  "website": "https://flyamelia.com/en/"
  },
  "American Airlines": {
   "file": "File:American Airlines logo 2013.svg",
@@ -167,6 +1151,54 @@
   "non_free": true,
   "website": "https://www.aa.com"
  },
+ "American Eagle (airline brand)": {
+  "file": "File:American Eagle.svg",
+  "license": "Fair use",
+  "logo": "logos/american-eagle-airline-brand.svg",
+  "name": "American Eagle",
+  "non_free": true,
+  "website": "https://www.aa.com/"
+ },
+ "Andes Líneas Aéreas": {
+  "file": "File:Marca andes final.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/andes-l-neas-a-reas.png",
+  "name": "Andes Líneas Aéreas",
+  "non_free": false,
+  "website": "http://www.andesonline.com/"
+ },
+ "Anguilla Air Services": {
+  "file": "File:Anguilla-Air-Services-logo-alt.png",
+  "license": "CC0",
+  "logo": "logos/anguilla-air-services.png",
+  "name": "Anguilla Air Services",
+  "non_free": false,
+  "website": null
+ },
+ "Animawings": {
+  "file": "File:Animawings Logo.svg",
+  "license": "PD",
+  "logo": "logos/animawings.svg",
+  "name": "Animawings",
+  "non_free": false,
+  "website": "http://www.animawings.com"
+ },
+ "Apuí Táxi Aéreo": {
+  "file": "File:Apuí Táxi Aéreo logo.png",
+  "license": "Fair use",
+  "logo": "logos/apu-t-xi-a-reo.png",
+  "name": "Apuí Táxi Aéreo",
+  "non_free": true,
+  "website": "http://www.voeapui.com.br/"
+ },
+ "Arajet": {
+  "file": "File:Arajet logo.png",
+  "license": "Fair use",
+  "logo": "logos/arajet.png",
+  "name": "Arajet",
+  "non_free": true,
+  "website": "https://www.arajet.com/en"
+ },
  "Ariana Afghan Airlines": {
   "file": "File:Ariana Afghan Airlines logo.svg",
   "license": "Public domain",
@@ -174,6 +1206,222 @@
   "name": "Ariana Afghan Airlines",
   "non_free": false,
   "website": "https://www.flyariana.com/"
+ },
+ "Arik Air": {
+  "file": "File:Arik Air logo.svg",
+  "license": "Fair use",
+  "logo": "logos/arik-air.svg",
+  "name": "Arik Air",
+  "non_free": true,
+  "website": "https://www.arikair.com/"
+ },
+ "Arkia": {
+  "file": "File:Arkia logo.svg",
+  "license": "Fair use",
+  "logo": "logos/arkia.svg",
+  "name": "Arkia",
+  "non_free": true,
+  "website": "https://www.arkia.co.il"
+ },
+ "Arktikugol": {
+  "file": "File:Arktikugol Арктикуголь Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/arktikugol.svg",
+  "name": "Arktikugol",
+  "non_free": true,
+  "website": "http://www.arcticugol.ru/"
+ },
+ "Armenia Airways": {
+  "file": "File:Armenia Airways Logo No Background.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/armenia-airways.png",
+  "name": "Armenia Airways",
+  "non_free": false,
+  "website": "https://armeniaairways.am"
+ },
+ "As Salaam Air": {
+  "file": "File:As Salaam Air Logo.png",
+  "license": "Fair use",
+  "logo": "logos/as-salaam-air.png",
+  "name": "As Salaam Air",
+  "non_free": true,
+  "website": "http://www.assalaamair.co.tz/"
+ },
+ "Asia Pacific Airlines (PNG)": {
+  "name": "Asia Pacific Airlines",
+  "website": null
+ },
+ "Asian One Air": {
+  "name": "Asian One Air",
+  "website": "https://asianoneair.id/"
+ },
+ "Asiana Airlines": {
+  "file": "File:Asiana Airlines (2024).svg",
+  "license": "Public domain",
+  "logo": "logos/asiana-airlines.svg",
+  "name": "Asiana Airlines",
+  "non_free": false,
+  "website": "https://flyasiana.com/"
+ },
+ "Asky Airlines": {
+  "file": "File:ASKY Airlines logo.png",
+  "license": "Fair use",
+  "logo": "logos/asky-airlines.png",
+  "name": "ASKY Airlines",
+  "non_free": true,
+  "website": "http://www.flyasky.com"
+ },
+ "Asman Airlines": {
+  "name": "Asman Airlines",
+  "website": "https://asmanairlines.kg/"
+ },
+ "Atlantic Airways": {
+  "file": "File:Atlantic Airways logo.svg",
+  "license": "Fair use",
+  "logo": "logos/atlantic-airways.svg",
+  "name": "Atlantic Airways",
+  "non_free": true,
+  "website": "https://www.atlanticairways.com"
+ },
+ "Atsa Airlines": {
+  "file": "File:LOGO ATSA AIRLINES-01 REDUCIDO.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/atsa-airlines.png",
+  "name": "Atsa Airlines",
+  "non_free": false,
+  "website": "http://www.atsaairlines.com"
+ },
+ "Auric Air": {
+  "file": "File:AuricAirLogo.png",
+  "license": "Fair use",
+  "logo": "logos/auric-air.png",
+  "name": "Auric Air",
+  "non_free": true,
+  "website": "http://www.auricair.com/"
+ },
+ "Aurigny": {
+  "file": "File:Aurigny logo.svg",
+  "license": "Public domain",
+  "logo": "logos/aurigny.svg",
+  "name": "Aurigny",
+  "non_free": false,
+  "website": "http://www.aurigny.com"
+ },
+ "Aurora (airline)": {
+  "file": "File:Aurora airline logo.svg",
+  "license": "Public domain",
+  "logo": "logos/aurora-airline.svg",
+  "name": "Aurora",
+  "non_free": false,
+  "website": "http://flyaurora.ru/en/"
+ },
+ "Austrian Airlines": {
+  "file": "File:Austrian Airlines logo.svg",
+  "license": "PD",
+  "logo": "logos/austrian-airlines.svg",
+  "name": "Austrian Airlines",
+  "non_free": false,
+  "website": "https://www.austrian.com"
+ },
+ "Avanti Air": {
+  "file": "File:Logo Avantiair neu.png",
+  "license": "Public domain",
+  "logo": "logos/avanti-air.png",
+  "name": "Avanti Air",
+  "non_free": false,
+  "website": "https://www.avantiair.com/"
+ },
+ "Avelo Airlines": {
+  "file": "File:Logo of Avelo Airlines.svg",
+  "license": "Public domain",
+  "logo": "logos/avelo-airlines.svg",
+  "name": "Avelo Airlines",
+  "non_free": false,
+  "website": "https://www.aveloair.com"
+ },
+ "Avia Traffic Company": {
+  "file": "File:Avia Traffic Company logo.png",
+  "license": "PD",
+  "logo": "logos/avia-traffic-company.png",
+  "name": "Avia Traffic Company",
+  "non_free": false,
+  "website": "http://www.aero.kg/"
+ },
+ "Aviair": {
+  "file": "File:Aviair Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/aviair.svg",
+  "name": "Aviair",
+  "non_free": true,
+  "website": "https://www.aviair.com.au/"
+ },
+ "Avianca": {
+  "file": "File:Logo Avianca (Colombia) 2023.svg",
+  "license": "PD",
+  "logo": "logos/avianca.svg",
+  "name": "Avianca",
+  "non_free": false,
+  "website": "http://www.avianca.com"
+ },
+ "Avianca Costa Rica": {
+  "file": "File:Logo wordmark Avianca (Colombia).png",
+  "license": "Public domain",
+  "logo": "logos/avianca-costa-rica.png",
+  "name": "Avianca Costa Rica",
+  "non_free": false,
+  "website": "http://www.avianca.com"
+ },
+ "Avianca Ecuador": {
+  "file": "File:Logo wordmark Avianca (Colombia).png",
+  "license": "Public domain",
+  "logo": "logos/avianca-ecuador.png",
+  "name": "Avianca Ecuador",
+  "non_free": false,
+  "website": "http://www.avianca.com/"
+ },
+ "Avianca El Salvador": {
+  "file": "File:Logo Avianca (Colombia) 2023.svg",
+  "license": "PD",
+  "logo": "logos/avianca-el-salvador.svg",
+  "name": "Avianca El Salvador",
+  "non_free": false,
+  "website": "http://www.avianca.com"
+ },
+ "Avianca Express": {
+  "file": "File:Logo Avianca Express.svg",
+  "license": "Public domain",
+  "logo": "logos/avianca-express.svg",
+  "name": "Avianca Express",
+  "non_free": false,
+  "website": "http://www.avianca.com/en/"
+ },
+ "Avianca Guatemala": {
+  "file": "File:Logo wordmark Avianca (Colombia).png",
+  "license": "Public domain",
+  "logo": "logos/avianca-guatemala.png",
+  "name": "Avianca Guatemala",
+  "non_free": false,
+  "website": "http://avianca.com"
+ },
+ "Aviatsa": {
+  "name": "Aviatsa",
+  "website": "https://aviatsa.hn/"
+ },
+ "Avion Express": {
+  "file": "File:Logo Avion Express (Lithuania).png",
+  "license": "Fair use",
+  "logo": "logos/avion-express.png",
+  "name": "Avion Express",
+  "non_free": true,
+  "website": "http://avionexpress.aero"
+ },
+ "Avior Airlines": {
+  "file": "File:Avior Airlines 2017.svg",
+  "license": "Public domain",
+  "logo": "logos/avior-airlines.svg",
+  "name": "Avior Airlines",
+  "non_free": false,
+  "website": "http://www.aviorair.com"
  },
  "Azerbaijan Airlines": {
   "file": "File:Azerbaijan Airlines logo.svg",
@@ -183,6 +1431,46 @@
   "non_free": false,
   "website": "https://www.azal.az/en/"
  },
+ "Azimuth (airline)": {
+  "file": "File:Azimuth Airlines Logo.png",
+  "license": "Fair use",
+  "logo": "logos/azimuth-airline.png",
+  "name": "azimuth",
+  "non_free": true,
+  "website": "https://azimuth.ru/en"
+ },
+ "Azman Air": {
+  "file": "File:Azman Air logo.png",
+  "license": "Fair use",
+  "logo": "logos/azman-air.png",
+  "name": "Azman Air",
+  "non_free": true,
+  "website": "http://www.airazman.com"
+ },
+ "Azores Airlines": {
+  "file": "File:Azores Airlines logo.svg",
+  "license": "Fair use",
+  "logo": "logos/azores-airlines.svg",
+  "name": "Azores Airlines",
+  "non_free": true,
+  "website": "https://www.azoresairlines.pt/"
+ },
+ "Azul Brazilian Airlines": {
+  "file": "File:Logo da Azul Linhas Aéreas Brasileiras.svg",
+  "license": "Public domain",
+  "logo": "logos/azul-brazilian-airlines.svg",
+  "name": "Azul Brazilian Airlines",
+  "non_free": false,
+  "website": "https://www.voeazul.com.br/"
+ },
+ "Azul Conecta": {
+  "file": "File:Azul Conecta logo.png",
+  "license": "Public domain",
+  "logo": "logos/azul-conecta.png",
+  "name": "Azul Conecta",
+  "non_free": false,
+  "website": "http://www.voeazul.com.br"
+ },
  "Azur Air": {
   "file": "File:Azur Air logo.png",
   "license": "Public domain",
@@ -190,6 +1478,94 @@
   "name": "Azur Air",
   "non_free": false,
   "website": "https://www.azurair.ru/en/"
+ },
+ "Aéreo Servicio Guerrero": {
+  "name": "Aéreo Servicio Guerrero",
+  "website": "https://www.asg.com.mx/"
+ },
+ "BAR Aviation Uganda": {
+  "file": "File:This is the logo for BAR Aviation Uganda.svg",
+  "license": "Fair use",
+  "logo": "logos/bar-aviation-uganda.svg",
+  "name": "BAR Aviation Uganda",
+  "non_free": true,
+  "website": "https://baraviationug.com/"
+ },
+ "BH Air": {
+  "file": "File:BH AIR Logo.png",
+  "license": "Public domain",
+  "logo": "logos/bh-air.png",
+  "name": "BH Air",
+  "non_free": false,
+  "website": "http://www.bhairlines.com"
+ },
+ "BMN Air": {
+  "file": "File:ABM Air logo.png",
+  "license": "Fair use",
+  "logo": "logos/bmn-air.png",
+  "name": "BMN Air",
+  "non_free": true,
+  "website": "https://bmnsvgairways.com/"
+ },
+ "Badr Airlines": {
+  "file": "File:Badr Airlines logo.png",
+  "license": "PD",
+  "logo": "logos/badr-airlines.png",
+  "name": "Badr Airlines",
+  "non_free": false,
+  "website": "https://badrairlines.com/"
+ },
+ "Bahamasair": {
+  "file": "File:Bahamasair Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/bahamasair.svg",
+  "name": "Bahamasair",
+  "non_free": false,
+  "website": "https://www.bahamasair.com/"
+ },
+ "Bamboo Airways": {
+  "file": "File:Bamboo Airways Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/bamboo-airways.svg",
+  "name": "Bamboo Airways",
+  "non_free": false,
+  "website": "http://www.bambooairways.com"
+ },
+ "Bangkok Airways": {
+  "file": "File:Bangkok Airways logo.svg",
+  "license": "Fair use",
+  "logo": "logos/bangkok-airways.svg",
+  "name": "Bangkok Airways",
+  "non_free": true,
+  "website": "http://www.bangkokair.com"
+ },
+ "Bangsamoro Airways": {
+  "file": "File:Bangsamoro Airways logo.png",
+  "license": "Fair use",
+  "logo": "logos/bangsamoro-airways.png",
+  "name": "Bangsamoro Airways",
+  "non_free": true,
+  "website": "http://www.bangsamoroair.com"
+ },
+ "Barrier Air": {
+  "file": "File:Barrier Air logo.png",
+  "license": "Fair use",
+  "logo": "logos/barrier-air.png",
+  "name": "Barrier Air",
+  "non_free": true,
+  "website": "http://www.barrierair.kiwi"
+ },
+ "Basra Airlines": {
+  "name": "Basra Airlines",
+  "website": "http://www.basraairlines.com"
+ },
+ "Batik Air": {
+  "file": "File:Batik Air logo.svg",
+  "license": "Fair use",
+  "logo": "logos/batik-air.svg",
+  "name": "Batik Air",
+  "non_free": true,
+  "website": "http://www.batikair.com"
  },
  "Batik Air Malaysia": {
   "file": "File:Batik Air logo.svg",
@@ -199,6 +1575,30 @@
   "non_free": true,
   "website": "https://www.batikair.com.my/"
  },
+ "BeOnd": {
+  "file": "File:BEOND.png",
+  "license": "Public domain",
+  "logo": "logos/beond.png",
+  "name": "BeOnd",
+  "non_free": false,
+  "website": "https://flybeond.com"
+ },
+ "Bearskin Airlines": {
+  "file": "File:Bearskin Airlines Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/bearskin-airlines.svg",
+  "name": "Bearskin Airlines",
+  "non_free": true,
+  "website": "https://www.bearskinairlines.com/"
+ },
+ "Beijing Capital Airlines": {
+  "file": "File:Beijing Capital Airlines.png",
+  "license": "Fair use",
+  "logo": "logos/beijing-capital-airlines.png",
+  "name": "Beijing Capital Airlines",
+  "non_free": true,
+  "website": "https://www.jdair.net"
+ },
  "Belavia": {
   "file": "File:Belavia logo.svg",
   "license": "Public domain",
@@ -206,6 +1606,38 @@
   "name": "Belavia",
   "non_free": false,
   "website": "http://belavia.by"
+ },
+ "Bering Air": {
+  "file": "File:Bering Air Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/bering-air.svg",
+  "name": "Bering Air",
+  "non_free": false,
+  "website": "http://www.beringair.com"
+ },
+ "Berjaya Air": {
+  "file": "File:Berjaya Air logo.png",
+  "license": "Public domain",
+  "logo": "logos/berjaya-air.png",
+  "name": "Berjaya Air",
+  "non_free": false,
+  "website": "http://www.berjaya-air.com"
+ },
+ "BermudAir": {
+  "file": "File:Bermudair-logo.svg",
+  "license": "Public domain",
+  "logo": "logos/bermudair.svg",
+  "name": "BermudAir",
+  "non_free": false,
+  "website": "https://flybermudair.com/"
+ },
+ "Berniq Airways": {
+  "file": "File:Berniq Airways Logo.png",
+  "license": "Fair use",
+  "logo": "logos/berniq-airways.png",
+  "name": "Berniq Airways",
+  "non_free": true,
+  "website": "https://berniq.aero/ar/en/"
  },
  "Bhutan Airlines": {
   "file": "File:Bhutan Airlines logo.png",
@@ -223,6 +1655,70 @@
   "non_free": false,
   "website": "http://www.biman-airlines.com"
  },
+ "Binter Canarias": {
+  "file": "File:Binter logo.svg",
+  "license": "Public domain",
+  "logo": "logos/binter-canarias.svg",
+  "name": "Binter Canarias",
+  "non_free": false,
+  "website": "http://www.bintercanarias.com/"
+ },
+ "Blade Air Mobility": {
+  "file": "File:Fly Blade logo.png",
+  "license": "Public domain",
+  "logo": "logos/blade-air-mobility.png",
+  "name": "Blade",
+  "non_free": false,
+  "website": "http://blade.com/"
+ },
+ "Blue Wing Airlines": {
+  "file": "File:Blue wing Airlines.png",
+  "license": "Fair use",
+  "logo": "logos/blue-wing-airlines.png",
+  "name": "Blue Wing Airlines",
+  "non_free": true,
+  "website": "http://www.bluewingairlines.com"
+ },
+ "Bluebird Airways": {
+  "file": "File:Bluebird Airways Logo.png",
+  "license": "Fair use",
+  "logo": "logos/bluebird-airways.png",
+  "name": "Bluebird Airways",
+  "non_free": true,
+  "website": "http://www.bluebirdair.com"
+ },
+ "Boliviana de Aviación": {
+  "file": "File:Logotipo de BoA.svg",
+  "license": "Public domain",
+  "logo": "logos/boliviana-de-aviaci-n.svg",
+  "name": "Boliviana de Aviación",
+  "non_free": false,
+  "website": "http://www.boa.bo"
+ },
+ "Boutique Air": {
+  "file": "File:Boutique air logo.png",
+  "license": "Fair use",
+  "logo": "logos/boutique-air.png",
+  "name": "Boutique Air",
+  "non_free": true,
+  "website": "http://www.boutiqueair.com"
+ },
+ "Braathens Regional Airlines": {
+  "file": "File:Braathens Regional Airlines logo 2025.svg",
+  "license": "Fair use",
+  "logo": "logos/braathens-regional-airlines.svg",
+  "name": "BRA Braathens Regional Airlines",
+  "non_free": true,
+  "website": "http://flygbra.se"
+ },
+ "Breeze Airways": {
+  "file": "File:BreezeAirwayslogo.svg",
+  "license": "Public domain",
+  "logo": "logos/breeze-airways.svg",
+  "name": "Breeze Airways",
+  "non_free": false,
+  "website": "https://www.flybreeze.com/"
+ },
  "British Airways": {
   "file": "File:British Airways Logo.svg",
   "license": "PD",
@@ -230,6 +1726,18 @@
   "name": "British Airways",
   "non_free": false,
   "website": "https://britishairways.com/"
+ },
+ "Brussels Airlines": {
+  "file": "File:Brussels airlines logo 2021.svg",
+  "license": "Public domain",
+  "logo": "logos/brussels-airlines.svg",
+  "name": "Brussels Airlines",
+  "non_free": false,
+  "website": "https://www.brusselsairlines.com"
+ },
+ "Budapest Aircraft Service": {
+  "name": "BASe Airlines",
+  "website": "http://baseairlines.hu"
  },
  "Buddha Air": {
   "file": "File:Buddha Air logo.svg",
@@ -239,6 +1747,146 @@
   "non_free": true,
   "website": "http://www.buddhaair.com/"
  },
+ "Bulgaria Air": {
+  "file": "File:Bulgaria Air logo-en.svg",
+  "license": "Fair use",
+  "logo": "logos/bulgaria-air.svg",
+  "name": "Bulgaria Air",
+  "non_free": true,
+  "website": "http://www.air.bg/en"
+ },
+ "Buraq Air": {
+  "file": "File:Buraq Air logo.png",
+  "license": "Fair use",
+  "logo": "logos/buraq-air.png",
+  "name": "Buraq Air",
+  "non_free": true,
+  "website": "http://www.buraq.aero/"
+ },
+ "Buzz (Polish airline)": {
+  "file": "File:Buzz (Ryanair) logo.svg",
+  "license": "Fair use",
+  "logo": "logos/buzz-polish-airline.svg",
+  "name": "Buzz",
+  "non_free": true,
+  "website": "http://www.buzzair.com"
+ },
+ "CEIBA Intercontinental": {
+  "file": "File:Ceiba Intercontinental logo.svg",
+  "license": "PD",
+  "logo": "logos/ceiba-intercontinental.svg",
+  "name": "CEIBA Intercontinental",
+  "non_free": false,
+  "website": "https://ceibaintercontinentalairlines.com/"
+ },
+ "CM Airlines": {
+  "name": "CM Airlines",
+  "website": "http://www.cmairlines.com/"
+ },
+ "Cabo Flight Center": {
+  "name": "Cabo Flight Center",
+  "website": "https://www.caboflightcenter.com/"
+ },
+ "Cabo Verde Airlines": {
+  "file": "File:Cabo Verde Airlines logo.svg",
+  "license": "Public domain",
+  "logo": "logos/cabo-verde-airlines.svg",
+  "name": "Cabo Verde Airlines",
+  "non_free": false,
+  "website": "https://caboverdeairlines.com"
+ },
+ "Caicos Express Airways": {
+  "file": "File:Caicos Express Airways Logo.png",
+  "license": "CC0",
+  "logo": "logos/caicos-express-airways.png",
+  "name": "Caicos Express Airways",
+  "non_free": false,
+  "website": "https://www.turksandcaicosflights.com/"
+ },
+ "Calm Air": {
+  "file": "File:Calm Air Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/calm-air.svg",
+  "name": "Calm Air",
+  "non_free": false,
+  "website": "http://www.calmair.com"
+ },
+ "Camair-Co": {
+  "file": "File:Camair-Co logo.png",
+  "license": "Fair use",
+  "logo": "logos/camair-co.png",
+  "name": "Camair-Co",
+  "non_free": true,
+  "website": "https://www.camair-co.cm/"
+ },
+ "Cambodia Airways": {
+  "file": "File:Cambodia Airways Logo.png",
+  "license": "Fair use",
+  "logo": "logos/cambodia-airways.png",
+  "name": "Cambodia Airways",
+  "non_free": true,
+  "website": "http://www.cambodia-airways.com"
+ },
+ "Canadian Airways Congo": {
+  "file": "File:Canadian-logo-2017-big.png",
+  "license": "Public domain",
+  "logo": "logos/canadian-airways-congo.png",
+  "name": "Canadian Airways Congo",
+  "non_free": false,
+  "website": "https://www.canairco.net"
+ },
+ "Canadian North": {
+  "file": "File:Logo Canadian North Airlines (2019).svg",
+  "license": "Fair use",
+  "logo": "logos/canadian-north.svg",
+  "name": "Canadian North",
+  "non_free": true,
+  "website": "http://www.canadiannorth.com"
+ },
+ "Canaryfly": {
+  "file": "File:Canaryfly logo.svg",
+  "license": "Public domain",
+  "logo": "logos/canaryfly.svg",
+  "name": "CanaryFly",
+  "non_free": false,
+  "website": "http://www.canaryfly.es/"
+ },
+ "Cape Air": {
+  "file": "File:Cape Air logo.svg",
+  "license": "Fair use",
+  "logo": "logos/cape-air.svg",
+  "name": "Cape Air",
+  "non_free": true,
+  "website": "http://www.capeair.com"
+ },
+ "Caribbean Airlines": {
+  "file": "File:Caribbean Airlines logo-600x270.png",
+  "license": "Fair use",
+  "logo": "logos/caribbean-airlines.png",
+  "name": "Caribbean Airlines",
+  "non_free": true,
+  "website": "http://www.caribbean-airlines.com"
+ },
+ "Caribbean Helicopters": {
+  "file": "File:Caribbean Helicopters logo.png",
+  "license": "Fair use",
+  "logo": "logos/caribbean-helicopters.png",
+  "name": "Caribbean Helicopters",
+  "non_free": true,
+  "website": "http://www.caribbeanhelicopters.com"
+ },
+ "Caroline Islands Air": {
+  "name": "Caroline Islands Air",
+  "website": null
+ },
+ "Caspian Airlines": {
+  "file": "File:Caspian Airlines logo.svg",
+  "license": "Fair use",
+  "logo": "logos/caspian-airlines.svg",
+  "name": "Caspian Airlines",
+  "non_free": true,
+  "website": "https://www.caspianairlines.com"
+ },
  "Cathay Pacific": {
   "file": "File:Cathay Pacific logo.svg",
   "license": "Fair use",
@@ -246,6 +1894,46 @@
   "name": "Cathay Pacific",
   "non_free": true,
   "website": "https://www.cathaypacific.com"
+ },
+ "Cayman Airways": {
+  "file": "File:Cayman Airways logo.svg",
+  "license": "Fair use",
+  "logo": "logos/cayman-airways.svg",
+  "name": "Cayman Airways",
+  "non_free": true,
+  "website": "https://www.caymanairways.com"
+ },
+ "Cebgo": {
+  "file": "File:Logo of Cebgo.svg",
+  "license": "Public domain",
+  "logo": "logos/cebgo.svg",
+  "name": "Cebgo",
+  "non_free": false,
+  "website": "http://www.cebupacificair.com"
+ },
+ "Cebu Pacific": {
+  "file": "File:Cebu Pacific logo.svg",
+  "license": "Fair use",
+  "logo": "logos/cebu-pacific.svg",
+  "name": "Cebu Pacific",
+  "non_free": true,
+  "website": "http://www.cebupacificair.com"
+ },
+ "CemAir": {
+  "file": "File:CemAir Logo.png",
+  "license": "Fair use",
+  "logo": "logos/cemair.png",
+  "name": "CemAir",
+  "non_free": true,
+  "website": "http://cemair.co.za"
+ },
+ "Central Mountain Air": {
+  "file": "File:CMA Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/central-mountain-air.svg",
+  "name": "Central Mountain Air",
+  "non_free": true,
+  "website": "http://www.flycma.com"
  },
  "Centrum Air": {
   "file": "File:Centrum Air Logo.svg",
@@ -255,6 +1943,46 @@
   "non_free": true,
   "website": "https://www.centrum-air.com/en"
  },
+ "Chabahar Airlines": {
+  "file": "File:Logo Chabahar Airlines (2024).png",
+  "license": "Fair use",
+  "logo": "logos/chabahar-airlines.png",
+  "name": "Chabahar Airlines",
+  "non_free": true,
+  "website": "http://chabaharairlines.com/"
+ },
+ "Chair Airlines": {
+  "file": "File:Chair Airlines.svg",
+  "license": "Public domain",
+  "logo": "logos/chair-airlines.svg",
+  "name": "Chair Airlines",
+  "non_free": false,
+  "website": "http://www.chair.ch"
+ },
+ "Chalair Aviation": {
+  "file": "File:Chalair Aviation logo.png",
+  "license": "Fair use",
+  "logo": "logos/chalair-aviation.png",
+  "name": "Chalair Aviation",
+  "non_free": true,
+  "website": "http://www.chalair.eu/index.php/en"
+ },
+ "Chengdu Airlines": {
+  "file": "File:Chengdu Airlines logo.png",
+  "license": "Fair use",
+  "logo": "logos/chengdu-airlines.png",
+  "name": "Chengdu Airlines",
+  "non_free": true,
+  "website": "https://www.cdal.com.cn/"
+ },
+ "China Airlines": {
+  "file": "File:China Airlines.svg",
+  "license": "Fair use",
+  "logo": "logos/china-airlines.svg",
+  "name": "China Airlines",
+  "non_free": true,
+  "website": "http://www.china-airlines.com"
+ },
  "China Eastern Airlines": {
   "file": "File:China Eastern Airlines logo.svg",
   "license": "PD",
@@ -263,6 +1991,18 @@
   "non_free": false,
   "website": "http://www.ceair.com"
  },
+ "China Express Airlines": {
+  "file": "File:ChinaExpressAirLogo.svg",
+  "license": "Fair use",
+  "logo": "logos/china-express-airlines.svg",
+  "name": "China Express Airlines",
+  "non_free": true,
+  "website": "http://www.chinaexpressair.com"
+ },
+ "China Flying Dragon Aviation": {
+  "name": "China Flying Dragon Aviation",
+  "website": "http://www.chinafda.com.cn"
+ },
  "China Southern Airlines": {
   "file": "File:China Southern Airlines logo.svg",
   "license": "Fair use",
@@ -270,6 +2010,318 @@
   "name": "China Southern Airlines",
   "non_free": true,
   "website": "https://www.csair.com/en/"
+ },
+ "China United Airlines": {
+  "file": "File:China United Airlines logo.svg",
+  "license": "Fair use",
+  "logo": "logos/china-united-airlines.svg",
+  "name": "China United Airlines",
+  "non_free": true,
+  "website": "http://www.flycua.com"
+ },
+ "Chongqing Airlines": {
+  "file": "File:Chongqing Airlines logo 2023.png",
+  "license": "Public domain",
+  "logo": "logos/chongqing-airlines.png",
+  "name": "Chongqing Airlines",
+  "non_free": false,
+  "website": "http://www.chongqingairlines.cn"
+ },
+ "Chrono Aviation": {
+  "file": "File:Chrono Aviation logo.png",
+  "license": "Public domain",
+  "logo": "logos/chrono-aviation.png",
+  "name": "Chrono Aviation",
+  "non_free": false,
+  "website": "https://www.chronoaviation.com/en/home/"
+ },
+ "Chukotavia": {
+  "file": "File:ChukotAVIA logo.png",
+  "license": "Fair use",
+  "logo": "logos/chukotavia.png",
+  "name": "Chukotavia",
+  "non_free": true,
+  "website": "http://chukotavia.com/"
+ },
+ "Cinnamon Air": {
+  "file": "File:Cinnamon Air Logo Sri Lanka.png",
+  "license": "PD",
+  "logo": "logos/cinnamon-air.png",
+  "name": "Cinnamon Air",
+  "non_free": false,
+  "website": "http://www.cinnamonair.com"
+ },
+ "Citilink": {
+  "file": "File:2012 Citilink Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/citilink.svg",
+  "name": "Citilink",
+  "non_free": false,
+  "website": "http://www.citilink.co.id"
+ },
+ "Clay Lacy Aviation": {
+  "file": "File:CLA-Logo.svg",
+  "license": "CC BY 4.0",
+  "logo": "logos/clay-lacy-aviation.svg",
+  "name": "Clay Lacy Aviation",
+  "non_free": false,
+  "website": "http://www.claylacy.com"
+ },
+ "Clic Air": {
+  "file": "File:Clic Air logo.svg",
+  "license": "Fair use",
+  "logo": "logos/clic-air.svg",
+  "name": "Clic",
+  "non_free": true,
+  "website": "http://www.clicair.co"
+ },
+ "Coastal Air (Tanzania)": {
+  "name": "Coastal Aviation",
+  "website": "https://coastal.co.tz/"
+ },
+ "Colorful Guizhou Airlines": {
+  "file": "File:Logo of Colorful Guizhou Airlines.svg",
+  "license": "Fair use",
+  "logo": "logos/colorful-guizhou-airlines.svg",
+  "name": "Colorful Guizhou Airlines",
+  "non_free": true,
+  "website": "http://www.cgzair.com/"
+ },
+ "Compagnie Africaine d'Aviation": {
+  "file": "File:Compagnie Africaine d'Aviation logo.png",
+  "license": "Fair use",
+  "logo": "logos/compagnie-africaine-d-aviation.png",
+  "name": "Compagnie Africaine d'Aviation",
+  "non_free": true,
+  "website": "http://www.caacongo.com/"
+ },
+ "Condor": {
+  "name": "Condor",
+  "website": null
+ },
+ "Condor (airline)": {
+  "file": "File:Condor logo 2022.svg",
+  "license": "Public domain",
+  "logo": "logos/condor-airline.svg",
+  "name": "Condor",
+  "non_free": false,
+  "website": "http://www.condor.com"
+ },
+ "Congo Airways": {
+  "file": "File:Congo Airways logo.png",
+  "license": "Fair use",
+  "logo": "logos/congo-airways.png",
+  "name": "Congo Airways",
+  "non_free": true,
+  "website": "http://www.congoairways.com/"
+ },
+ "Contour Airlines": {
+  "file": "File:Logo Contour Airlines.svg",
+  "license": "Public domain",
+  "logo": "logos/contour-airlines.svg",
+  "name": "Contour Airlines",
+  "non_free": false,
+  "website": "http://contourairlines.com"
+ },
+ "Conviasa": {
+  "file": "File:Conviasa Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/conviasa.svg",
+  "name": "Conviasa",
+  "non_free": false,
+  "website": "http://www.conviasa.aero"
+ },
+ "Copa Airlines": {
+  "file": "File:Copa airlines logo.svg",
+  "license": "Fair use",
+  "logo": "logos/copa-airlines.svg",
+  "name": "Copa Airlines",
+  "non_free": true,
+  "website": "https://www.copaair.com/en/"
+ },
+ "Copenhagen AirTaxi": {
+  "file": "File:Copenhagen AirTaxi logo.png",
+  "license": "Public domain",
+  "logo": "logos/copenhagen-airtaxi.png",
+  "name": "Copenhagen Air Taxi",
+  "non_free": false,
+  "website": "https://www.aircat.dk/"
+ },
+ "Corendon Airlines": {
+  "file": "File:Corendon Airlines Logo 2017.svg",
+  "license": "Public domain",
+  "logo": "logos/corendon-airlines.svg",
+  "name": "Corendon Airlines",
+  "non_free": false,
+  "website": "https://www.corendonairlines.com"
+ },
+ "Corendon Airlines Europe": {
+  "file": "File:Corendon Airlines Logo 2017.svg",
+  "license": "Public domain",
+  "logo": "logos/corendon-airlines-europe.svg",
+  "name": "Corendon Airlines Europe",
+  "non_free": false,
+  "website": "http://www.corendonairlines.com/"
+ },
+ "Corendon Dutch Airlines": {
+  "file": "File:Logo Corendon-Dutch (2017).svg",
+  "license": "Public domain",
+  "logo": "logos/corendon-dutch-airlines.svg",
+  "name": "Corendon Dutch Airlines",
+  "non_free": false,
+  "website": "https://www.corendon.nl/"
+ },
+ "Corilair": {
+  "name": "Corilair",
+  "website": null
+ },
+ "Corsair International": {
+  "file": "File:Corsair International logo.png",
+  "license": "Fair use",
+  "logo": "logos/corsair-international.png",
+  "name": "Corsair International",
+  "non_free": true,
+  "website": "http://www.flycorsair.com"
+ },
+ "Costa Rica Green Airways": {
+  "file": "File:Costa Rica Green Airways Logo.png",
+  "license": "Fair use",
+  "logo": "logos/costa-rica-green-airways.png",
+  "name": "Costa Rica Green Airways",
+  "non_free": true,
+  "website": "http://costaricagreenair.com"
+ },
+ "Croatia Airlines": {
+  "file": "File:Croatia Airlines 2024 logo.svg",
+  "license": "Public domain",
+  "logo": "logos/croatia-airlines.svg",
+  "name": "Croatia Airlines",
+  "non_free": false,
+  "website": "http://www.croatiaairlines.com"
+ },
+ "Cronos Airlines": {
+  "file": "File:Cronos logo.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/cronos-airlines.png",
+  "name": "Cronos Airlines",
+  "non_free": false,
+  "website": "https://cronosair.com/en/"
+ },
+ "Cubana de Aviación": {
+  "file": "File:Cubana Airlines logo.svg",
+  "license": "Public domain",
+  "logo": "logos/cubana-de-aviaci-n.svg",
+  "name": "Cubana de Aviación",
+  "non_free": false,
+  "website": "http://www.cubana.cu"
+ },
+ "Cyprus Airways": {
+  "file": "File:Cyprus Airways (2017) logo.svg",
+  "license": "Fair use",
+  "logo": "logos/cyprus-airways.svg",
+  "name": "Cyprus Airways",
+  "non_free": true,
+  "website": "https://www.cyprusairways.com"
+ },
+ "Cyprus Airways (1947–2015)": {
+  "file": "File:Cyprus Airways Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/cyprus-airways-1947-2015.svg",
+  "name": "Cyprus Airlines",
+  "non_free": true,
+  "website": "https://web.archive.org/web/20161129145348/http://www.cyprusair.com/"
+ },
+ "DAT (airline)": {
+  "file": "File:Danish Air Transport logo.svg",
+  "license": "Fair use",
+  "logo": "logos/dat-airline.svg",
+  "name": "DAT",
+  "non_free": true,
+  "website": "http://www.dat.dk/home-30644.htm"
+ },
+ "Daallo Airlines": {
+  "name": "Daallo Airlines",
+  "website": "http://www.daallo.com"
+ },
+ "Daily Air": {
+  "file": "File:Daily Air logo.png",
+  "license": "Public domain",
+  "logo": "logos/daily-air.png",
+  "name": "Daily Air",
+  "non_free": false,
+  "website": "http://www.dailyair.com.tw"
+ },
+ "Dalian Airlines": {
+  "file": "File:DalianAirlinesLogo.PNG",
+  "license": "Fair use",
+  "logo": "logos/dalian-airlines.png",
+  "name": "Dalian Airlines",
+  "non_free": true,
+  "website": "http://www.dalianair-china.com"
+ },
+ "Dan Air (Romania)": {
+  "file": "File:Dan Air (Romania) logo.png",
+  "license": "Fair use",
+  "logo": "logos/dan-air-romania.png",
+  "name": "Dan Air",
+  "non_free": true,
+  "website": "https://danair.ro/"
+ },
+ "Delta Air Lines": {
+  "file": "File:Delta logo.svg",
+  "license": "Public domain",
+  "logo": "logos/delta-air-lines.svg",
+  "name": "Delta Air Lines",
+  "non_free": false,
+  "website": "https://www.delta.com/"
+ },
+ "Delta Connection": {
+  "file": "File:Delta Connection logo (c. 2007).svg",
+  "license": "Fair use",
+  "logo": "logos/delta-connection.svg",
+  "name": "Delta Connection",
+  "non_free": true,
+  "website": "http://www.delta.com"
+ },
+ "Denver Air Connection": {
+  "file": "File:Denver Air Connection Logo.png",
+  "license": "Fair use",
+  "logo": "logos/denver-air-connection.png",
+  "name": "Denver Air Connection",
+  "non_free": true,
+  "website": "https://denverairconnection.com/"
+ },
+ "Diamond Sky": {
+  "name": "Diamond Sky",
+  "website": "https://diamond-sky.aero/"
+ },
+ "Directflight": {
+  "name": "Directflight",
+  "website": null
+ },
+ "Discover Airlines": {
+  "file": "File:Logo Discover Airlines.svg",
+  "license": "Public domain",
+  "logo": "logos/discover-airlines.svg",
+  "name": "Discover Airlines",
+  "non_free": false,
+  "website": "https://www.discover-airlines.com"
+ },
+ "Divi Divi Air": {
+  "name": "Divi Divi Air",
+  "website": "https://flydivi.com"
+ },
+ "Domestic Airlines": {
+  "name": "Tassili Airlines",
+  "website": "https://domesticairlines.dz/"
+ },
+ "Donghai Airlines": {
+  "file": "File:Donghai airlines comlogo.png",
+  "license": "Fair use",
+  "logo": "logos/donghai-airlines.png",
+  "name": "Donghai Airlines",
+  "non_free": true,
+  "website": "http://www.donghaiair.com"
  },
  "Drukair": {
   "file": "File:Druk air-dz.svg",
@@ -287,13 +2339,113 @@
   "non_free": true,
   "website": "http://www.evaair.com"
  },
- "Egyptair": {
+ "Eagle Air (Uganda)": {
+  "name": "Eagle Air",
+  "website": "https://www.eagleair-ug.com/"
+ },
+ "EastIndo": {
+  "file": "File:EastIndo logo.png",
+  "license": "Fair use",
+  "logo": "logos/eastindo.png",
+  "name": "EastIndo",
+  "non_free": true,
+  "website": "http://www.eastindo.com/"
+ },
+ "Eastafrican.com": {
+  "file": "File:Ea-logo-web-transparent.png",
+  "license": "Public domain",
+  "logo": "logos/eastafrican-com.png",
+  "name": "Fly-SAX",
+  "non_free": false,
+  "website": "http://Eastafrican.com"
+ },
+ "Eastar Jet": {
+  "file": "File:Eastar Jet Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/eastar-jet.svg",
+  "name": "Eastar Jet",
+  "non_free": false,
+  "website": "http://www.eastarjet.com"
+ },
+ "Eastern Air Express": {
+  "file": "File:Eastern Airlines logo new.svg",
+  "license": "Public domain",
+  "logo": "logos/eastern-air-express.svg",
+  "name": "Eastern Air Express",
+  "non_free": false,
+  "website": "http://goeasternair.com"
+ },
+ "Eastern Air Services": {
+  "file": "File:Eastern Air Services Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/eastern-air-services.svg",
+  "name": "Eastern Air Services",
+  "non_free": true,
+  "website": "https://www.easternairservices.com.au/"
+ },
+ "EasyJet": {
+  "file": "File:EasyJet logo.svg",
+  "license": "Public domain",
+  "logo": "logos/easyjet.svg",
+  "name": "easyJet",
+  "non_free": false,
+  "website": "https://www.easyjet.com/"
+ },
+ "EasyJet Switzerland": {
+  "file": "File:EasyJet logo.svg",
+  "license": "Public domain",
+  "logo": "logos/easyjet-switzerland.svg",
+  "name": "easyJet",
+  "non_free": false,
+  "website": "http://www.easyjet.com"
+ },
+ "EcoJet (Bolivian airline)": {
+  "file": "File:Logo EcoJet (Bolivian airline) 2025.png",
+  "license": "Fair use",
+  "logo": "logos/ecojet-bolivian-airline.png",
+  "name": "EcoJet",
+  "non_free": true,
+  "website": "https://flyecojet.aero/"
+ },
+ "Edelweiss Air": {
+  "file": "File:Edelweiss Air logo.svg",
+  "license": "Fair use",
+  "logo": "logos/edelweiss-air.svg",
+  "name": "Edelweiss Air",
+  "non_free": true,
+  "website": "http://www.flyedelweiss.com"
+ },
+ "EgyptAir": {
   "file": "File:Egypt Air.svg",
   "license": "Fair use",
   "logo": "logos/egyptair.svg",
   "name": "Egyptair",
   "non_free": true,
   "website": "http://www.egyptair.com"
+ },
+ "El Al": {
+  "file": "File:El Al logo.svg",
+  "license": "Public domain",
+  "logo": "logos/el-al.svg",
+  "name": "El Al",
+  "non_free": false,
+  "website": "https://www.elal.com/"
+ },
+ "Electra Airways": {
+  "file": "File:Electra Airways Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/electra-airways.svg",
+  "name": "Electra Airways",
+  "non_free": true,
+  "website": "https://www.electra-airways.com/"
+ },
+ "Emerald Airlines": {
+  "file": "File:Emerald Airlines Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/emerald-airlines.svg",
+  "name": "Emerald Airlines",
+  "non_free": true,
+  "website": "http://www.emeraldairlines.com"
  },
  "Emirates (airline)": {
   "file": "File:Emirates Logo.svg",
@@ -302,6 +2454,38 @@
   "name": "Emirates",
   "non_free": false,
   "website": "https://www.emirates.com/"
+ },
+ "Enter Air": {
+  "file": "File:Enter Air logo.svg",
+  "license": "Public domain",
+  "logo": "logos/enter-air.svg",
+  "name": "Enter Air",
+  "non_free": false,
+  "website": "http://www.enterair.pl/en"
+ },
+ "Enugu Air": {
+  "name": "Enugu Air",
+  "website": "https://enuguairlines.ng"
+ },
+ "Equaflight": {
+  "file": "File:Equaflight logo.png",
+  "license": "Fair use",
+  "logo": "logos/equaflight.png",
+  "name": "Equaflight",
+  "non_free": true,
+  "website": "http://www.equaflight.com/"
+ },
+ "Equatorial Congo Airlines": {
+  "name": "ECAir",
+  "website": "https://fly-ecair.com/"
+ },
+ "Eswatini Air": {
+  "file": "File:EswatiniAir.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/eswatini-air.png",
+  "name": "Eswatini Air",
+  "non_free": false,
+  "website": "https://eswatiniair.co.sz/"
  },
  "Ethiopian Airlines": {
   "file": "File:Ethiopian Airlines Logo.svg",
@@ -319,6 +2503,102 @@
   "non_free": false,
   "website": "https://www.etihad.com/"
  },
+ "EuroAtlantic Airways": {
+  "file": "File:Logo euroAtlantic airways 2020.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/euroatlantic-airways.png",
+  "name": "euroAtlantic Airways",
+  "non_free": false,
+  "website": "http://www.euroatlantic.pt"
+ },
+ "European Air Charter (Bulgarian airline)": {
+  "file": "File:Logo of European Air Charter.png",
+  "license": "CC0",
+  "logo": "logos/european-air-charter-bulgarian-airline.png",
+  "name": "European Air Charter",
+  "non_free": false,
+  "website": "http://www.euaircharter.com"
+ },
+ "European Aviation Air Charter": {
+  "file": "File:Europeanaviation-logo.png",
+  "license": "Public domain",
+  "logo": "logos/european-aviation-air-charter.png",
+  "name": "European Air Charter",
+  "non_free": false,
+  "website": "http://www.eaac.co.uk"
+ },
+ "Eurowings": {
+  "file": "File:Eurowings Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/eurowings.svg",
+  "name": "Eurowings",
+  "non_free": false,
+  "website": "https://www.eurowings.com"
+ },
+ "Everts Air": {
+  "file": "File:Everts Air Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/everts-air.svg",
+  "name": "Everts Air",
+  "non_free": false,
+  "website": "https://www.evertsair.com/"
+ },
+ "Ewa Air": {
+  "file": "File:EWA Air Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/ewa-air.svg",
+  "name": "Ewa Air",
+  "non_free": false,
+  "website": "http://www.ewa-air.com/en"
+ },
+ "FLN Frisia Luftverkehr": {
+  "name": "FLN Frisia Luftverkehr",
+  "website": "https://www.inselflieger.de/"
+ },
+ "Falkland Islands Government Aviation Service": {
+  "name": "FIGAS",
+  "website": "https://www.falklands.gov.fk/aviationservice/"
+ },
+ "Fastjet Zimbabwe": {
+  "file": "File:Fastjet yellow logo.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/fastjet-zimbabwe.png",
+  "name": "Fastjet Zimbabwe",
+  "non_free": false,
+  "website": "http://www.fastjet.com/zw/en"
+ },
+ "FedEx Express": {
+  "file": "File:FedEx Express.svg",
+  "license": "Public domain",
+  "logo": "logos/fedex-express.svg",
+  "name": "FedEx Feeder",
+  "non_free": false,
+  "website": null
+ },
+ "Federal Air": {
+  "file": "File:Federal Air logo.svg",
+  "license": "Fair use",
+  "logo": "logos/federal-air.svg",
+  "name": "Federal Air",
+  "non_free": true,
+  "website": "http://fedair.com"
+ },
+ "Fiji Airways": {
+  "file": "File:Fiji Airways logo.svg",
+  "license": "Fair use",
+  "logo": "logos/fiji-airways.svg",
+  "name": "Fiji Airways",
+  "non_free": true,
+  "website": "http://www.fijiairways.com"
+ },
+ "Fiji Link": {
+  "name": "Fiji Link",
+  "website": "https://www.fijiairways.com/"
+ },
+ "Finist'air": {
+  "name": "Finist'air",
+  "website": "http://www.finistair.fr"
+ },
  "Finnair": {
   "file": "File:Finnair Logo.svg",
   "license": "Public domain",
@@ -327,6 +2607,18 @@
   "non_free": false,
   "website": "https://www.finnair.com/"
  },
+ "Firefly": {
+  "name": "Firefly",
+  "website": null
+ },
+ "Firefly (airline)": {
+  "file": "File:Firefly Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/firefly-airline.svg",
+  "name": "Firefly",
+  "non_free": false,
+  "website": "http://www.fireflyz.com.my"
+ },
  "FitsAir": {
   "file": "File:Fitsair logo.png",
   "license": "CC BY-SA 4.0",
@@ -334,6 +2626,106 @@
   "name": "FitsAir",
   "non_free": false,
   "website": null
+ },
+ "Flair Airlines": {
+  "file": "File:Flair Airlines logo (2019).svg",
+  "license": "Public domain",
+  "logo": "logos/flair-airlines.svg",
+  "name": "Flair Airlines",
+  "non_free": false,
+  "website": "http://www.flyflair.com"
+ },
+ "Flamingo Air": {
+  "file": "File:Flamingo Air (Freeport, Bahamas) airline logo.png",
+  "license": "Fair use",
+  "logo": "logos/flamingo-air.png",
+  "name": "Flamingo Air",
+  "non_free": true,
+  "website": "http://flamingoairbah.com/"
+ },
+ "Flightlink": {
+  "file": "File:Flightlink Logo.png",
+  "license": "Fair use",
+  "logo": "logos/flightlink.png",
+  "name": "Flightlink",
+  "non_free": true,
+  "website": "http://www.flightlink.co.tz/"
+ },
+ "Fly All Ways": {
+  "file": "File:FAW-logo.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/fly-all-ways.png",
+  "name": "Fly All Ways",
+  "non_free": false,
+  "website": "http://www.flyallways.com"
+ },
+ "Fly Angola": {
+  "name": "Fly Angola",
+  "website": null
+ },
+ "Fly Baghdad": {
+  "name": "Fly Baghdad",
+  "website": "https://www.flybaghdad.iq/"
+ },
+ "Fly Cham": {
+  "file": "File:Fly Cham logo.png",
+  "license": "Fair use",
+  "logo": "logos/fly-cham.png",
+  "name": "Fly Cham",
+  "non_free": true,
+  "website": "https://flycham.com/"
+ },
+ "Fly Jinnah": {
+  "file": "File:Fly Jinnah logo2.png",
+  "license": "CC0",
+  "logo": "logos/fly-jinnah.png",
+  "name": "Fly Jinnah",
+  "non_free": false,
+  "website": "http://www.flyjinnah.com"
+ },
+ "Fly Kish": {
+  "file": "File:Flykishairline.png",
+  "license": "Fair use",
+  "logo": "logos/fly-kish.png",
+  "name": "Fly Kish",
+  "non_free": true,
+  "website": "https://www.flykish.com"
+ },
+ "Fly Kıbrıs Airlines": {
+  "file": "File:Flykhy.png",
+  "license": "Fair use",
+  "logo": "logos/fly-k-br-s-airlines.png",
+  "name": "Fly Kıbrıs Airlines",
+  "non_free": true,
+  "website": "https://www.flykhy.com"
+ },
+ "Fly Lili": {
+  "file": "File:Fly Lili Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/fly-lili.svg",
+  "name": "Fly Lili",
+  "non_free": true,
+  "website": "http://www.flylili.com"
+ },
+ "Fly Tiwi": {
+  "file": "File:Fly Tiwi logo.png",
+  "license": "Fair use",
+  "logo": "logos/fly-tiwi.png",
+  "name": "Fly Tiwi",
+  "non_free": true,
+  "website": "http://www.flytiwi.com.au/"
+ },
+ "Fly540": {
+  "file": "File:Fly540 logo.png",
+  "license": "Fair use",
+  "logo": "logos/fly540.png",
+  "name": "Fly540",
+  "non_free": true,
+  "website": "http://www.fly540.com/"
+ },
+ "FlyAden": {
+  "name": "FlyAden",
+  "website": "https://fly-aden.com/en/"
  },
  "FlyArystan": {
   "file": "File:FlyArystan regular logo.png",
@@ -351,6 +2743,34 @@
   "non_free": true,
   "website": "https://flybig.in"
  },
+ "FlyErbil": {
+  "file": "File:FlyErbil logo.png",
+  "license": "Fair use",
+  "logo": "logos/flyerbil.png",
+  "name": "FlyErbil",
+  "non_free": true,
+  "website": "http://www.flyebl.com/"
+ },
+ "FlyGabon": {
+  "file": "File:FlyGabon.png",
+  "license": "CC0",
+  "logo": "logos/flygabon.png",
+  "name": "FlyGabon",
+  "non_free": false,
+  "website": "https://www.flygabon.online/en"
+ },
+ "FlyJaya": {
+  "name": "FlyJaya",
+  "website": "https://flyjaya.com"
+ },
+ "FlyMontserrat": {
+  "name": "FlyMontserrat",
+  "website": "http://www.flymontserrat.com"
+ },
+ "FlyNyasa": {
+  "name": "Ulendo Airlink",
+  "website": "http://www.flynyasa.net"
+ },
  "FlyOne": {
   "file": "File:Flyone-logo-1.1.svg",
   "license": "Public domain",
@@ -358,6 +2778,38 @@
   "name": "FlyOne",
   "non_free": false,
   "website": "https://flyone.eu/en/"
+ },
+ "FlyOne Armenia": {
+  "file": "File:FLYONE Armenia logo no background.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/flyone-armenia.png",
+  "name": "FlyOne Armenia",
+  "non_free": false,
+  "website": "https://flyone.eu/am/"
+ },
+ "FlyPelican": {
+  "file": "File:FlyPelican logo.svg",
+  "license": "PD",
+  "logo": "logos/flypelican.svg",
+  "name": "FlyPelican",
+  "non_free": false,
+  "website": "http://www.flypelican.com.au"
+ },
+ "FlyPersia": {
+  "file": "File:Logo FlyPersia Airlines (2019).png",
+  "license": "Fair use",
+  "logo": "logos/flypersia.png",
+  "name": "FlyPersia",
+  "non_free": true,
+  "website": "https://flypersiaairlines.ir"
+ },
+ "FlySafair": {
+  "file": "File:FlySafair logo.png",
+  "license": "Fair use",
+  "logo": "logos/flysafair.png",
+  "name": "FlySafair",
+  "non_free": true,
+  "website": "https://flysafair.co.za"
  },
  "Flyadeal": {
   "file": "File:Flyadeal Logo.svg",
@@ -375,6 +2827,14 @@
   "non_free": false,
   "website": "http://flydubai.com"
  },
+ "Flykhiva": {
+  "file": "File:Flykhiva Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/flykhiva.svg",
+  "name": "Flykhiva",
+  "non_free": true,
+  "website": "https://www.flykhiva.uz/"
+ },
  "Flynas": {
   "file": "File:Flynas Logo.svg",
   "license": "Public domain",
@@ -382,6 +2842,218 @@
   "name": "Flynas",
   "non_free": false,
   "website": "http://www.flynas.com"
+ },
+ "Flytrip": {
+  "file": "File:Flytrip logo.svg",
+  "license": "Public domain",
+  "logo": "logos/flytrip.svg",
+  "name": "Flytrip",
+  "non_free": false,
+  "website": "https://flytrip.com.pa/"
+ },
+ "Flyyo": {
+  "file": "File:FLYYO logo.svg",
+  "license": "Fair use",
+  "logo": "logos/flyyo.svg",
+  "name": "FLYYO",
+  "non_free": true,
+  "website": "https://flyyo.com/"
+ },
+ "Freebird Airlines": {
+  "file": "File:Freebird Airlines Logo (2021).svg",
+  "license": "Public domain",
+  "logo": "logos/freebird-airlines.svg",
+  "name": "Freebird Airlines",
+  "non_free": false,
+  "website": "https://www.freebirdairlines.com"
+ },
+ "Freebird Airlines Europe": {
+  "file": "File:Freebird Airlines Europe logo.png",
+  "license": "Public domain",
+  "logo": "logos/freebird-airlines-europe.png",
+  "name": "Freebird Airlines Europe",
+  "non_free": false,
+  "website": "https://freebirdairlines.com"
+ },
+ "Freedom Airline Express": {
+  "file": "File:Logo of Freedom Airline Express.svg",
+  "license": "Fair use",
+  "logo": "logos/freedom-airline-express.svg",
+  "name": "Freedom Airline Express",
+  "non_free": true,
+  "website": "http://freedomairexpress.com"
+ },
+ "French Bee": {
+  "file": "File:French bee logo.svg",
+  "license": "Fair use",
+  "logo": "logos/french-bee.svg",
+  "name": "French Bee",
+  "non_free": true,
+  "website": "http://www.frenchbee.com/"
+ },
+ "Frontier Airlines": {
+  "file": "File:Frontier Airlines logo.svg",
+  "license": "Public domain",
+  "logo": "logos/frontier-airlines.svg",
+  "name": "Frontier Airlines",
+  "non_free": false,
+  "website": "https://flyfrontier.com/"
+ },
+ "Frost Air": {
+  "name": "Skåne Aviation",
+  "website": "https://frost.aero/"
+ },
+ "Fuji Dream Airlines": {
+  "file": "File:Fuji Dream Airlines logo (2008, FDA).svg",
+  "license": "Public domain",
+  "logo": "logos/fuji-dream-airlines.svg",
+  "name": "Fuji Dream Airlines",
+  "non_free": false,
+  "website": "http://www.fujidream.co.jp/en"
+ },
+ "Fuzhou Airlines": {
+  "file": "File:FuzhouAirlinesLogo.png",
+  "license": "Fair use",
+  "logo": "logos/fuzhou-airlines.png",
+  "name": "Fuzhou Airlines",
+  "non_free": true,
+  "website": "http://www.fuzhou-air.cn/"
+ },
+ "GP Aviation": {
+  "name": "GP Aviation",
+  "website": "http://gpaviation.eu/en"
+ },
+ "GX Airlines": {
+  "file": "File:GX Airlines logo.svg",
+  "license": "Fair use",
+  "logo": "logos/gx-airlines.svg",
+  "name": "GX Airlines",
+  "non_free": true,
+  "website": "http://www.gxairlines.com"
+ },
+ "Garuda Indonesia": {
+  "file": "File:Garuda Indonesia Logo.svg",
+  "license": "PD",
+  "logo": "logos/garuda-indonesia.svg",
+  "name": "Garuda Indonesia",
+  "non_free": false,
+  "website": "http://www.garuda-indonesia.com"
+ },
+ "Gazpromavia": {
+  "file": "File:Logo gazpromavia eng.gif",
+  "license": "Fair use",
+  "logo": "logos/gazpromavia.png",
+  "name": "Gazpromavia",
+  "non_free": true,
+  "website": "http://eng.gazpromavia.ru/?id=1&L=1"
+ },
+ "Gem Air": {
+  "file": "File:Gem Air Logo.png",
+  "license": "Fair use",
+  "logo": "logos/gem-air.png",
+  "name": "Gem Air",
+  "non_free": true,
+  "website": "http://www.gemairflights.com"
+ },
+ "Georgian Airways": {
+  "file": "File:Georgian Airways logo.svg",
+  "license": "Fair use",
+  "logo": "logos/georgian-airways.svg",
+  "name": "Georgian Airways",
+  "non_free": true,
+  "website": "https://georgian-airways.com/en"
+ },
+ "GetJet Airlines": {
+  "file": "File:GetJet Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/getjet-airlines.svg",
+  "name": "GetJet Airlines",
+  "non_free": true,
+  "website": "http://getjet.aero"
+ },
+ "Ghadames Air Transport": {
+  "name": "Ghadames Air Transport",
+  "website": "https://ghadamesairlines.com"
+ },
+ "Glencore": {
+  "file": "File:Glencore logo.svg",
+  "license": "Public domain",
+  "logo": "logos/glencore.svg",
+  "name": "Glencore",
+  "non_free": false,
+  "website": "https://www.glencore.com"
+ },
+ "Glenorchy Air": {
+  "name": "Glenorchy Air",
+  "website": "http://www.glenorchyair.co.nz"
+ },
+ "Global Aviation": {
+  "name": "Global Aviation",
+  "website": null
+ },
+ "Global Aviation and Services Group": {
+  "name": "Global Air",
+  "website": "https://globalairt.com/cargo/"
+ },
+ "Gol Linhas Aéreas": {
+  "file": "File:Gol Linhas Aéreas Inteligentes logo (2015, without the slogan).svg",
+  "license": "Public domain",
+  "logo": "logos/gol-linhas-a-reas.svg",
+  "name": "Gol Linhas Aéreas",
+  "non_free": false,
+  "website": "http://www.voegol.com.br"
+ },
+ "Golden Bay Air": {
+  "file": "File:Golden Bay Air logo.svg",
+  "license": "Fair use",
+  "logo": "logos/golden-bay-air.svg",
+  "name": "Golden Bay Air",
+  "non_free": true,
+  "website": "http://www.goldenbayair.co.nz"
+ },
+ "Grand China Air": {
+  "file": "File:GrandChinaLogo.png",
+  "license": "Fair use",
+  "logo": "logos/grand-china-air.png",
+  "name": "Grand China Air",
+  "non_free": true,
+  "website": "https://www.grandchinaair.com"
+ },
+ "Grant Aviation": {
+  "file": "File:Grant Aviation Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/grant-aviation.svg",
+  "name": "Grant Aviation",
+  "non_free": true,
+  "website": "http://www.flygrant.com"
+ },
+ "Greater Bay Airlines": {
+  "file": "File:Greater Bay Airlines logo.svg",
+  "license": "PD",
+  "logo": "logos/greater-bay-airlines.svg",
+  "name": "Greater Bay Airlines",
+  "non_free": false,
+  "website": "http://www.greaterbay-airlines.com"
+ },
+ "Green Africa Airways": {
+  "file": "File:Green Africa Airways Logo.svg",
+  "license": "PD",
+  "logo": "logos/green-africa-airways.svg",
+  "name": "Green Africa Airways",
+  "non_free": false,
+  "website": null
+ },
+ "Grenadine Airways": {
+  "name": "Grenadine Airways",
+  "website": "http://www.grenadine-airways.com/"
+ },
+ "Griffing Flying Service": {
+  "file": "File:Griffing Flying Service Logo, 2021.svg",
+  "license": "Fair use",
+  "logo": "logos/griffing-flying-service.svg",
+  "name": "Griffing Flying Service",
+  "non_free": true,
+  "website": "https://www.flygriffing.com/"
  },
  "Gulf Air": {
   "file": "File:Gulf Air Logo 2018.svg",
@@ -391,6 +3063,174 @@
   "non_free": true,
   "website": "http://www.gulfair.com"
  },
+ "GullivAir": {
+  "file": "File:GullivAir logo.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/gullivair.png",
+  "name": "GullivAir",
+  "non_free": false,
+  "website": "https://gullivair.com/"
+ },
+ "Gum Air": {
+  "file": "File:Gum air logo.svg",
+  "license": "Public domain",
+  "logo": "logos/gum-air.svg",
+  "name": "Gum Air",
+  "non_free": false,
+  "website": "http://www.gumair.sr"
+ },
+ "Guna Airlines": {
+  "file": "File:Guna Airlines logo.png",
+  "license": "Fair use",
+  "logo": "logos/guna-airlines.png",
+  "name": "Guna Airlines",
+  "non_free": true,
+  "website": "https://www.flyguna.com/"
+ },
+ "HK Express": {
+  "file": "File:HK Express logo (2023).svg",
+  "license": "PD",
+  "logo": "logos/hk-express.svg",
+  "name": "HK Express",
+  "non_free": false,
+  "website": "http://www.hkexpress.com"
+ },
+ "Hainan Airlines": {
+  "file": "File:Hainan Airlines Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/hainan-airlines.svg",
+  "name": "Hainan Airlines",
+  "non_free": true,
+  "website": "https://www.hainanairlines.com"
+ },
+ "Harbour Air": {
+  "file": "File:Logo for Harbour Air.png",
+  "license": "Fair use",
+  "logo": "logos/harbour-air.png",
+  "name": "Harbour Air",
+  "non_free": true,
+  "website": "https://harbourair.com"
+ },
+ "Havana Air": {
+  "file": "File:Havana Air Logo, June 2014.svg",
+  "license": "Fair use",
+  "logo": "logos/havana-air.svg",
+  "name": "Havana Air",
+  "non_free": true,
+  "website": "http://www.havanaair.com/"
+ },
+ "Hawaiian Airlines": {
+  "file": "File:Hawaiian Airlines logo 2017.svg",
+  "license": "Fair use",
+  "logo": "logos/hawaiian-airlines.svg",
+  "name": "Hawaiian Airlines",
+  "non_free": true,
+  "website": "http://hawaiianairlines.com"
+ },
+ "Hebei Airlines": {
+  "file": "File:HebeiAirLogo.png",
+  "license": "Fair use",
+  "logo": "logos/hebei-airlines.png",
+  "name": "Hebei Airlines",
+  "non_free": true,
+  "website": "http://www.hbhk.com.cn"
+ },
+ "Hebridean Air Services": {
+  "name": "Hebridean Air Services",
+  "website": "https://www.hebrideanair.co.uk"
+ },
+ "Heli Air Monaco": {
+  "file": "File:Heli Air Monaco Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/heli-air-monaco.svg",
+  "name": "Heli Air Monaco",
+  "non_free": true,
+  "website": "http://www.heliairmonaco.com"
+ },
+ "Helijet": {
+  "name": "Helijet",
+  "website": "https://www.helijet.com"
+ },
+ "Helitours": {
+  "file": "File:Helitours logo.png",
+  "license": "Fair use",
+  "logo": "logos/helitours.png",
+  "name": "Helitours",
+  "non_free": true,
+  "website": "http://www.helitours.lk"
+ },
+ "HelloJets": {
+  "file": "File:HelloJets logo.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/hellojets.png",
+  "name": "HelloJets",
+  "non_free": false,
+  "website": "https://www.hellojets.com"
+ },
+ "Helvetic Airways": {
+  "file": "File:Helvetic Logo 2019 red.svg",
+  "license": "Public domain",
+  "logo": "logos/helvetic-airways.svg",
+  "name": "Helvetic Airways",
+  "non_free": false,
+  "website": "http://www.helvetic.com/en"
+ },
+ "Heston Airlines": {
+  "file": "File:Heston Airlines logo.svg",
+  "license": "Public domain",
+  "logo": "logos/heston-airlines.svg",
+  "name": "Heston Airlines",
+  "non_free": false,
+  "website": "https://heston.aero/"
+ },
+ "Hi Fly (airline)": {
+  "file": "File:Hi Fly logo.svg",
+  "license": "Public domain",
+  "logo": "logos/hi-fly-airline.svg",
+  "name": "Hi Fly",
+  "non_free": false,
+  "website": "https://hifly.aero/"
+ },
+ "HiSky": {
+  "file": "File:HiSky Logo.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/hisky.png",
+  "name": "HiSky",
+  "non_free": false,
+  "website": "http://www.hisky.aero"
+ },
+ "Himalaya Airlines": {
+  "file": "File:Himalaya Airlines.png",
+  "license": "Fair use",
+  "logo": "logos/himalaya-airlines.png",
+  "name": "Himalaya Airlines",
+  "non_free": true,
+  "website": "http://www.himalaya-airlines.com/"
+ },
+ "Hinterland Aviation": {
+  "file": "File:HAV New Slogan 06.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/hinterland-aviation.png",
+  "name": "Hinterland Aviation",
+  "non_free": false,
+  "website": "http://www.hinterlandaviation.com.au"
+ },
+ "Hokkaido Air System": {
+  "file": "File:Hokkaido Air System (HAC) Logo.png",
+  "license": "Fair use",
+  "logo": "logos/hokkaido-air-system.png",
+  "name": "Hokkaido Air System",
+  "non_free": true,
+  "website": "http://www.info.hac-air.co.jp"
+ },
+ "Hong Kong Airlines": {
+  "file": "File:Hong Kong Airlines Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/hong-kong-airlines.svg",
+  "name": "Hong Kong Airlines",
+  "non_free": true,
+  "website": "http://www.hongkongairlines.com"
+ },
  "Hunnu Air": {
   "file": "File:Hunnu Air Logo.svg",
   "license": "Fair use",
@@ -399,6 +3239,14 @@
   "non_free": true,
   "website": "https://www.hunnuair.com/en"
  },
+ "I-Fly": {
+  "file": "File:I-Fly logo.svg",
+  "license": "Fair use",
+  "logo": "logos/i-fly.svg",
+  "name": "I-Fly",
+  "non_free": true,
+  "website": "https://www.iflyltd.ru/en/"
+ },
  "ITA Airways": {
   "file": "File:ITA Airways inspired by Alitalia Logo.svg",
   "license": "Public domain",
@@ -406,6 +3254,58 @@
   "name": "ITA Airways",
   "non_free": false,
   "website": "https://www.ita-airways.com"
+ },
+ "Iberia (airline)": {
+  "file": "File:Logotipo de Iberia.svg",
+  "license": "Public domain",
+  "logo": "logos/iberia-airline.svg",
+  "name": "Iberia",
+  "non_free": false,
+  "website": "http://www.iberia.com"
+ },
+ "Iberia Express": {
+  "file": "File:Iberia Express.svg",
+  "license": "Public domain",
+  "logo": "logos/iberia-express.svg",
+  "name": "Iberia Express",
+  "non_free": false,
+  "website": "https://www.iberiaexpress.com/"
+ },
+ "Iberojet (airline)": {
+  "file": "File:Iberojetlogo.png",
+  "license": "Public domain",
+  "logo": "logos/iberojet-airline.png",
+  "name": "Iberojet",
+  "non_free": false,
+  "website": "http://www.iberojet.com"
+ },
+ "Ibex Airlines": {
+  "file": "File:IBEXairlinesJapan.png",
+  "license": "Fair use",
+  "logo": "logos/ibex-airlines.png",
+  "name": "Ibex Airlines",
+  "non_free": true,
+  "website": "http://www.ibexair.co.jp"
+ },
+ "Ibom Air": {
+  "file": "File:Ibom air Logo.png",
+  "license": "Public domain",
+  "logo": "logos/ibom-air.png",
+  "name": "Ibom Air",
+  "non_free": false,
+  "website": "https://www.ibomair.com/"
+ },
+ "Icelandair": {
+  "file": "File:Icelandairlogo.svg",
+  "license": "Public domain",
+  "logo": "logos/icelandair.svg",
+  "name": "Icelandair",
+  "non_free": false,
+  "website": "http://www.icelandair.com"
+ },
+ "Ikar (airline)": {
+  "name": "Ikar",
+  "website": "http://ikar.aero"
  },
  "IndiGo": {
   "file": "File:IndiGo.svg",
@@ -423,6 +3323,30 @@
   "non_free": true,
   "website": "https://www.indiaoneair.com/"
  },
+ "Indonesia AirAsia": {
+  "file": "File:AirAsia New Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/indonesia-airasia.svg",
+  "name": "Indonesia AirAsia",
+  "non_free": false,
+  "website": "http://www.airasia.com"
+ },
+ "InterCaribbean Airways": {
+  "file": "https://www.intercaribbean.com/",
+  "license": "Trademark (airline's website)",
+  "logo": "logos/intercaribbean-airways.png",
+  "name": "InterCaribbean Airways",
+  "non_free": true,
+  "website": "https://www.intercaribbean.com/"
+ },
+ "IrAero": {
+  "file": "File:IrAero logo.svg",
+  "license": "Fair use",
+  "logo": "logos/iraero.svg",
+  "name": "IrAero",
+  "non_free": true,
+  "website": "http://iraero.ru/en/"
+ },
  "Iran Air": {
   "file": "File:Iran Air logo.svg",
   "license": "Public domain",
@@ -430,6 +3354,22 @@
   "name": "Iran Air",
   "non_free": false,
   "website": "http://www.iranair.com/"
+ },
+ "Iran Airtour": {
+  "file": "File:Iran Airtour Logo Main.png",
+  "license": "Fair use",
+  "logo": "logos/iran-airtour.png",
+  "name": "Iran Airtour",
+  "non_free": true,
+  "website": "http://www.iranairtour.ir"
+ },
+ "Iran Aseman Airlines": {
+  "file": "File:Iran Aseman Airlines logo.png",
+  "license": "Fair use",
+  "logo": "logos/iran-aseman-airlines.png",
+  "name": "Iran Aseman Airlines",
+  "non_free": true,
+  "website": "http://www.iaa.ir"
  },
  "Iraqi Airways": {
   "file": "File:Iraqi Airways Logo.svg",
@@ -439,6 +3379,66 @@
   "non_free": false,
   "website": "https://iraqiairways.com.iq/"
  },
+ "Iskwew Air": {
+  "name": "Iskwew Air",
+  "website": "https://www.iskwew.ca/"
+ },
+ "Island Air (Cayman Islands)": {
+  "file": "File:IslandairGC.png",
+  "license": "Fair use",
+  "logo": "logos/island-air-cayman-islands.png",
+  "name": "Island Air",
+  "non_free": true,
+  "website": "http://www.islandair.ky/"
+ },
+ "Isles of Scilly Skybus": {
+  "file": "File:Isles of Scilly Skybus (logo).svg",
+  "license": "PD",
+  "logo": "logos/isles-of-scilly-skybus.svg",
+  "name": "Isles of Scilly Skybus",
+  "non_free": false,
+  "website": "https://www.skybus.co.uk"
+ },
+ "Israir": {
+  "file": "File:Israir Airlines Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/israir.svg",
+  "name": "Israir",
+  "non_free": false,
+  "website": "https://www.israirairlines.com/"
+ },
+ "J-Air": {
+  "file": "File:J Air logo.png",
+  "license": "Fair use",
+  "logo": "logos/j-air.png",
+  "name": "J-Air",
+  "non_free": true,
+  "website": "http://www.jair.co.jp"
+ },
+ "JSX (airline)": {
+  "file": "File:Logo of JSX.svg",
+  "license": "Public domain",
+  "logo": "logos/jsx-airline.svg",
+  "name": "JSX",
+  "non_free": false,
+  "website": "http://jsx.com"
+ },
+ "Jambojet": {
+  "file": "File:Jambojet Logo.png",
+  "license": "Fair use",
+  "logo": "logos/jambojet.png",
+  "name": "Jambojet",
+  "non_free": true,
+  "website": "http://www.jambojet.com"
+ },
+ "Japan Air Commuter": {
+  "file": "File:Japan Air Commuter logo.svg",
+  "license": "Fair use",
+  "logo": "logos/japan-air-commuter.svg",
+  "name": "Japan Air Commuter",
+  "non_free": true,
+  "website": "http://www.jac.co.jp"
+ },
  "Japan Airlines": {
   "file": "File:Japan Airlines Logo (2011).svg",
   "license": "Fair use",
@@ -446,6 +3446,14 @@
   "name": "Japan Airlines",
   "non_free": true,
   "website": "http://www.jal.co.jp/ar/en/"
+ },
+ "Japan Transocean Air": {
+  "file": "File:JTA logo 2011.svg",
+  "license": "Public domain",
+  "logo": "logos/japan-transocean-air.svg",
+  "name": "Japan Transocean Air",
+  "non_free": false,
+  "website": "http://www.jal.co.jp/jta"
  },
  "Jazeera Airways": {
   "file": "File:Jazeera Airways logo.svg",
@@ -455,6 +3463,122 @@
   "non_free": false,
   "website": "https://www.jazeeraairways.com"
  },
+ "Jeju Air": {
+  "file": "File:Jeju Air Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/jeju-air.svg",
+  "name": "Jeju Air",
+  "non_free": false,
+  "website": "http://www.jejuair.net"
+ },
+ "Jet2.com": {
+  "file": "File:Jet2Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/jet2-com.svg",
+  "name": "Jet2.com",
+  "non_free": false,
+  "website": "https://www.jet2.com/"
+ },
+ "JetBlue": {
+  "file": "File:JetBlue Airways Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/jetblue.svg",
+  "name": "JetBlue",
+  "non_free": false,
+  "website": "https://www.jetblue.com/"
+ },
+ "JetSmart": {
+  "file": "File:Logo JetSmart.svg",
+  "license": "Public domain",
+  "logo": "logos/jetsmart.svg",
+  "name": "JetSmart Chile",
+  "non_free": false,
+  "website": "https://jetsmart.com/us/en/"
+ },
+ "JetSmart Argentina": {
+  "file": "File:Logo JetSmart.svg",
+  "license": "Public domain",
+  "logo": "logos/jetsmart-argentina.svg",
+  "name": "JetSmart Argentina",
+  "non_free": false,
+  "website": "https://www.jetsmart.com/ar/es/"
+ },
+ "JetSmart Perú": {
+  "file": "File:Logo JetSmart.svg",
+  "license": "Public domain",
+  "logo": "logos/jetsmart-per.svg",
+  "name": "JetSmart Perú",
+  "non_free": false,
+  "website": "https://jetsmart.com/pe/es/"
+ },
+ "Jetstar": {
+  "file": "File:Jetstar logo.svg",
+  "license": "Public domain",
+  "logo": "logos/jetstar.svg",
+  "name": "Jetstar",
+  "non_free": false,
+  "website": "http://www.jetstar.com"
+ },
+ "Jetstar Japan": {
+  "file": "File:Jetstar logo.svg",
+  "license": "Public domain",
+  "logo": "logos/jetstar-japan.svg",
+  "name": "Jetstar Japan",
+  "non_free": false,
+  "website": "http://www.jetstar.com/jp/en/home"
+ },
+ "Jettime": {
+  "file": "File:Jet Time logo (2016).svg",
+  "license": "Public domain",
+  "logo": "logos/jettime.svg",
+  "name": "Jettime",
+  "non_free": false,
+  "website": "https://jettime.com/"
+ },
+ "Jiangxi Air": {
+  "file": "File:Jiangxi Air logo.svg",
+  "license": "Fair use",
+  "logo": "logos/jiangxi-air.svg",
+  "name": "Jiangxi Air",
+  "non_free": true,
+  "website": "https://www.airjiangxi.com/jiangxiair/v2/index.action%20airjiangxi.com"
+ },
+ "Jin Air": {
+  "file": "File:Jin Air logo.svg",
+  "license": "Fair use",
+  "logo": "logos/jin-air.svg",
+  "name": "Jin Air",
+  "non_free": true,
+  "website": "http://www.jinair.com"
+ },
+ "Jonair": {
+  "file": "File:Jonair Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/jonair.svg",
+  "name": "Jonair",
+  "non_free": false,
+  "website": "https://www.jonair.se"
+ },
+ "Jordan Aviation": {
+  "name": "Jordan Aviation",
+  "website": "http://www.jordanaviation.jo"
+ },
+ "Jubba Airways": {
+  "file": "File:Jubba Airways Logo.png",
+  "license": "Fair use",
+  "logo": "logos/jubba-airways.png",
+  "name": "Jubba Airways",
+  "non_free": true,
+  "website": "http://www.jubbaairways.com"
+ },
+ "Juneyao Air": {
+  "file": "File:Juneyao Air logo.svg",
+  "license": "Fair use",
+  "logo": "logos/juneyao-air.svg",
+  "name": "Juneyao Air",
+  "non_free": true,
+  "website": "http://global.juneyaoair.com"
+ },
  "KLM": {
   "file": "File:KLM logo.svg",
   "license": "Public domain",
@@ -462,6 +3586,14 @@
   "name": "KLM",
   "non_free": false,
   "website": "https://klm.com/"
+ },
+ "KM Malta Airlines": {
+  "file": "File:KM Malta Airlines Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/km-malta-airlines.svg",
+  "name": "KM Malta Airlines",
+  "non_free": true,
+  "website": "http://www.kmmaltairlines.com"
  },
  "Kam Air": {
   "file": "File:Logo Kam Air (Afghanistan).png",
@@ -471,6 +3603,30 @@
   "non_free": true,
   "website": "https://www.kamair.com/"
  },
+ "Kamchatka Air Enterprise": {
+  "name": "Petropavlovsk-Kamchatsky Air Enterprise",
+  "website": null
+ },
+ "Karun Airlines": {
+  "file": "File:New logo Karun Airlines (Iran) 2025.png",
+  "license": "Fair use",
+  "logo": "logos/karun-airlines.png",
+  "name": "Karun Airlines",
+  "non_free": true,
+  "website": "https://www.karunair.ir"
+ },
+ "Kenmore Air": {
+  "file": "File:Kenmore Air logo.svg",
+  "license": "Fair use",
+  "logo": "logos/kenmore-air.svg",
+  "name": "Kenmore Air",
+  "non_free": true,
+  "website": "https://kenmoreair.com"
+ },
+ "Kenn Borek Air": {
+  "name": "Kenn Borek Air",
+  "website": "https://www.borekair.com"
+ },
  "Kenya Airways": {
   "file": "File:Kenya Airways Logo.svg",
   "license": "Public domain",
@@ -478,6 +3634,38 @@
   "name": "Kenya Airways",
   "non_free": false,
   "website": "https://www.kenya-airways.com/ke/"
+ },
+ "Khabarovsk Airlines": {
+  "file": "File:Logo of Khabarovsk Airlines.png",
+  "license": "Public domain",
+  "logo": "logos/khabarovsk-airlines.png",
+  "name": "Khabarovsk Airlines",
+  "non_free": false,
+  "website": "http://khabavia.ru/"
+ },
+ "Kin Avia": {
+  "name": "Kin Avia",
+  "website": "https://kinavia.com/en/destinations-et-horaires-des-vols-reguliers-english/"
+ },
+ "King Island Airlines": {
+  "file": "File:King Island Airlines logo.svg",
+  "license": "Fair use",
+  "logo": "logos/king-island-airlines.svg",
+  "name": "King Island Airlines",
+  "non_free": true,
+  "website": "http://www.kingislandair.com.au"
+ },
+ "Kish Air": {
+  "file": "File:Kish Airlines logo.png",
+  "license": "Fair use",
+  "logo": "logos/kish-air.png",
+  "name": "Kish Air",
+  "non_free": true,
+  "website": "https://www.kishairlines.ir/"
+ },
+ "Komiaviatrans": {
+  "name": "Komiaviatrans",
+  "website": "http://www.komiaviatrans.ru/"
  },
  "Korean Air": {
   "file": "File:Korean Air 2025.svg",
@@ -487,6 +3675,38 @@
   "non_free": false,
   "website": "https://www.koreanair.com/"
  },
+ "Kosmos Airlines": {
+  "file": "File:Kosmos Airlines logo.png",
+  "license": "PD",
+  "logo": "logos/kosmos-airlines.png",
+  "name": "Kosmos Airlines",
+  "non_free": false,
+  "website": "https://cosmos.aero/"
+ },
+ "Kostroma Air Enterprise": {
+  "file": "File:Kostroma avialogo.png",
+  "license": "Fair use",
+  "logo": "logos/kostroma-air-enterprise.png",
+  "name": "Kostroma Air Enterprise",
+  "non_free": true,
+  "website": "http://www.kostroma-avia.ru/"
+ },
+ "KrasAvia": {
+  "file": "File:KrasAvia Logo Eng.svg",
+  "license": "Fair use",
+  "logo": "logos/krasavia.svg",
+  "name": "KrasAvia",
+  "non_free": true,
+  "website": "https://www.krasavia.ru/"
+ },
+ "Kunming Airlines": {
+  "file": "File:KunmingAirLogo.png",
+  "license": "Fair use",
+  "logo": "logos/kunming-airlines.png",
+  "name": "Kunming Airlines",
+  "non_free": true,
+  "website": "http://www.airkunming.com"
+ },
  "Kuwait Airways": {
   "file": "File:Kuwait Airways logo.svg",
   "license": "Fair use",
@@ -494,6 +3714,102 @@
   "name": "Kuwait Airways",
   "non_free": true,
   "website": "http://www.kuwaitairways.com"
+ },
+ "LADE": {
+  "file": "File:Lade argentina logo.png",
+  "license": "Public domain",
+  "logo": "logos/lade.png",
+  "name": "LADE",
+  "non_free": false,
+  "website": "https://lade.faa.mil.ar"
+ },
+ "LAM Mozambique Airlines": {
+  "file": "File:LAM Mozambique Airlines logo.svg",
+  "license": "Fair use",
+  "logo": "logos/lam-mozambique-airlines.svg",
+  "name": "LAM Mozambique Airlines",
+  "non_free": true,
+  "website": "http://www.lam.co.mz/en"
+ },
+ "LASER Airlines": {
+  "file": "File:Laser (airline) logo.svg",
+  "license": "Public domain",
+  "logo": "logos/laser-airlines.svg",
+  "name": "LASER Airlines",
+  "non_free": false,
+  "website": "https://www.laserairlines.com"
+ },
+ "LATAM Airlines Brasil": {
+  "file": "File:Latam-logo -v (Indigo).svg",
+  "license": "Public domain",
+  "logo": "logos/latam-airlines-brasil.svg",
+  "name": "LATAM Brasil",
+  "non_free": false,
+  "website": "http://www.latam.com"
+ },
+ "LATAM Airlines Chile": {
+  "file": "File:Latam-logo -v (Indigo).svg",
+  "license": "Public domain",
+  "logo": "logos/latam-airlines-chile.svg",
+  "name": "LATAM Chile",
+  "non_free": false,
+  "website": "http://www.latamairlines.com"
+ },
+ "LATAM Airlines Colombia": {
+  "file": "File:Latam-logo -v (Indigo).svg",
+  "license": "Public domain",
+  "logo": "logos/latam-airlines-colombia.svg",
+  "name": "LATAM Colombia",
+  "non_free": false,
+  "website": "http://www.latam.com/es_co"
+ },
+ "LATAM Airlines Ecuador": {
+  "file": "File:Latam-logo -v (Indigo).svg",
+  "license": "Public domain",
+  "logo": "logos/latam-airlines-ecuador.svg",
+  "name": "LATAM Ecuador",
+  "non_free": false,
+  "website": "https://www.latamairlines.com"
+ },
+ "LATAM Airlines Paraguay": {
+  "file": "File:Latam-logo -v (Indigo).svg",
+  "license": "Public domain",
+  "logo": "logos/latam-airlines-paraguay.svg",
+  "name": "LATAM Paraguay",
+  "non_free": false,
+  "website": "http://www.latam.com/es_py/"
+ },
+ "LATAM Airlines Perú": {
+  "file": "File:Latam-logo -v (Indigo).svg",
+  "license": "Public domain",
+  "logo": "logos/latam-airlines-per.svg",
+  "name": "LATAM Perú",
+  "non_free": false,
+  "website": "http://www.latam.com"
+ },
+ "LEAV Aviation": {
+  "file": "File:LEAV Logo.png",
+  "license": "Public domain",
+  "logo": "logos/leav-aviation.png",
+  "name": "LEAV Aviation",
+  "non_free": false,
+  "website": "https://www.leav.com/en/"
+ },
+ "LIFT (airline)": {
+  "file": "File:LIFT Airline Logo.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/lift-airline.png",
+  "name": "LIFT",
+  "non_free": false,
+  "website": "https://www.lift.co.za"
+ },
+ "LJ Air": {
+  "file": "File:LJ Air Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/lj-air.svg",
+  "name": "LJ Air",
+  "non_free": true,
+  "website": "http://www.longjianghk.com/"
  },
  "LOT Polish Airlines": {
   "file": "File:LOT Polish Airlines.svg",
@@ -503,6 +3819,142 @@
   "non_free": false,
   "website": "http://www.lot.com"
  },
+ "La Compagnie": {
+  "file": "File:La Compagnie Boutique Airline Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/la-compagnie.svg",
+  "name": "La Compagnie",
+  "non_free": true,
+  "website": "https://www.lacompagnie.com"
+ },
+ "La Costeña (airline)": {
+  "file": "File:La Costeña logo.png",
+  "license": "Public domain",
+  "logo": "logos/la-coste-a-airline.png",
+  "name": "La Costeña",
+  "non_free": false,
+  "website": "http://www.lacostena.com.ni"
+ },
+ "La Nationale": {
+  "name": "Nationale Regionale Transport",
+  "website": null
+ },
+ "Lanai Airlines": {
+  "file": "File:Lana’i Air.png",
+  "license": "CC BY 4.0",
+  "logo": "logos/lanai-airlines.png",
+  "name": "Lanai Airlines",
+  "non_free": false,
+  "website": "https://www.lanaiair.com/"
+ },
+ "Lanexang Airways International": {
+  "file": "File:Langxang Airways International.png",
+  "license": "Public domain",
+  "logo": "logos/lanexang-airways-international.png",
+  "name": "Lanexang Airways International",
+  "non_free": false,
+  "website": "http://www.lxairways.com"
+ },
+ "Lao Airlines": {
+  "file": "File:LaoAirlineslogo.svg",
+  "license": "Fair use",
+  "logo": "logos/lao-airlines.svg",
+  "name": "Lao Airlines",
+  "non_free": true,
+  "website": "http://www.laoairlines.com"
+ },
+ "Lao Skyway": {
+  "file": "File:Lao Skyway logo.png",
+  "license": "Fair use",
+  "logo": "logos/lao-skyway.png",
+  "name": "Lao Skyway",
+  "non_free": true,
+  "website": "http://www.laoskyway.com"
+ },
+ "LeAir": {
+  "file": "File:LeAir Charter Services Ltd. logo (Nassau, Bahamas).png",
+  "license": "Fair use",
+  "logo": "logos/leair.png",
+  "name": "LeAir",
+  "non_free": true,
+  "website": "https://www.flyleair.com"
+ },
+ "Level (airline)": {
+  "file": "File:Level.svg",
+  "license": "Public domain",
+  "logo": "logos/level-airline.svg",
+  "name": "Level",
+  "non_free": false,
+  "website": "https://www.flylevel.com"
+ },
+ "Liat Air": {
+  "file": "File:Liat Air Logo (2025).svg",
+  "license": "Fair use",
+  "logo": "logos/liat-air.svg",
+  "name": "Liat Air",
+  "non_free": true,
+  "website": "https://flyliatair.com/"
+ },
+ "Libyan Airlines": {
+  "file": "File:Libyan Airways new logo.png",
+  "license": "Fair use",
+  "logo": "logos/libyan-airlines.png",
+  "name": "Libyan Airlines",
+  "non_free": true,
+  "website": "http://www.libyanairlines.aero"
+ },
+ "Libyan Wings": {
+  "file": "File:Libyan Wings logo.png",
+  "license": "Fair use",
+  "logo": "logos/libyan-wings.png",
+  "name": "Libyan Wings",
+  "non_free": true,
+  "website": "https://libyanwings.aero"
+ },
+ "Link Airways": {
+  "file": "File:Link Airways Logo, January 2021.svg",
+  "license": "Fair use",
+  "logo": "logos/link-airways.svg",
+  "name": "Link Airways",
+  "non_free": true,
+  "website": "https://www.linkairways.com/"
+ },
+ "Lion Air": {
+  "file": "File:Lion Air.svg",
+  "license": "Fair use",
+  "logo": "logos/lion-air.svg",
+  "name": "Lion Air",
+  "non_free": true,
+  "website": "https://www.lionair.co.id/en/home"
+ },
+ "List of airlines of the Philippines": {
+  "name": "Cyclone Airways",
+  "website": null
+ },
+ "Loganair": {
+  "file": "File:Loganair logo.svg",
+  "license": "PD",
+  "logo": "logos/loganair.svg",
+  "name": "Loganair",
+  "non_free": false,
+  "website": "http://www.loganair.co.uk"
+ },
+ "Loong Air": {
+  "file": "File:LoongAir logo.png",
+  "license": "Fair use",
+  "logo": "logos/loong-air.png",
+  "name": "Loong Air",
+  "non_free": true,
+  "website": "http://www.loongair.cn/"
+ },
+ "Lucky Air": {
+  "file": "File:Lucky Air New Logo 2015.png",
+  "license": "Fair use",
+  "logo": "logos/lucky-air.png",
+  "name": "Lucky Air",
+  "non_free": true,
+  "website": "http://www.luckyair.net"
+ },
  "Lufthansa": {
   "file": "File:Lufthansa Logo 2018.svg",
   "license": "Public domain",
@@ -511,6 +3963,62 @@
   "non_free": false,
   "website": "https://lufthansa.com"
  },
+ "Lufthansa City Airlines": {
+  "file": "File:LHX-Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/lufthansa-city-airlines.svg",
+  "name": "Lufthansa City Airlines",
+  "non_free": false,
+  "website": "http://www.lufthansa-city.com"
+ },
+ "Lufttransport": {
+  "file": "File:Lufttransport Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/lufttransport.svg",
+  "name": "Lufttransport",
+  "non_free": true,
+  "website": "https://www.lufttransport.no"
+ },
+ "Lulutai Airlines": {
+  "name": "Lulutai Airlines",
+  "website": "http://www.lulutai-airlines.to"
+ },
+ "Luxair": {
+  "file": "File:Luxair Official Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/luxair.svg",
+  "name": "Luxair",
+  "non_free": true,
+  "website": "http://www.luxair.lu"
+ },
+ "MAF Uganda": {
+  "name": "MAF Uganda",
+  "website": "https://www.maf-uganda.org/"
+ },
+ "MHS Aviation (Germany)": {
+  "file": "File:Logo MHS Aviation (Germany).png",
+  "license": "Fair use",
+  "logo": "logos/mhs-aviation-germany.png",
+  "name": "MHS Aviation",
+  "non_free": true,
+  "website": "http://www.mhs-aviation.de"
+ },
+ "MIAT Mongolian Airlines": {
+  "file": "File:MIAT Eng Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/miat-mongolian-airlines.svg",
+  "name": "MIAT Mongolian Airlines",
+  "non_free": true,
+  "website": "http://www.miat.com"
+ },
+ "Madagascar Airlines": {
+  "file": "File:Madagascar Airlines logo.svg",
+  "license": "Fair use",
+  "logo": "logos/madagascar-airlines.svg",
+  "name": "Madagascar Airlines",
+  "non_free": true,
+  "website": "http://madagascarairlines.com"
+ },
  "Mahan Air": {
   "file": "File:Mahan Air Logo.svg",
   "license": "Fair use",
@@ -518,6 +4026,18 @@
   "name": "Mahan Air",
   "non_free": true,
   "website": "https://www.mahanair.co.ir/en"
+ },
+ "Mahogany Air": {
+  "name": "Mahogany Air",
+  "website": "https://www.mahoganyair.com/"
+ },
+ "Malawi Airlines": {
+  "file": "File:Malawian Airlines Logo.png",
+  "license": "Fair use",
+  "logo": "logos/malawi-airlines.png",
+  "name": "Malawi Airlines",
+  "non_free": true,
+  "website": "https://www.malawian-airlines.com/aa"
  },
  "Malaysia Airlines": {
   "file": "File:Malaysia Airlines Logo.svg",
@@ -535,6 +4055,90 @@
   "non_free": false,
   "website": "http://www.maldivian.aero/"
  },
+ "Mandarin Airlines": {
+  "file": "File:Mandarin Airlines logo.svg",
+  "license": "Fair use",
+  "logo": "logos/mandarin-airlines.svg",
+  "name": "Mandarin Airlines",
+  "non_free": true,
+  "website": "http://www.mandarin-airlines.com"
+ },
+ "Mann Yadanarpon Airlines": {
+  "name": "Mann Yatanarpon Airlines",
+  "website": "http://www.airmyp.com"
+ },
+ "Manta Air": {
+  "file": "File:Manta Air logo.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/manta-air.png",
+  "name": "Manta Air",
+  "non_free": false,
+  "website": "http://www.mantaair.mv/"
+ },
+ "Marabu (airline)": {
+  "file": "File:Marabu.svg",
+  "license": "Public domain",
+  "logo": "logos/marabu-airline.svg",
+  "name": "Marabu",
+  "non_free": false,
+  "website": "https://flymarabu.com/"
+ },
+ "Marathon Airlines": {
+  "name": "Marathon Airlines",
+  "website": "http://airmarathon.com"
+ },
+ "Mauritania Airlines": {
+  "file": "File:شعار الموريتانية للطيران.png",
+  "license": "Public domain",
+  "logo": "logos/mauritania-airlines.png",
+  "name": "Mauritania Airlines",
+  "non_free": false,
+  "website": "https://www.mauritaniaairlines.mr"
+ },
+ "Max Air": {
+  "name": "Max Air",
+  "website": "http://www.maxair.com.ng/"
+ },
+ "Maya Island Air": {
+  "file": "File:30-304668 logos-maya-island-air-logo-was-updated-airline.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/maya-island-air.png",
+  "name": "Maya Island Air",
+  "non_free": false,
+  "website": "http://www.mayaislandair.com/"
+ },
+ "Medavia": {
+  "file": "File:MEDAVIA LOGO.png",
+  "license": "Fair use",
+  "logo": "logos/medavia.png",
+  "name": "Medavia",
+  "non_free": true,
+  "website": "https://medavia.com/"
+ },
+ "Mexicana de Aviación (2023–present)": {
+  "file": "File:AEM Mexicana de Aviación logo.svg",
+  "license": "Public domain",
+  "logo": "logos/mexicana-de-aviaci-n-2023-present.svg",
+  "name": "Mexicana de Aviación",
+  "non_free": false,
+  "website": "http://www.mexicana.gob.mx"
+ },
+ "Middle East Airlines": {
+  "file": "File:Middle East Airlines (logo).svg",
+  "license": "Fair use",
+  "logo": "logos/middle-east-airlines.svg",
+  "name": "Middle East Airlines",
+  "non_free": true,
+  "website": "https://www.mea.com.lb"
+ },
+ "Mineral Resources": {
+  "file": "File:Mineral Resources Limited logo.png",
+  "license": "Fair use",
+  "logo": "logos/mineral-resources.png",
+  "name": "MinRes Air",
+  "non_free": true,
+  "website": "https://www.mineralresources.com.au/"
+ },
  "Mingalar Aviation Services": {
   "file": "File:Logo of Mingalar Aviation Services.svg",
   "license": "Public domain",
@@ -542,6 +4146,38 @@
   "name": "Mingalar Aviation Services",
   "non_free": false,
   "website": "https://www.mingalaraviation.com/"
+ },
+ "Mission Aviation Fellowship": {
+  "name": "Mission Aviation Fellowship",
+  "website": null
+ },
+ "Mokulele Airlines": {
+  "file": "File:Mokulele Airlines Logo 2016.png",
+  "license": "Fair use",
+  "logo": "logos/mokulele-airlines.png",
+  "name": "Mokulele Airlines",
+  "non_free": true,
+  "website": "http://mokuleleairlines.com"
+ },
+ "Mombasa Air Safari": {
+  "file": "File:Mombasa Air Safari logo.png",
+  "license": "PD",
+  "logo": "logos/mombasa-air-safari.png",
+  "name": "Mombasa Air Safari",
+  "non_free": false,
+  "website": "http://www.mombasaairsafari.com"
+ },
+ "Monacair": {
+  "name": "Monacair",
+  "website": "https://www.monacair.mc/en/"
+ },
+ "Moçambique Expresso": {
+  "name": "Moçambique Expresso",
+  "website": null
+ },
+ "Mustique Airways": {
+  "name": "Mustique Airways",
+  "website": "http://www.mustique.com/"
  },
  "Myanmar Airways International": {
   "file": "File:Myanmar Airways International Logo.svg",
@@ -551,6 +4187,46 @@
   "non_free": true,
   "website": "http://www.maiair.com"
  },
+ "Myanmar National Airlines": {
+  "file": "File:Myanmar National Airlines Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/myanmar-national-airlines.svg",
+  "name": "Myanmar National Airlines",
+  "non_free": true,
+  "website": "http://www.flymna.com"
+ },
+ "NAM Air": {
+  "file": "File:LOGO NAM HORIZONTAL.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/nam-air.png",
+  "name": "NAM Air",
+  "non_free": false,
+  "website": "http://www.flynamair.com"
+ },
+ "Nakina Air Service": {
+  "name": "Nakina Air Service",
+  "website": "http://nakinaairservice.com/"
+ },
+ "National Jet Express": {
+  "file": "File:National Jet Express logo.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/national-jet-express.png",
+  "name": "National Jet Express",
+  "non_free": false,
+  "website": "http://www.nje.aero"
+ },
+ "Nauru Airlines": {
+  "name": "Nauru Airlines",
+  "website": "http://www.nauruair.com"
+ },
+ "Neos (airline)": {
+  "file": "File:Neos logo.svg",
+  "license": "Fair use",
+  "logo": "logos/neos-airline.svg",
+  "name": "Neos",
+  "non_free": true,
+  "website": "http://www.neosair.it"
+ },
  "Nepal Airlines": {
   "file": "File:Nepal Airlines logo.svg",
   "license": "Fair use",
@@ -558,6 +4234,66 @@
   "name": "Nepal Airlines",
   "non_free": true,
   "website": "http://nepalairlines.com.np/"
+ },
+ "Nesma Airlines": {
+  "file": "File:Nesma Airlines logo.svg",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/nesma-airlines.svg",
+  "name": "Nesma Airlines",
+  "non_free": false,
+  "website": "https://www.nesmaairlines.com/"
+ },
+ "NetJets": {
+  "file": "File:NetJets logo.svg",
+  "license": "Public domain",
+  "logo": "logos/netjets.svg",
+  "name": "Netjets",
+  "non_free": false,
+  "website": "https://www.netjets.com/"
+ },
+ "Network Aviation": {
+  "file": "File:Network Aviation Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/network-aviation.svg",
+  "name": "QantasLink Network Aviation",
+  "non_free": true,
+  "website": "http://www.networkaviation.com.au"
+ },
+ "New Central Airservice": {
+  "file": "File:NewCentralairLogo.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/new-central-airservice.png",
+  "name": "New Central Airservice",
+  "non_free": false,
+  "website": "http://www.central-air.co.jp"
+ },
+ "New England Airlines": {
+  "name": "New England Airlines",
+  "website": "http://blockislands-airline.com/"
+ },
+ "Nexus Airlines": {
+  "file": "File:Nexus Airlines (Australia) Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/nexus-airlines.svg",
+  "name": "Nexus Airlines",
+  "non_free": true,
+  "website": "https://nexusairlines.com.au"
+ },
+ "Niger Airlines": {
+  "file": "File:Niger airlines logo.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/niger-airlines.png",
+  "name": "Niger Airlines",
+  "non_free": false,
+  "website": "http://nigerairlines.net"
+ },
+ "Nile Air": {
+  "file": "File:Nile air.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/nile-air.png",
+  "name": "Nile Air",
+  "non_free": false,
+  "website": "http://nileair.com"
  },
  "Nok Air": {
   "file": "File:Nok Air logo.svg",
@@ -567,6 +4303,142 @@
   "non_free": true,
   "website": "http://www.nokair.com"
  },
+ "Nolinor Aviation": {
+  "file": "File:Nolinor Aviation Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/nolinor-aviation.svg",
+  "name": "Nolinor Aviation",
+  "non_free": true,
+  "website": "http://www.nolinor.com/en"
+ },
+ "NordStar": {
+  "file": "File:Nordstar airlines logo.png",
+  "license": "Public domain",
+  "logo": "logos/nordstar.png",
+  "name": "NordStar",
+  "non_free": false,
+  "website": "https://www.nordstar.ru/en/"
+ },
+ "Nordic Seaplanes": {
+  "name": "Nordic Seaplanes",
+  "website": null
+ },
+ "Nordwind Airlines": {
+  "file": "File:Nordwind Airlines logo.svg",
+  "license": "Public domain",
+  "logo": "logos/nordwind-airlines.svg",
+  "name": "Nordwind Airlines",
+  "non_free": false,
+  "website": "https://nordwindairlines.ru/en"
+ },
+ "Norlandair": {
+  "file": "File:Norlandairlogo.PNG",
+  "license": "Fair use",
+  "logo": "logos/norlandair.png",
+  "name": "Norlandair",
+  "non_free": true,
+  "website": "http://www.norlandair.is"
+ },
+ "Norse Atlantic Airways": {
+  "file": "File:Norse.svg",
+  "license": "Public domain",
+  "logo": "logos/norse-atlantic-airways.svg",
+  "name": "Norse Atlantic Airways",
+  "non_free": false,
+  "website": "http://www.flynorse.com"
+ },
+ "North Cariboo Air": {
+  "file": "File:Updated NCA.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/north-cariboo-air.png",
+  "name": "North Cariboo Air",
+  "non_free": false,
+  "website": "https://www.flynca.com/"
+ },
+ "North Star Air": {
+  "file": "File:North Star Air Logo.png",
+  "license": "Fair use",
+  "logo": "logos/north-star-air.png",
+  "name": "North Star Air",
+  "non_free": true,
+  "website": "https://www.northstarair.ca/"
+ },
+ "North-Wright Airways": {
+  "file": "File:North-Wright Airways Logo 2020.png",
+  "license": "PD",
+  "logo": "logos/north-wright-airways.png",
+  "name": "North-Wright Airways",
+  "non_free": false,
+  "website": "https://north-wrightairways.com/"
+ },
+ "Northern Air (Fiji)": {
+  "name": "Northern Air",
+  "website": "https://www.northernair.com.fj/"
+ },
+ "Northway Aviation": {
+  "file": "File:Northway Aviation logo.png",
+  "license": "PD",
+  "logo": "logos/northway-aviation.png",
+  "name": "Northway Aviation",
+  "non_free": false,
+  "website": "http://www.northwayav.com"
+ },
+ "Norwegian Air Shuttle": {
+  "file": "File:Norwegian Logo 2024.svg",
+  "license": "Public domain",
+  "logo": "logos/norwegian-air-shuttle.svg",
+  "name": "Norwegian Air Shuttle",
+  "non_free": false,
+  "website": "http://www.norwegian.com"
+ },
+ "Nouvelair": {
+  "file": "File:Nouvelair Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/nouvelair.svg",
+  "name": "Nouvelair",
+  "non_free": false,
+  "website": "http://www.nouvelair.com/en"
+ },
+ "Nova Airways": {
+  "name": "Nova Airways",
+  "website": "http://www.novaairways.com/"
+ },
+ "Novoair": {
+  "file": "File:Novoair logo.svg",
+  "license": "Fair use",
+  "logo": "logos/novoair.svg",
+  "name": "Novoair",
+  "non_free": true,
+  "website": "http://flynovoair.com"
+ },
+ "NyxAir": {
+  "file": "File:Nyxair-logo.png",
+  "license": "Public domain",
+  "logo": "logos/nyxair.png",
+  "name": "Sola Air",
+  "non_free": false,
+  "website": "https://flynyx.com/"
+ },
+ "OFD Ostfriesischer Flugdienst": {
+  "name": "OFD Ostfriesischer Flugdienst",
+  "website": "http://www.fliegofd.de/"
+ },
+ "Okay Airways": {
+  "file": "File:OKAirLogo.png",
+  "license": "Fair use",
+  "logo": "logos/okay-airways.png",
+  "name": "Okay Airways",
+  "non_free": true,
+  "website": "http://www.okair.net"
+ },
+ "Olympic Air": {
+  "file": "File:Olympic Air logo.svg",
+  "license": "Fair use",
+  "logo": "logos/olympic-air.svg",
+  "name": "Olympic Air",
+  "non_free": true,
+  "website": "http://www.olympicair.com"
+ },
  "Oman Air": {
   "file": "File:Oman Air logo.svg",
   "license": "Fair use",
@@ -574,6 +4446,186 @@
   "name": "Oman Air",
   "non_free": true,
   "website": "https://www.omanair.com"
+ },
+ "One Caribbean": {
+  "file": "File:ONECaribbean Logo, June 2022.svg",
+  "license": "Fair use",
+  "logo": "logos/one-caribbean.svg",
+  "name": "One Caribbean",
+  "non_free": true,
+  "website": "https://flyonecaribbean.com/"
+ },
+ "Orenburzhye": {
+  "file": "File:Orenburzhye logo.png",
+  "license": "Public domain",
+  "logo": "logos/orenburzhye.png",
+  "name": "Orenburzhye",
+  "non_free": false,
+  "website": "https://web.archive.org/web/20160304054822/http://orenairport.ru/eng/ak-orenburzhe/"
+ },
+ "Oriental Air Bridge": {
+  "file": "File:ORC's new logo.png",
+  "license": "Public domain",
+  "logo": "logos/oriental-air-bridge.png",
+  "name": "Oriental Air Bridge",
+  "non_free": false,
+  "website": "https://www.orc-air.co.jp"
+ },
+ "Originair": {
+  "file": "File:Origin-logo-300x94-300x94.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/originair.png",
+  "name": "Originair",
+  "non_free": false,
+  "website": "http://www.originair.co.nz/"
+ },
+ "Overland Airways": {
+  "file": "File:Overland Airways logo.png",
+  "license": "PD",
+  "logo": "logos/overland-airways.png",
+  "name": "Overland Airways",
+  "non_free": false,
+  "website": "https://www.overlandairways.com/"
+ },
+ "PAL Airlines": {
+  "file": "File:PAL Airlines Canada Logo.png",
+  "license": "Public domain",
+  "logo": "logos/pal-airlines.png",
+  "name": "PAL Airlines",
+  "non_free": false,
+  "website": "http://www.palairlines.ca"
+ },
+ "PAL Express": {
+  "file": "File:PAL Express logo.svg",
+  "license": "Fair use",
+  "logo": "logos/pal-express.svg",
+  "name": "PAL Express",
+  "non_free": true,
+  "website": "http://www.philippineairlines.com"
+ },
+ "PANH": {
+  "name": "PANH",
+  "website": null
+ },
+ "PNG Air": {
+  "file": "File:PNG Air logo.png",
+  "license": "Fair use",
+  "logo": "logos/png-air.png",
+  "name": "PNG Air",
+  "non_free": true,
+  "website": "http://www.pngair.com.pg"
+ },
+ "Pacific Airlines": {
+  "file": "File:Pacific Airlines ( BL - PIC ) Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/pacific-airlines.svg",
+  "name": "Pacific Airlines",
+  "non_free": false,
+  "website": "http://pacificairlines.com.vn"
+ },
+ "Pacific Coastal Airlines": {
+  "file": "File:PacificCoastalLogo.png",
+  "license": "Fair use",
+  "logo": "logos/pacific-coastal-airlines.png",
+  "name": "Pacific Coastal Airlines",
+  "non_free": true,
+  "website": "http://www.pacificcoastal.com"
+ },
+ "Pacific Island Air": {
+  "name": "Pacific Island Air",
+  "website": "http://www.pacificislandair.com/"
+ },
+ "Pakistan International Airlines": {
+  "file": "File:Pakistan International Airlines logo (2004).svg",
+  "license": "PD",
+  "logo": "logos/pakistan-international-airlines.svg",
+  "name": "Pakistan International Airlines",
+  "non_free": false,
+  "website": "http://www.piac.com.pk"
+ },
+ "Paranair": {
+  "file": "File:Paranair logo.svg",
+  "license": "Fair use",
+  "logo": "logos/paranair.svg",
+  "name": "Paranair",
+  "non_free": true,
+  "website": "https://www.paranair.com"
+ },
+ "Parata Air": {
+  "file": "File:Parata Airlines.svg",
+  "license": "Public domain",
+  "logo": "logos/parata-air.svg",
+  "name": "Parata Air",
+  "non_free": false,
+  "website": "http://www.parataair.com"
+ },
+ "Pascan Aviation": {
+  "name": "Pascan Aviation",
+  "website": "https://www.pascan.com/en/"
+ },
+ "Passion Air": {
+  "file": "File:PassionAirLogoGhana.png",
+  "license": "Fair use",
+  "logo": "logos/passion-air.png",
+  "name": "Passion Air",
+  "non_free": true,
+  "website": "http://flypassionair.com"
+ },
+ "Peach Aviation": {
+  "file": "File:Peach Aviation Logo, March 2026.svg",
+  "license": "Public domain",
+  "logo": "logos/peach-aviation.svg",
+  "name": "Peach",
+  "non_free": false,
+  "website": "http://www.flypeach.com"
+ },
+ "Pegasus Airlines": {
+  "file": "File:Pegasus Airlines logo.svg",
+  "license": "Public domain",
+  "logo": "logos/pegasus-airlines.svg",
+  "name": "Pegasus Airlines",
+  "non_free": false,
+  "website": "http://www.flypgs.com"
+ },
+ "Pel-Air": {
+  "file": "File:Pel Air logo.svg",
+  "license": "Fair use",
+  "logo": "logos/pel-air.svg",
+  "name": "Pel-Air",
+  "non_free": true,
+  "website": "http://www.pelair.com.au/"
+ },
+ "Pelita Air": {
+  "file": "File:Pelita Air (2022 Logo).png",
+  "license": "Public domain",
+  "logo": "logos/pelita-air.png",
+  "name": "Pelita Air",
+  "non_free": false,
+  "website": "http://www.pelita-air.com"
+ },
+ "People's": {
+  "file": "File:People's airline logo.svg",
+  "license": "Fair use",
+  "logo": "logos/people-s.svg",
+  "name": "People's",
+  "non_free": true,
+  "website": "https://peoples.ch/peoples-airline"
+ },
+ "Perimeter Aviation": {
+  "file": "File:Perimeter Aviation logo.svg",
+  "license": "Public domain",
+  "logo": "logos/perimeter-aviation.svg",
+  "name": "Perimeter Aviation",
+  "non_free": false,
+  "website": "https://perimeter.ca/"
+ },
+ "Petroleum Air Services": {
+  "file": "File:Petroleum Air Services logo.png",
+  "license": "Fair use",
+  "logo": "logos/petroleum-air-services.png",
+  "name": "Petroleum Air Services",
+  "non_free": true,
+  "website": "http://www.pas.com.eg"
  },
  "Philippine Airlines": {
   "file": "File:Philippine Airlines logo.svg",
@@ -583,6 +4635,114 @@
   "non_free": true,
   "website": "http://philippineairlines.com"
  },
+ "Philippines AirAsia": {
+  "file": "File:AirAsia New Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/philippines-airasia.svg",
+  "name": "Philippines AirAsia",
+  "non_free": false,
+  "website": "http://www.airasia.com"
+ },
+ "Pineapple Air": {
+  "file": "File:Pineapple Air airline logo (Nassau, Bahamas).png",
+  "license": "Fair use",
+  "logo": "logos/pineapple-air.png",
+  "name": "Pineapple Air",
+  "non_free": true,
+  "website": "https://pineappleair.com/"
+ },
+ "Plus Ultra Líneas Aéreas": {
+  "file": "File:Plus Ultra Líneas Aéreas Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/plus-ultra-l-neas-a-reas.svg",
+  "name": "Plus Ultra",
+  "non_free": false,
+  "website": "https://www.plusultra.com/"
+ },
+ "Pobeda (airline)": {
+  "file": "File:Logo-pobeda-en.svg",
+  "license": "Public domain",
+  "logo": "logos/pobeda-airline.svg",
+  "name": "Pobeda",
+  "non_free": false,
+  "website": "https://www.flypobeda.ru/en"
+ },
+ "Polar Airlines": {
+  "file": "File:Polar Airlines logo.png",
+  "license": "Fair use",
+  "logo": "logos/polar-airlines.png",
+  "name": "Polar Airlines",
+  "non_free": true,
+  "website": "https://polar.aero/"
+ },
+ "PopulAir": {
+  "file": "File:Logo-populair.svg",
+  "license": "Fair use",
+  "logo": "logos/populair.svg",
+  "name": "PopulAir",
+  "non_free": true,
+  "website": "https://www.populair.com"
+ },
+ "Porter Airlines": {
+  "file": "File:Porter Airlines Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/porter-airlines.svg",
+  "name": "Porter Airlines",
+  "non_free": false,
+  "website": "http://www.flyporter.com"
+ },
+ "Pouya Air": {
+  "file": "File:Pouya air logo.png",
+  "license": "Fair use",
+  "logo": "logos/pouya-air.png",
+  "name": "Pouya Air",
+  "non_free": true,
+  "website": "http://www.pouyaair.com/"
+ },
+ "Precision Air": {
+  "file": "File:Precision Air logo.svg",
+  "license": "Fair use",
+  "logo": "logos/precision-air.svg",
+  "name": "Precision Air",
+  "non_free": true,
+  "website": "http://www.precisionairtz.com"
+ },
+ "Private Wings": {
+  "file": "File:Private wings-logo.png",
+  "license": "Fair use",
+  "logo": "logos/private-wings.png",
+  "name": "Private Wings",
+  "non_free": true,
+  "website": "https://privatewings.aero/"
+ },
+ "Privilege Style": {
+  "file": "File:Privilege Style Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/privilege-style.svg",
+  "name": "Privilege Style",
+  "non_free": true,
+  "website": "https://www.privilegestyle.com"
+ },
+ "Proflight Zambia": {
+  "file": "File:Proflight Zambia logo.png",
+  "license": "Fair use",
+  "logo": "logos/proflight-zambia.png",
+  "name": "Proflight Zambia",
+  "non_free": true,
+  "website": "http://flyzambia.com"
+ },
+ "Propair": {
+  "name": "Propair",
+  "website": "http://propair.ca/"
+ },
+ "Qanot Sharq": {
+  "file": "File:Qanot Sharq logo.svg",
+  "license": "PD",
+  "logo": "logos/qanot-sharq.svg",
+  "name": "Qanot Sharq",
+  "non_free": false,
+  "website": "https://qanotsharq.com/"
+ },
  "Qantas": {
   "file": "File:Qantas Airways logo 2016.svg",
   "license": "Fair use",
@@ -590,6 +4750,14 @@
   "name": "Qantas",
   "non_free": true,
   "website": "http://qantas.com"
+ },
+ "QantasLink": {
+  "file": "File:QantasLink logo.svg",
+  "license": "Fair use",
+  "logo": "logos/qantaslink.svg",
+  "name": "QantasLink",
+  "non_free": true,
+  "website": "http://www.qantaslink.com.au"
  },
  "Qatar Airways": {
   "file": "File:Qatar Airways Logo.svg",
@@ -599,6 +4767,94 @@
   "non_free": true,
   "website": "https://www.qatarairways.com/"
  },
+ "Qeshm Air": {
+  "file": "File:QeshmAir.png",
+  "license": "Fair use",
+  "logo": "logos/qeshm-air.png",
+  "name": "Qeshm Air",
+  "non_free": true,
+  "website": "http://www.qeshm-air.com"
+ },
+ "Qingdao Airlines": {
+  "file": "File:QingdaoAirlinesLogo.png",
+  "license": "Fair use",
+  "logo": "logos/qingdao-airlines.png",
+  "name": "Qingdao Airlines",
+  "non_free": true,
+  "website": "http://www.qdairlines.com"
+ },
+ "RED Air": {
+  "file": "File:RED Air logo (PD-US).png",
+  "license": "PD",
+  "logo": "logos/red-air.png",
+  "name": "RED Air",
+  "non_free": false,
+  "website": "https://redair.com.do/"
+ },
+ "RUTACA Airlines": {
+  "file": "File:RUTACA Airlines logo complete 2024-12-01.png",
+  "license": "Fair use",
+  "logo": "logos/rutaca-airlines.png",
+  "name": "RUTACA Airlines",
+  "non_free": true,
+  "website": "http://www.flyrutaca.com/"
+ },
+ "Red Sea Airlines (charter airline)": {
+  "file": "File:Red Sea Airlines (charter airline) logo.png",
+  "license": "Fair use",
+  "logo": "logos/red-sea-airlines-charter-airline.png",
+  "name": "Red Sea Airlines",
+  "non_free": true,
+  "website": "https://www.redseaairlines.com/"
+ },
+ "Red Wings Airlines": {
+  "file": "File:RedWings Airlines Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/red-wings-airlines.svg",
+  "name": "Red Wings Airlines",
+  "non_free": true,
+  "website": "http://www.flyredwings.com"
+ },
+ "Regional Air": {
+  "file": "File:Regional Air logo.svg",
+  "license": "Fair use",
+  "logo": "logos/regional-air.svg",
+  "name": "Regional Air",
+  "non_free": true,
+  "website": "http://www.regionaltanzania.com/"
+ },
+ "Reliant Air": {
+  "file": "File:Reliant Air Logo.png",
+  "license": "Fair use",
+  "logo": "logos/reliant-air.png",
+  "name": "Reliant Air",
+  "non_free": true,
+  "website": "https://www.flyreliant.com/"
+ },
+ "Renegade Air": {
+  "file": "File:Renegade Air (Kenya).png",
+  "license": "Fair use",
+  "logo": "logos/renegade-air.png",
+  "name": "Renegade Air",
+  "non_free": true,
+  "website": "http://flyrenegadeair.com"
+ },
+ "Rex Airlines": {
+  "file": "File:Rex Airlines logo.svg",
+  "license": "Public domain",
+  "logo": "logos/rex-airlines.svg",
+  "name": "Rex Airlines",
+  "non_free": false,
+  "website": "http://www.rex.com.au"
+ },
+ "Rise Air": {
+  "file": "File:Rise Air logo.png",
+  "license": "Fair use",
+  "logo": "logos/rise-air.png",
+  "name": "Rise Air",
+  "non_free": true,
+  "website": "https://riseair.ca/"
+ },
  "Riyadh Air": {
   "file": "File:Riyadh Air Logo.svg",
   "license": "Public domain",
@@ -606,6 +4862,50 @@
   "name": "Riyadh Air",
   "non_free": false,
   "website": "https://www.riyadhair.com"
+ },
+ "Roraima Airways": {
+  "file": "File:Roraima Airways logo.png",
+  "license": "Fair use",
+  "logo": "logos/roraima-airways.png",
+  "name": "Roraima Airways",
+  "non_free": true,
+  "website": "http://www.roraimaairways.com"
+ },
+ "Rossiya Airlines": {
+  "file": "File:Rossiya Airline.svg",
+  "license": "PD",
+  "logo": "logos/rossiya-airlines.svg",
+  "name": "Rossiya Airlines",
+  "non_free": false,
+  "website": "http://www.rossiya-airlines.ru/en"
+ },
+ "Rotana Jet": {
+  "file": "File:Rotana Jet logo.png",
+  "license": "Fair use",
+  "logo": "logos/rotana-jet.png",
+  "name": "Rotana Jet",
+  "non_free": true,
+  "website": "http://www.rotanajet.com"
+ },
+ "Royal Air Maroc": {
+  "file": "File:Logo Royal Air Maroc.svg",
+  "license": "Public domain",
+  "logo": "logos/royal-air-maroc.svg",
+  "name": "Royal Air Maroc",
+  "non_free": false,
+  "website": "https://www.royalairmaroc.com"
+ },
+ "Royal Air Maroc Express": {
+  "name": "Royal Air Maroc Express",
+  "website": "http://www.royalairmaroc.com"
+ },
+ "Royal Air Philippines": {
+  "file": "File:Royal Air Philippines logo.png",
+  "license": "Fair use",
+  "logo": "logos/royal-air-philippines.png",
+  "name": "Royal Air Philippines",
+  "non_free": true,
+  "website": "http://www.flyroyalair.com"
  },
  "Royal Brunei Airlines": {
   "file": "File:Royal Brunei Airlines Logo.svg",
@@ -623,6 +4923,98 @@
   "non_free": true,
   "website": "http://www.rj.com"
  },
+ "Royal Zambian Airlines": {
+  "name": "Royal Zambian Airlines",
+  "website": "https://royalzambianairlines.com/"
+ },
+ "Ruili Airlines": {
+  "file": "File:Ruili Airlines logo.png",
+  "license": "Fair use",
+  "logo": "logos/ruili-airlines.png",
+  "name": "Ruili Airlines",
+  "non_free": true,
+  "website": "http://www.rlair.net/"
+ },
+ "RusLine": {
+  "file": "File:New RusLine logo.png",
+  "license": "Fair use",
+  "logo": "logos/rusline.png",
+  "name": "RusLine",
+  "non_free": true,
+  "website": "http://www.rusline.aero/"
+ },
+ "RwandAir": {
+  "file": "File:RwandAir logo.svg",
+  "license": "Fair use",
+  "logo": "logos/rwandair.svg",
+  "name": "RwandAir",
+  "non_free": true,
+  "website": "http://rwandair.com/"
+ },
+ "Ryan Air Services": {
+  "file": "File:RyanAirServicesLogo.png",
+  "license": "Fair use",
+  "logo": "logos/ryan-air-services.png",
+  "name": "Ryan Air",
+  "non_free": true,
+  "website": "http://www.ryanalaska.com/"
+ },
+ "Ryanair": {
+  "file": "File:Ryanair.svg",
+  "license": "Fair use",
+  "logo": "logos/ryanair.svg",
+  "name": "Ryanair",
+  "non_free": true,
+  "website": "https://www.ryanair.com/"
+ },
+ "Ryukyu Air Commuter": {
+  "file": "File:Ryukyu Air Commuter.svg",
+  "license": "Fair use",
+  "logo": "logos/ryukyu-air-commuter.svg",
+  "name": "Ryukyu Air Commuter",
+  "non_free": true,
+  "website": "http://www.rac-okinawa.com"
+ },
+ "S7 Airlines": {
+  "file": "File:S7 new logo.svg",
+  "license": "Public domain",
+  "logo": "logos/s7-airlines.svg",
+  "name": "S7 Airlines",
+  "non_free": false,
+  "website": "https://www.s7.ru/en/"
+ },
+ "SAM Air": {
+  "name": "SAM Air",
+  "website": "http://www.sam-air.net"
+ },
+ "SANSA (airline)": {
+  "file": "File:Sansa.png",
+  "license": "Fair use",
+  "logo": "logos/sansa-airline.png",
+  "name": "Sansa Airlines",
+  "non_free": true,
+  "website": "http://www.flysansa.com"
+ },
+ "SARPA": {
+  "name": "SARPA",
+  "website": "http://www.sarpa.com.co/"
+ },
+ "SATA Air Açores": {
+  "file": "File:SATA Air Açores logo.svg",
+  "license": "Fair use",
+  "logo": "logos/sata-air-a-ores.svg",
+  "name": "SATA Air Açores",
+  "non_free": true,
+  "website": "http://www.azoresairlines.pt/"
+ },
+ "SATENA": {
+  "file": "https://satena.com/en",
+  "license": "Trademark (airline's website)",
+  "logo": "logos/satena.svg",
+  "name": "SATENA",
+  "non_free": true,
+  "website": "http://www.satena.com"
+ },
  "SCAT Airlines": {
   "file": "File:SCAT Air Company Logo.svg",
   "license": "Public domain",
@@ -630,6 +5022,58 @@
   "name": "SCAT Airlines",
   "non_free": false,
   "website": "https://www.scat.kz/"
+ },
+ "SKYhigh Dominicana": {
+  "file": "File:SKYhigh DOMINICANA.png",
+  "license": "CC0",
+  "logo": "logos/skyhigh-dominicana.png",
+  "name": "Sky High",
+  "non_free": false,
+  "website": "https://skyhighdo.com/en/"
+ },
+ "STP Airways": {
+  "file": "File:STP Airways logo.svg",
+  "license": "PD",
+  "logo": "logos/stp-airways.svg",
+  "name": "STP Airways",
+  "non_free": false,
+  "website": "http://www.stpairways.st/en"
+ },
+ "SUM Air": {
+  "file": "File:SUM Air Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/sum-air.svg",
+  "name": "SUM Air",
+  "non_free": false,
+  "website": "https://www.sumair.kr/en"
+ },
+ "SVG Air": {
+  "file": "https://flysvgair.com/",
+  "license": "Trademark (airline's website)",
+  "logo": "logos/svg-air.png",
+  "name": "SVG Air",
+  "non_free": true,
+  "website": "http://flysvgair.com"
+ },
+ "Safari Plus": {
+  "file": "File:Safari Plus Logo.png",
+  "license": "Fair use",
+  "logo": "logos/safari-plus.png",
+  "name": "Safari Plus",
+  "non_free": true,
+  "website": "http://www.safariplus.co.tz/"
+ },
+ "Safarilink Aviation": {
+  "file": "File:Safarilink Aviation logo.svg",
+  "license": "Public domain",
+  "logo": "logos/safarilink-aviation.svg",
+  "name": "Safarilink",
+  "non_free": false,
+  "website": "http://flysafarilink.com"
+ },
+ "Saha Airlines": {
+  "name": "Saha Airlines",
+  "website": "http://sahaair.com"
  },
  "SalamAir": {
   "file": "File:Salam Air Logo.svg",
@@ -639,6 +5083,22 @@
   "non_free": false,
   "website": "https://www.salamair.com"
  },
+ "Salt Spring Air": {
+  "name": "Salt Spring Air",
+  "website": "https://www.harbourair.com"
+ },
+ "Samoa Airways": {
+  "file": "File:Samoa Airways logo.svg",
+  "license": "Fair use",
+  "logo": "logos/samoa-airways.svg",
+  "name": "Samoa Airways",
+  "non_free": true,
+  "website": "http://www.samoaairways.com"
+ },
+ "San Juan Airlines": {
+  "name": "San Juan Airlines",
+  "website": "https://sanjuanairlines.com/"
+ },
  "Saudia": {
   "file": "File:Logo of Saudia.svg",
   "license": "PD",
@@ -646,6 +5106,14 @@
   "name": "Saudia",
   "non_free": true,
   "website": "https://www.saudia.com/"
+ },
+ "Saurya Airlines": {
+  "file": "File:Saurya Airlines Logo.png",
+  "license": "Public domain",
+  "logo": "logos/saurya-airlines.png",
+  "name": "Saurya Airlines",
+  "non_free": false,
+  "website": "https://www.sauryaairlines.com/"
  },
  "Scandinavian Airlines": {
   "file": "File:Scandinavian Airlines logo.svg",
@@ -663,6 +5131,134 @@
   "non_free": false,
   "website": "http://www.flyscoot.com"
  },
+ "SeaPort Airlines": {
+  "file": "File:SeaPort Airlines logo.png",
+  "license": "Fair use",
+  "logo": "logos/seaport-airlines.png",
+  "name": "SeaPort Airlines",
+  "non_free": true,
+  "website": "https://flyseaportair.com/"
+ },
+ "Seaborne Airlines": {
+  "file": "File:Seaborne Airlines Logo 2016.png",
+  "license": "Public domain",
+  "logo": "logos/seaborne-airlines.png",
+  "name": "Seaborne Airlines",
+  "non_free": false,
+  "website": "https://www.seaborneairlines.com"
+ },
+ "Seair Seaplanes": {
+  "file": "File:Seair Seaplanes Logo.png",
+  "license": "Fair use",
+  "logo": "logos/seair-seaplanes.png",
+  "name": "Seair Seaplanes",
+  "non_free": true,
+  "website": "https://www.seairseaplanes.com/"
+ },
+ "Sepehran Airlines": {
+  "file": "File:Sepehran Airlines Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/sepehran-airlines.svg",
+  "name": "Sepehran Airlines",
+  "non_free": true,
+  "website": "http://www.FlySepehran.com/"
+ },
+ "SereneAir": {
+  "file": "File:SereneAir.svg",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/sereneair.svg",
+  "name": "Serene Air",
+  "non_free": false,
+  "website": "https://www.sereneair.com/"
+ },
+ "Servant Air": {
+  "name": "Paklook",
+  "website": "https://web.archive.org/web/20130703063718/http://www.servantair.com/home.html"
+ },
+ "Sevenair Air Services": {
+  "file": "File:Sevenair Air Services Logo.png",
+  "license": "Fair use",
+  "logo": "logos/sevenair-air-services.png",
+  "name": "Sevenair",
+  "non_free": true,
+  "website": "https://www.flysevenair.com/"
+ },
+ "Severstal Avia": {
+  "file": "File:Severstal Avia logo.svg",
+  "license": "Fair use",
+  "logo": "logos/severstal-avia.svg",
+  "name": "Severstal Air Company",
+  "non_free": true,
+  "website": "https://severstal-avia.ru/en/"
+ },
+ "Shandong Airlines": {
+  "file": "File:ShandongAirlines.svg",
+  "license": "Fair use",
+  "logo": "logos/shandong-airlines.svg",
+  "name": "Shandong Airlines",
+  "non_free": true,
+  "website": "http://www.sda.cn"
+ },
+ "Shanghai Airlines": {
+  "file": "File:Shanghai Airlines.svg",
+  "license": "Fair use",
+  "logo": "logos/shanghai-airlines.svg",
+  "name": "Shanghai Airlines",
+  "non_free": true,
+  "website": "http://www.ceair.com"
+ },
+ "Sharp Airlines": {
+  "file": "File:Sharp Airlines logo.svg",
+  "license": "Fair use",
+  "logo": "logos/sharp-airlines.svg",
+  "name": "Sharp Airlines",
+  "non_free": true,
+  "website": "http://www.sharpairlines.com.au"
+ },
+ "Shenzhen Airlines": {
+  "file": "File:Shenzhen Airlines logo.svg",
+  "license": "Fair use",
+  "logo": "logos/shenzhen-airlines.svg",
+  "name": "Shenzhen Airlines",
+  "non_free": true,
+  "website": "http://global.shenzhenair.com"
+ },
+ "Shirak Avia": {
+  "file": "File:Shirak Avia logo.png",
+  "license": "Fair use",
+  "logo": "logos/shirak-avia.png",
+  "name": "Shirak Avia",
+  "non_free": true,
+  "website": "https://shirakavia.am/en"
+ },
+ "Shree Airlines": {
+  "file": "File:Shree Airlines logo.svg",
+  "license": "Fair use",
+  "logo": "logos/shree-airlines.svg",
+  "name": "Shree Airlines",
+  "non_free": true,
+  "website": "http://www.shreeairlines.com"
+ },
+ "Siberian Light Aviation": {
+  "file": "File:SiLA Airlines Logo.png",
+  "license": "Fair use",
+  "logo": "logos/siberian-light-aviation.png",
+  "name": "SiLA Airlines",
+  "non_free": true,
+  "website": "https://sila-avia.ru/"
+ },
+ "Sichuan Airlines": {
+  "file": "File:Sichuan Airlines logo.svg",
+  "license": "Fair use",
+  "logo": "logos/sichuan-airlines.svg",
+  "name": "Sichuan Airlines",
+  "non_free": true,
+  "website": "https://www.sichuanair.com"
+ },
+ "Silk Avia": {
+  "name": "Silk Avia",
+  "website": "https://www.silk-avia.com/en/"
+ },
  "Singapore Airlines": {
   "file": "File:Singapore Airlines Logo 2.svg",
   "license": "PD",
@@ -670,6 +5266,46 @@
   "name": "Singapore Airlines",
   "non_free": false,
   "website": "https://www.singaporeair.com/"
+ },
+ "Sita Air": {
+  "file": "File:Sita Air logo.png",
+  "license": "Fair use",
+  "logo": "logos/sita-air.png",
+  "name": "Sita Air",
+  "non_free": true,
+  "website": "http://www.sitaair.com.np"
+ },
+ "Skippers Aviation": {
+  "file": "File:Skippers Aviation logo.svg",
+  "license": "Public domain",
+  "logo": "logos/skippers-aviation.svg",
+  "name": "Skippers Aviation",
+  "non_free": false,
+  "website": "http://www.skippers.com.au"
+ },
+ "Sky Airline": {
+  "file": "File:Sky Airline Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/sky-airline.svg",
+  "name": "Sky Airline",
+  "non_free": false,
+  "website": "http://www.skyairline.com/"
+ },
+ "Sky Airline Peru": {
+  "file": "File:Sky Airline Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/sky-airline-peru.svg",
+  "name": "Sky Airline Peru",
+  "non_free": false,
+  "website": "https://www.skyairline.com/peru"
+ },
+ "Sky Alps": {
+  "file": "File:SkyAlps Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/sky-alps.svg",
+  "name": "Sky Alps",
+  "non_free": false,
+  "website": "http://www.skyalps.com"
  },
  "Sky Angkor Airlines": {
   "file": "File:Sky Angkor Airlines Logo.png",
@@ -679,6 +5315,154 @@
   "non_free": true,
   "website": "http://www.skyangkorair.com"
  },
+ "Sky Express (Greece)": {
+  "file": "File:Sky Express Logo.svg",
+  "license": "PD",
+  "logo": "logos/sky-express-greece.svg",
+  "name": "Sky Express",
+  "non_free": false,
+  "website": "http://www.skyexpress.gr"
+ },
+ "Sky FRU": {
+  "file": "File:Sky FRU Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/sky-fru.svg",
+  "name": "Sky FRU",
+  "non_free": true,
+  "website": "https://skyfru.kg/en"
+ },
+ "Sky Mali": {
+  "file": "File:Sky Mali Logo.png",
+  "license": "Fair use",
+  "logo": "logos/sky-mali.png",
+  "name": "Sky Mali",
+  "non_free": true,
+  "website": "https://www.flyskymali.com/la-compagnie/a-propos/"
+ },
+ "Sky Pasada": {
+  "name": "Sky Pasada",
+  "website": "http://www.skypasada.com"
+ },
+ "Sky Shuttle": {
+  "file": "File:Sky Shuttle logo.png",
+  "license": "Fair use",
+  "logo": "logos/sky-shuttle.png",
+  "name": "Sky Shuttle",
+  "non_free": true,
+  "website": "http://www.skyshuttlehk.com/"
+ },
+ "Sky Vision Airlines": {
+  "file": "File:Sky Vision Airlines logo.png",
+  "license": "Fair use",
+  "logo": "logos/sky-vision-airlines.png",
+  "name": "Sky Vision Airlines",
+  "non_free": true,
+  "website": "https://www.skyvisionairline.com/"
+ },
+ "SkyUp Airlines": {
+  "file": "File:Skyup.svg",
+  "license": "CC BY-SA 2.5",
+  "logo": "logos/skyup-airlines.svg",
+  "name": "SkyUp Airlines",
+  "non_free": false,
+  "website": "https://skyup.aero/en"
+ },
+ "SkyUp MT": {
+  "file": "File:Skyup.svg",
+  "license": "CC BY-SA 2.5",
+  "logo": "logos/skyup-mt.svg",
+  "name": "SkyUp MT",
+  "non_free": false,
+  "website": "https://skyup.aero/en"
+ },
+ "Skyline Express": {
+  "file": "File:Skyline-express.svg",
+  "license": "CC0",
+  "logo": "logos/skyline-express.svg",
+  "name": "Skyline Express",
+  "non_free": false,
+  "website": "https://skylineexpress.aero/ua"
+ },
+ "Skymark Airlines": {
+  "file": "File:Skymark Airlines Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/skymark-airlines.svg",
+  "name": "Skymark Airlines",
+  "non_free": false,
+  "website": "http://www.skymark.co.jp"
+ },
+ "Skytrans Australia": {
+  "file": "File:Skytrans Australia logo.svg",
+  "license": "Fair use",
+  "logo": "logos/skytrans-australia.svg",
+  "name": "Skytrans Australia",
+  "non_free": true,
+  "website": "https://skytrans.au/"
+ },
+ "Skyward Airlines": {
+  "file": "File:Skyward Airlines logo.svg",
+  "license": "CC0",
+  "logo": "logos/skyward-airlines.svg",
+  "name": "Skyward Express",
+  "non_free": false,
+  "website": "https://skywardairlines.co.ke/"
+ },
+ "Smartavia": {
+  "file": "File:Smartavia logo.svg",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/smartavia.svg",
+  "name": "Smartavia",
+  "non_free": false,
+  "website": "https://www.flysmartavia.com/"
+ },
+ "Smartwings": {
+  "file": "File:Smartwings logo.svg",
+  "license": "Public domain",
+  "logo": "logos/smartwings.svg",
+  "name": "Smartwings",
+  "non_free": false,
+  "website": "http://www.smartwings.com"
+ },
+ "Smartwings Hungary": {
+  "file": "File:SmartWings logo.svg",
+  "license": "Public domain",
+  "logo": "logos/smartwings-hungary.svg",
+  "name": "Smartwings Hungary",
+  "non_free": false,
+  "website": "http://www.smartwings.com"
+ },
+ "Smartwings Poland": {
+  "file": "File:SmartWings logo.svg",
+  "license": "Public domain",
+  "logo": "logos/smartwings-poland.svg",
+  "name": "Smartwings Poland",
+  "non_free": false,
+  "website": "http://www.smartwings.com"
+ },
+ "Smartwings Slovakia": {
+  "file": "File:SmartWings logo.svg",
+  "license": "Public domain",
+  "logo": "logos/smartwings-slovakia.svg",
+  "name": "Smartwings Slovakia",
+  "non_free": false,
+  "website": "http://www.smartwings.com/sk/"
+ },
+ "Solaseed Air": {
+  "file": "File:Solaseed Air logo.svg",
+  "license": "Public domain",
+  "logo": "logos/solaseed-air.svg",
+  "name": "Solaseed Air",
+  "non_free": false,
+  "website": "http://www.solaseedair.jp"
+ },
+ "Solomon Airlines": {
+  "file": "File:Solomon Airlines Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/solomon-airlines.svg",
+  "name": "Solomon Airlines",
+  "non_free": true,
+  "website": "http://www.flysolomons.com"
+ },
  "Somon Air": {
   "file": "File:Somon Air logo.png",
   "license": "Fair use",
@@ -687,13 +5471,61 @@
   "non_free": true,
   "website": "http://www.somonair.com"
  },
- "Spice Jet": {
-  "file": "File:SpiceJet logo.svg",
+ "Sounds Air": {
+  "file": "File:Sounds Air logo.svg",
   "license": "Fair use",
-  "logo": "logos/spice-jet.svg",
-  "name": "Spice Jet",
+  "logo": "logos/sounds-air.svg",
+  "name": "Sounds Air",
   "non_free": true,
-  "website": "http://www.spicejet.com"
+  "website": "http://soundsair.com"
+ },
+ "South African Airways": {
+  "file": "File:SAA logo (2019).svg",
+  "license": "Fair use",
+  "logo": "logos/south-african-airways.svg",
+  "name": "South African Airways",
+  "non_free": true,
+  "website": "https://flysaa.com"
+ },
+ "South Air": {
+  "file": "File:South Air Logo.png",
+  "license": "Fair use",
+  "logo": "logos/south-air.png",
+  "name": "South Air",
+  "non_free": true,
+  "website": "http://southair.com.pk"
+ },
+ "Southern Air Charter": {
+  "file": "File:Southern Air Charter Logo.png",
+  "license": "CC0",
+  "logo": "logos/southern-air-charter.png",
+  "name": "Southern Air Charter",
+  "non_free": false,
+  "website": "http://www.southernaircharter.com"
+ },
+ "Southern Airways Express": {
+  "file": "File:S.A. Express Logo.png",
+  "license": "Fair use",
+  "logo": "logos/southern-airways-express.png",
+  "name": "Southern Airways Express",
+  "non_free": true,
+  "website": "http://iflysouthern.com"
+ },
+ "Southwest Airlines": {
+  "file": "File:Southwest Airlines logo 2014.svg",
+  "license": "Public domain",
+  "logo": "logos/southwest-airlines.svg",
+  "name": "Southwest Airlines",
+  "non_free": false,
+  "website": "https://www.southwest.com/"
+ },
+ "Southwind Airlines": {
+  "file": "File:Southwind Airlines Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/southwind-airlines.svg",
+  "name": "Southwind Airlines",
+  "non_free": true,
+  "website": "http://southwindairlines.com/en"
  },
  "SpiceJet": {
   "file": "File:SpiceJet logo.svg",
@@ -703,13 +5535,21 @@
   "non_free": true,
   "website": "http://www.spicejet.com"
  },
- "Spicejet": {
-  "file": "File:SpiceJet logo.svg",
+ "Spring Airlines": {
+  "file": "File:SpringAirLogo.svg",
   "license": "Fair use",
-  "logo": "logos/spicejet.svg",
-  "name": "Spicejet",
+  "logo": "logos/spring-airlines.svg",
+  "name": "Spring Airlines",
   "non_free": true,
-  "website": "http://www.spicejet.com"
+  "website": "http://www.ch.com"
+ },
+ "Spring Japan": {
+  "file": "File:Spring Airlines Japan logo.png",
+  "license": "Fair use",
+  "logo": "logos/spring-japan.png",
+  "name": "Spring Japan",
+  "non_free": true,
+  "website": "http://jp.ch.com"
  },
  "SriLankan Airlines": {
   "file": "File:SriLankan Airlines Logo.svg",
@@ -719,6 +5559,22 @@
   "non_free": true,
   "website": "http://www.srilankan.com"
  },
+ "Sriwijaya Air": {
+  "file": "File:Sriwijaya Air Logo Horizontal.png",
+  "license": "Fair use",
+  "logo": "logos/sriwijaya-air.png",
+  "name": "Sriwijaya Air",
+  "non_free": true,
+  "website": "http://www.sriwijayaair.co.id"
+ },
+ "St Barth Commuter": {
+  "file": "File:Logo St Barth Commuter.svg",
+  "license": "Public domain",
+  "logo": "logos/st-barth-commuter.svg",
+  "name": "St Barth Commuter",
+  "non_free": false,
+  "website": "https://www.stbarthcommuter.com"
+ },
  "Star Air (India)": {
   "file": "File:Star Air Logo A.png",
   "license": "CC BY-SA 4.0",
@@ -726,6 +5582,74 @@
   "name": "Star Air",
   "non_free": false,
   "website": "http://www.starair.in"
+ },
+ "Star Marianas Air": {
+  "name": "Star Marianas Air",
+  "website": "https://www.starmarianasair.com"
+ },
+ "Star Perú": {
+  "file": "File:Star Perú logo.svg",
+  "license": "Public domain",
+  "logo": "logos/star-per.svg",
+  "name": "Star Perú",
+  "non_free": false,
+  "website": "http://www.starperu.com"
+ },
+ "StarFlyer": {
+  "file": "File:StarFlyer logo.svg",
+  "license": "Public domain",
+  "logo": "logos/starflyer.svg",
+  "name": "StarFlyer",
+  "non_free": false,
+  "website": "http://www.starflyer.jp"
+ },
+ "Starlux Airlines": {
+  "file": "File:STARLUX Airlines logo.svg",
+  "license": "Fair use",
+  "logo": "logos/starlux-airlines.svg",
+  "name": "Starlux Airlines",
+  "non_free": true,
+  "website": "http://www.starlux-airlines.com"
+ },
+ "Stewart Island Flights": {
+  "file": "File:Stewart Island Flights logo.png",
+  "license": "Fair use",
+  "logo": "logos/stewart-island-flights.png",
+  "name": "Stewart Island Flights",
+  "non_free": true,
+  "website": "https://www.stewartislandflights.co.nz/"
+ },
+ "Sudan Airways": {
+  "file": "File:Sudan Airways.svg",
+  "license": "Fair use",
+  "logo": "logos/sudan-airways.svg",
+  "name": "Sudan Airways",
+  "non_free": true,
+  "website": "http://www.sudanair.com"
+ },
+ "Summit Air": {
+  "file": "File:Summit Air logo.png",
+  "license": "Fair use",
+  "logo": "logos/summit-air.png",
+  "name": "Summit Air",
+  "non_free": true,
+  "website": "http://www.flysummitair.com"
+ },
+ "Summit Air (Nepal)": {
+  "file": "File:Summit Air (Nepal) logo.png",
+  "license": "Fair use",
+  "logo": "logos/summit-air-nepal.png",
+  "name": "Summit Air",
+  "non_free": true,
+  "website": "https://www.summitair.com.np"
+ },
+ "Sun Country Airlines": {
+  "file": "File:Sun Country Airlines logo.svg",
+  "license": "Fair use",
+  "logo": "logos/sun-country-airlines.svg",
+  "name": "Sun Country Airlines",
+  "non_free": true,
+  "website": "http://suncountry.com"
  },
  "Sun PhuQuoc Airways": {
   "file": "File:Sun PhuQuoc Airways (SPA) logo.svg",
@@ -735,6 +5659,98 @@
   "non_free": false,
   "website": "https://www.sunphuquocairways.com"
  },
+ "SunExpress": {
+  "file": "File:SunExpress Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/sunexpress.svg",
+  "name": "SunExpress",
+  "non_free": false,
+  "website": "http://www.sunexpress.com"
+ },
+ "Sunair": {
+  "name": "Sunair",
+  "website": "http://www.sunair.co.nz"
+ },
+ "Sunclass Airlines": {
+  "file": "File:Sunclass Airlines logo.svg",
+  "license": "Fair use",
+  "logo": "logos/sunclass-airlines.svg",
+  "name": "Sunclass Airlines",
+  "non_free": true,
+  "website": "http://www.sunclassairlines.dk"
+ },
+ "Sundair": {
+  "file": "File:Sundair logo.png",
+  "license": "Fair use",
+  "logo": "logos/sundair.png",
+  "name": "Sundair",
+  "non_free": true,
+  "website": "http://www.sundair.com"
+ },
+ "Sundor": {
+  "file": "File:Sundor Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/sundor.svg",
+  "name": "Sundor",
+  "non_free": true,
+  "website": "https://www.elal.com/eng/sundor/home"
+ },
+ "Sunlight Air": {
+  "file": "File:Sunlight Air PH Logo.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/sunlight-air.png",
+  "name": "Sunlight Air",
+  "non_free": false,
+  "website": "http://www.sunlightair.ph"
+ },
+ "Sunrise Airways": {
+  "file": "File:Sunrise Airways logo.svg",
+  "license": "Fair use",
+  "logo": "logos/sunrise-airways.svg",
+  "name": "Sunrise Airways",
+  "non_free": true,
+  "website": "http://www.sunriseairways.net"
+ },
+ "Suparna Airlines": {
+  "file": "File:Suparna Airlines Logo.png",
+  "license": "Fair use",
+  "logo": "logos/suparna-airlines.png",
+  "name": "Suparna Airlines",
+  "non_free": true,
+  "website": "http://www.yzr.com.cn"
+ },
+ "Super Air Jet": {
+  "file": "File:Logo Super Air Jet.svg",
+  "license": "Public domain",
+  "logo": "logos/super-air-jet.svg",
+  "name": "Super Air Jet",
+  "non_free": false,
+  "website": "http://www.superairjet.com/en/"
+ },
+ "Superior Airways": {
+  "file": "File:Superior Airways logo.svg",
+  "license": "Fair use",
+  "logo": "logos/superior-airways.svg",
+  "name": "Superior Airways",
+  "non_free": true,
+  "website": "http://www.superiorairways.com"
+ },
+ "Surinam Airways": {
+  "file": "File:Surinam Airways Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/surinam-airways.svg",
+  "name": "Surinam Airways",
+  "non_free": true,
+  "website": "http://www.flyslm.com"
+ },
+ "Susi Air": {
+  "file": "File:Susi Air logo.png",
+  "license": "Fair use",
+  "logo": "logos/susi-air.png",
+  "name": "Susi Air",
+  "non_free": true,
+  "website": "http://www.susiair.com"
+ },
  "Swiss International Air Lines": {
   "file": "File:Swiss International Air Lines Logo 2011.svg",
   "license": "Public domain",
@@ -743,6 +5759,46 @@
   "non_free": false,
   "website": "http://swiss.com"
  },
+ "Syrian Airlines": {
+  "file": "File:Syrian Airlines logo 2026.svg",
+  "license": "Fair use",
+  "logo": "logos/syrian-airlines.svg",
+  "name": "Syrian Air",
+  "non_free": true,
+  "website": "https://syrian-airlines.net/"
+ },
+ "TAAG Angola Airlines": {
+  "file": "File:TAAG Logo.png",
+  "license": "Fair use",
+  "logo": "logos/taag-angola-airlines.png",
+  "name": "TAAG Angola Airlines",
+  "non_free": true,
+  "website": "http://taag.com"
+ },
+ "TAC Colombia": {
+  "name": "TAC",
+  "website": "https://taccolombia.com/"
+ },
+ "TAP Air Portugal": {
+  "file": "File:TAP-Portugal-Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/tap-air-portugal.svg",
+  "name": "TAP Air Portugal",
+  "non_free": false,
+  "website": "http://www.flytap.com"
+ },
+ "TAR Aerolíneas": {
+  "name": "TAR México",
+  "website": "http://www.tarmexico.com"
+ },
+ "TAROM": {
+  "file": "File:TAROM Logo (blue).svg",
+  "license": "Fair use",
+  "logo": "logos/tarom.svg",
+  "name": "TAROM",
+  "non_free": true,
+  "website": "http://www.tarom.ro"
+ },
  "TUI Airways": {
   "file": "File:TUI Logo 2016.svg",
   "license": "Public domain",
@@ -750,6 +5806,94 @@
   "name": "TUI Airways",
   "non_free": false,
   "website": "http://www.tui.co.uk"
+ },
+ "TUI fly Belgium": {
+  "file": "File:TUIfly Logo 2016.svg",
+  "license": "Public domain",
+  "logo": "logos/tui-fly-belgium.svg",
+  "name": "TUI fly Belgium",
+  "non_free": false,
+  "website": "http://www.tuifly.be"
+ },
+ "TUI fly Deutschland": {
+  "file": "File:TUIfly Logo 2016.svg",
+  "license": "Public domain",
+  "logo": "logos/tui-fly-deutschland.svg",
+  "name": "TUI fly Deutschland",
+  "non_free": false,
+  "website": "http://www.tui.com"
+ },
+ "TUI fly Netherlands": {
+  "file": "File:TUIfly Logo 2016.svg",
+  "license": "Public domain",
+  "logo": "logos/tui-fly-netherlands.svg",
+  "name": "TUI fly Netherlands",
+  "non_free": false,
+  "website": "http://www.tui.nl"
+ },
+ "TUI fly Nordic": {
+  "file": "File:TUIfly Logo 2016.svg",
+  "license": "Public domain",
+  "logo": "logos/tui-fly-nordic.svg",
+  "name": "TUI fly Nordic",
+  "non_free": false,
+  "website": "http://www.tui.dk"
+ },
+ "TUS Airways": {
+  "file": "File:Tus Airways Logo.png",
+  "license": "Public domain",
+  "logo": "logos/tus-airways.png",
+  "name": "TUS Airways",
+  "non_free": false,
+  "website": "http://tusairways.com"
+ },
+ "Taban Air": {
+  "file": "File:Taban Airlines official logo.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/taban-air.png",
+  "name": "Taban Air",
+  "non_free": false,
+  "website": "https://taban.aero/?lang=en"
+ },
+ "Tailwind Airlines": {
+  "file": "File:Tailwind Airlines Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/tailwind-airlines.svg",
+  "name": "Tailwind Airlines",
+  "non_free": false,
+  "website": "http://www.tailwind.com.tr/"
+ },
+ "Tajik Air": {
+  "file": "File:Tajik Air Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/tajik-air.svg",
+  "name": "Tajik Air",
+  "non_free": true,
+  "website": "https://www.tajikair.tj/en/"
+ },
+ "Talofa Airways": {
+  "name": "Talofa Airways",
+  "website": "http://www.talofaairways.com"
+ },
+ "Taquan Air": {
+  "file": "File:Taquan Air logo.svg",
+  "license": "Public domain",
+  "logo": "logos/taquan-air.svg",
+  "name": "Taquan Air",
+  "non_free": false,
+  "website": "https://taquanair.com/"
+ },
+ "Tara Air": {
+  "file": "File:Tara Air logo.png",
+  "license": "Fair use",
+  "logo": "logos/tara-air.png",
+  "name": "Tara Air",
+  "non_free": true,
+  "website": "https://www.taraair.com/"
+ },
+ "Tarco Aviation": {
+  "name": "Tarco Aviation",
+  "website": "https://www.tarcoaviation.com"
  },
  "Thai AirAsia": {
   "file": "File:AirAsia New Logo.svg",
@@ -791,6 +5935,206 @@
   "non_free": false,
   "website": "https://th.vietjetair.com"
  },
+ "Thunder Airlines": {
+  "file": "File:ThunderLogoNew.svg",
+  "license": "Public domain",
+  "logo": "logos/thunder-airlines.svg",
+  "name": "Thunder Airlines",
+  "non_free": false,
+  "website": "http://www.thunderair.com/"
+ },
+ "Tian Jiao Airlines": {
+  "name": "Genghis Khan Airlines",
+  "website": null
+ },
+ "Tianjin Airlines": {
+  "file": "File:Tianjin Airlines logo.svg",
+  "license": "Fair use",
+  "logo": "logos/tianjin-airlines.svg",
+  "name": "Tianjin Airlines",
+  "non_free": true,
+  "website": "https://www.tianjin-air.com"
+ },
+ "Tigerair Taiwan": {
+  "file": "File:Tigerair Taiwan logo.svg",
+  "license": "Public domain",
+  "logo": "logos/tigerair-taiwan.svg",
+  "name": "Tigerair Taiwan",
+  "non_free": false,
+  "website": "http://www.tigerairtw.com"
+ },
+ "Tofino Air": {
+  "file": "File:Tofino Air logo.png",
+  "license": "Fair use",
+  "logo": "logos/tofino-air.png",
+  "name": "Tofino Air",
+  "non_free": true,
+  "website": "https://www.tofinoair.ca/"
+ },
+ "Toho Air Service": {
+  "name": "Toho Air Service",
+  "website": "http://www.tohoair.co.jp"
+ },
+ "Toki Air": {
+  "file": "File:Toki Air Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/toki-air.svg",
+  "name": "Toki Air",
+  "non_free": true,
+  "website": "http://www.tokiair.com"
+ },
+ "Torres Strait Air": {
+  "file": "File:Torres Strait Air logo.png",
+  "license": "Fair use",
+  "logo": "logos/torres-strait-air.png",
+  "name": "Torres Strait Air",
+  "non_free": true,
+  "website": "https://torresair.com/"
+ },
+ "Trade Air": {
+  "file": "File:Tradeaircroatialogo.png",
+  "license": "CC0",
+  "logo": "logos/trade-air.png",
+  "name": "Trade Air",
+  "non_free": false,
+  "website": "http://www.trade-air.com/"
+ },
+ "Tradewind Aviation": {
+  "file": "File:Tradewind Aviation Logo.svg",
+  "license": "CC BY-SA 3.0",
+  "logo": "logos/tradewind-aviation.svg",
+  "name": "Tradewind Aviation",
+  "non_free": false,
+  "website": "https://www.flytradewind.com/"
+ },
+ "Trans Air Congo": {
+  "name": "Trans Air Congo",
+  "website": "http://www.flytransaircongo.com"
+ },
+ "Trans Anguilla Airways": {
+  "file": "File:Trans Anguilla Airways logo.png",
+  "license": "Fair use",
+  "logo": "logos/trans-anguilla-airways.png",
+  "name": "Trans Anguilla Airways",
+  "non_free": true,
+  "website": "http://www.transanguilla.com"
+ },
+ "Trans Guyana Airways": {
+  "name": "Trans Guyana Airways",
+  "website": "https://transguyana.net/"
+ },
+ "TransNusa": {
+  "file": "File:Logo TransNusa LinkAsia.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/transnusa.png",
+  "name": "TransNusa",
+  "non_free": false,
+  "website": "http://www.transnusa.co.id"
+ },
+ "Transair (Senegal)": {
+  "name": "Transair",
+  "website": "http://groupetransair.sn"
+ },
+ "Transavia": {
+  "file": "File:Transavia 2025 logo.svg",
+  "license": "Public domain",
+  "logo": "logos/transavia.svg",
+  "name": "Transavia",
+  "non_free": false,
+  "website": "http://www.transavia.com"
+ },
+ "Transavia France": {
+  "file": "File:Transavia 2025 logo.svg",
+  "license": "Public domain",
+  "logo": "logos/transavia-france.svg",
+  "name": "Transavia",
+  "non_free": false,
+  "website": "http://www.transavia.com"
+ },
+ "Transporte Aéreo Militar": {
+  "file": "File:TAMep Bolivia logo.png",
+  "license": "Fair use",
+  "logo": "logos/transporte-a-reo-militar.png",
+  "name": "TAMep",
+  "non_free": true,
+  "website": "https://www.tamep.bo/"
+ },
+ "Transportes Aéreos Guatemaltecos": {
+  "file": "File:TAG Airlines Dark Blue Logo.png",
+  "license": "Public domain",
+  "logo": "logos/transportes-a-reos-guatemaltecos.png",
+  "name": "TAG Airlines",
+  "non_free": false,
+  "website": "https://tagairlines.com/es-gt/"
+ },
+ "Travira Air": {
+  "file": "File:Travira Air logo.svg",
+  "license": "Fair use",
+  "logo": "logos/travira-air.svg",
+  "name": "Travira Air",
+  "non_free": true,
+  "website": "http://www.travira-air.com"
+ },
+ "Trigana Air": {
+  "file": "File:Trigana Air Logo.png",
+  "license": "Fair use",
+  "logo": "logos/trigana-air.png",
+  "name": "Trigana Air",
+  "non_free": true,
+  "website": "http://www.trigana-air.com"
+ },
+ "Trinity Airways": {
+  "file": "File:Trinity Airways.svg",
+  "license": "Public domain",
+  "logo": "logos/trinity-airways.svg",
+  "name": "Trinity Airways",
+  "non_free": false,
+  "website": "http://www.trinityairways.com"
+ },
+ "Tropic Air": {
+  "file": "File:Tropic Air Logo.png",
+  "license": "Fair use",
+  "logo": "logos/tropic-air.png",
+  "name": "Tropic Air",
+  "non_free": true,
+  "website": "http://www.tropicair.com/"
+ },
+ "Tropic Ocean Airways": {
+  "file": "File:Tropic Ocean Airways.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/tropic-ocean-airways.png",
+  "name": "Tropic Ocean Airways",
+  "non_free": false,
+  "website": "https://flytropic.com/"
+ },
+ "Tropical Air": {
+  "file": "File:Tropical Air (airline) logo.png",
+  "license": "Fair use",
+  "logo": "logos/tropical-air.png",
+  "name": "Tropical Air",
+  "non_free": true,
+  "website": "http://www.tropicalair.africa/"
+ },
+ "Tunisair": {
+  "file": "File:Tunisair logo.svg",
+  "license": "Fair use",
+  "logo": "logos/tunisair.svg",
+  "name": "Tunisair",
+  "non_free": true,
+  "website": "http://www.tunisair.com"
+ },
+ "Tunisair Express": {
+  "name": "Tunisair Express",
+  "website": "http://www.tunisairexpress.com.tn/"
+ },
+ "Turkish Airlines": {
+  "file": "File:Turkish Airlines logo 2019 compact.svg",
+  "license": "Public domain",
+  "logo": "logos/turkish-airlines.svg",
+  "name": "Turkish Airlines",
+  "non_free": false,
+  "website": "https://www.turkishairlines.com/"
+ },
  "Turkmenistan Airlines": {
   "file": "File:Turkmenistan Airlines logo.svg",
   "license": "Fair use",
@@ -798,6 +6142,26 @@
   "name": "Turkmenistan Airlines",
   "non_free": true,
   "website": "https://www.turkmenistanairlines.tm"
+ },
+ "Turpial Airlines": {
+  "file": "File:Turpial Airlines logo.png",
+  "license": "Fair use",
+  "logo": "logos/turpial-airlines.png",
+  "name": "Turpial Airlines",
+  "non_free": true,
+  "website": "http://www.turpialairlines.com"
+ },
+ "Turukhan Airlines": {
+  "name": "Turukhan Airlines",
+  "website": "http://www.turuhanavia.ru"
+ },
+ "Twin Jet": {
+  "file": "File:Twin Jet Logo.svg",
+  "license": "Fair use",
+  "logo": "logos/twin-jet.svg",
+  "name": "Twin Jet",
+  "non_free": true,
+  "website": "http://www.twinjet.fr"
  },
  "US-Bangla Airlines": {
   "file": "File:Logo of US-Bangla Airlines.svg",
@@ -807,6 +6171,14 @@
   "non_free": true,
   "website": "http://www.usbair.com"
  },
+ "UVT Aero": {
+  "file": "File:UVT Aero logo.svg",
+  "license": "PD",
+  "logo": "logos/uvt-aero.svg",
+  "name": "UVT Aero",
+  "non_free": false,
+  "website": "http://uvtaero.ru/en/"
+ },
  "Uganda Airlines": {
   "file": "File:Uganda Airlines 2019 Logo.svg",
   "license": "Fair use",
@@ -814,6 +6186,14 @@
   "name": "Uganda Airlines",
   "non_free": true,
   "website": "http://www.ugandairlines.com"
+ },
+ "Uni Air": {
+  "file": "File:UNI Air logo.png",
+  "license": "Fair use",
+  "logo": "logos/uni-air.png",
+  "name": "Uni Air",
+  "non_free": true,
+  "website": "http://www.uniair.com.tw"
  },
  "United Airlines": {
   "file": "File:United Airlines Logo.svg",
@@ -823,6 +6203,38 @@
   "non_free": true,
   "website": "https://www.united.com"
  },
+ "United Express": {
+  "file": "File:United Express logo.svg",
+  "license": "Fair use",
+  "logo": "logos/united-express.svg",
+  "name": "United Express",
+  "non_free": true,
+  "website": "https://united.com"
+ },
+ "United Nations Humanitarian Air Service": {
+  "name": "United Nations Humanitarian Air Service",
+  "website": "https://www.wfp.org/unhas"
+ },
+ "United Nigeria Airlines": {
+  "name": "United Nigeria Airlines",
+  "website": "https://flyunitednigeria.com"
+ },
+ "Universal Air": {
+  "file": "File:Universal Air logo.svg",
+  "license": "Public domain",
+  "logo": "logos/universal-air.svg",
+  "name": "Universal Air",
+  "non_free": false,
+  "website": "https://www.flyuniversalair.com/"
+ },
+ "Ur Airlines": {
+  "file": "File:UR Airlines Logo.png",
+  "license": "Fair use",
+  "logo": "logos/ur-airlines.png",
+  "name": "UR Airlines",
+  "non_free": true,
+  "website": "https://urairlines.com/"
+ },
  "Ural Airlines": {
   "file": "File:Logo of the Ural Airlines.svg",
   "license": "Public domain",
@@ -830,6 +6242,22 @@
   "name": "Ural Airlines",
   "non_free": false,
   "website": "http://www.uralairlines.ru/en/"
+ },
+ "Urumqi Air": {
+  "file": "File:Urumqi Air Logo 2014.png",
+  "license": "Fair use",
+  "logo": "logos/urumqi-air.png",
+  "name": "Urumqi Air",
+  "non_free": true,
+  "website": "http://www.urumqi-air.com"
+ },
+ "Utair": {
+  "file": "File:Utair logo gradient.svg",
+  "license": "Public domain",
+  "logo": "logos/utair.svg",
+  "name": "Utair",
+  "non_free": false,
+  "website": "https://www.utair.ru/en"
  },
  "Uzbekistan Airways": {
   "file": "File:Uzbekistan Airways logo.svg",
@@ -839,6 +6267,38 @@
   "non_free": true,
   "website": "http://www.uzairways.com/en"
  },
+ "VI Airlink": {
+  "file": "File:VI Airlink logo.png",
+  "license": "Fair use",
+  "logo": "logos/vi-airlink.png",
+  "name": "VI Airlink",
+  "non_free": true,
+  "website": "http://www.viairlink.com"
+ },
+ "ValueJet (Nigeria)": {
+  "file": "File:ValueJet Approved logo png.png",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/valuejet-nigeria.png",
+  "name": "ValueJet",
+  "non_free": false,
+  "website": "https://flyvaluejet.com/"
+ },
+ "Vanilla Sky (airline)": {
+  "file": "File:Vanilla Sky logo.png",
+  "license": "Fair use",
+  "logo": "logos/vanilla-sky-airline.png",
+  "name": "Vanilla Sky Airlines",
+  "non_free": true,
+  "website": "https://ticket.vanillasky.ge/"
+ },
+ "Venezolana": {
+  "file": "File:Logo ravsa.png",
+  "license": "Public domain",
+  "logo": "logos/venezolana.png",
+  "name": "Venezolana",
+  "non_free": false,
+  "website": "http://www.venezolana.aero/"
+ },
  "Ventura AirConnect": {
   "file": "File:Logo of Ventura AirConnect.png",
   "license": "Fair use",
@@ -846,6 +6306,14 @@
   "name": "Ventura AirConnect",
   "non_free": true,
   "website": "http://www.flyairconnect.com/"
+ },
+ "Vieques Air Link": {
+  "file": "File:Vieques Air Link Logo.png",
+  "license": "Fair use",
+  "logo": "logos/vieques-air-link.png",
+  "name": "Vieques Air Link",
+  "non_free": true,
+  "website": "http://www.viequesairlink.com/"
  },
  "VietJet Air": {
   "file": "File:VietJet Air logo.svg",
@@ -855,6 +6323,22 @@
   "non_free": false,
   "website": "http://www.vietjetair.com"
  },
+ "VietJet Qazaqstan": {
+  "file": "File:Vietjet Qazaqstan logo.svg",
+  "license": "Public domain",
+  "logo": "logos/vietjet-qazaqstan.svg",
+  "name": "Vietjet Qazaqstan",
+  "non_free": false,
+  "website": "http://vietjetqazaqstan.kz"
+ },
+ "Vietnam Air Services Company": {
+  "file": "File:VASCO logo.svg",
+  "license": "Public domain",
+  "logo": "logos/vietnam-air-services-company.svg",
+  "name": "VASCO",
+  "non_free": false,
+  "website": "http://www.vasco.com.vn"
+ },
  "Vietnam Airlines": {
   "file": "File:Vietnam Airlines logo 2015.svg",
   "license": "Fair use",
@@ -862,6 +6346,22 @@
   "name": "Vietnam Airlines",
   "non_free": true,
   "website": "http://www.vietnamairlines.com"
+ },
+ "Vietravel Airlines": {
+  "file": "File:Vietravel Airlines Logo.png",
+  "license": "Public domain",
+  "logo": "logos/vietravel-airlines.png",
+  "name": "Vietravel Airlines",
+  "non_free": false,
+  "website": "http://www.vietravelairlines.com"
+ },
+ "Villa Air": {
+  "file": "File:Villa air logo 2024.svg",
+  "license": "CC BY 4.0",
+  "logo": "logos/villa-air.svg",
+  "name": "Flyme",
+  "non_free": false,
+  "website": "https://villaair.aero/"
  },
  "Virgin Atlantic": {
   "file": "File:Virgin Atlantic logo 2018.svg",
@@ -871,6 +6371,250 @@
   "non_free": false,
   "website": "https://www.virginatlantic.com/"
  },
+ "Virgin Australia": {
+  "file": "File:Virgin Australia Logo 2022.svg",
+  "license": "PD",
+  "logo": "logos/virgin-australia.svg",
+  "name": "Virgin Australia",
+  "non_free": false,
+  "website": "http://www.virginaustralia.com"
+ },
+ "Virgin Australia Regional Airlines": {
+  "name": "Virgin Australia Regional Airlines",
+  "website": "http://www.virginaustralia.com"
+ },
+ "Viva (airline)": {
+  "file": "File:Viva Logo.svg",
+  "license": "Public domain",
+  "logo": "logos/viva-airline.svg",
+  "name": "Viva",
+  "non_free": false,
+  "website": "http://www.vivaaerobus.com"
+ },
+ "Volaris": {
+  "file": "File:Volaris-logo.svg",
+  "license": "Public domain",
+  "logo": "logos/volaris.svg",
+  "name": "Volaris",
+  "non_free": false,
+  "website": "http://volaris.com"
+ },
+ "Volaris Costa Rica": {
+  "file": "File:Volaris logo (black background).svg",
+  "license": "PD",
+  "logo": "logos/volaris-costa-rica.svg",
+  "name": "Volaris Costa Rica",
+  "non_free": false,
+  "website": "http://www.volaris.com"
+ },
+ "Volaris El Salvador": {
+  "file": "File:Volaris logo (black background).svg",
+  "license": "PD",
+  "logo": "logos/volaris-el-salvador.svg",
+  "name": "Volaris El Salvador",
+  "non_free": false,
+  "website": "http://www.volaris.com"
+ },
+ "Vologda Aviation Enterprise": {
+  "file": "File:Vologda Aviation Enterprise logo.png",
+  "license": "Fair use",
+  "logo": "logos/vologda-aviation-enterprise.png",
+  "name": "Vologda Aviation Enterprise",
+  "non_free": true,
+  "website": "https://www.avia35.ru/"
+ },
+ "Volotea": {
+  "file": "File:Volotea.svg",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/volotea.svg",
+  "name": "Volotea",
+  "non_free": false,
+  "website": "http://www.volotea.com"
+ },
+ "Vostok Aviation Company": {
+  "name": "Vostok Aviation Company",
+  "website": "http://www.vostokairlines.ru/"
+ },
+ "Vueling": {
+  "file": "File:Logo Vueling.svg",
+  "license": "Public domain",
+  "logo": "logos/vueling.svg",
+  "name": "Vueling",
+  "non_free": false,
+  "website": "http://www.vueling.com"
+ },
+ "Warbelow's Air Ventures": {
+  "name": "Warbelow's Air Ventures",
+  "website": "https://www.warbelows.com/"
+ },
+ "Wasaya Airways": {
+  "file": "https://wasaya.com/",
+  "license": "Trademark (airline's website)",
+  "logo": "logos/wasaya-airways.svg",
+  "name": "Wasaya Airways",
+  "non_free": true,
+  "website": "https://www.wasaya.com/"
+ },
+ "West Air": {
+  "name": "West Air",
+  "website": null
+ },
+ "West Air (China)": {
+  "file": "File:West Air (China) Logo.png",
+  "license": "Fair use",
+  "logo": "logos/west-air-china.png",
+  "name": "West Air",
+  "non_free": true,
+  "website": "https://www.westair.cn"
+ },
+ "West Wing Aviation": {
+  "name": "West Wing Aviation",
+  "website": "https://www.skytrans.com.au/"
+ },
+ "WestJet": {
+  "file": "File:WestJetLogo2018.svg",
+  "license": "Public domain",
+  "logo": "logos/westjet.svg",
+  "name": "WestJet",
+  "non_free": false,
+  "website": "https://www.westjet.com/"
+ },
+ "WestJet Encore": {
+  "file": "File:WestJetLogo2018.svg",
+  "license": "Public domain",
+  "logo": "logos/westjet-encore.svg",
+  "name": "WestJet Encore",
+  "non_free": false,
+  "website": "http://www.westjet.com/encore"
+ },
+ "Westair Aviation": {
+  "file": "File:Logo Westair Wings Charters.png",
+  "license": "Public domain",
+  "logo": "logos/westair-aviation.png",
+  "name": "FlyNamibia",
+  "non_free": false,
+  "website": "http://westair.com.na"
+ },
+ "Western Air": {
+  "name": "Western Air",
+  "website": "http://westernairbahamas.com"
+ },
+ "Widerøe": {
+  "file": "File:Wideroe logo.svg",
+  "license": "Fair use",
+  "logo": "logos/wider-e.svg",
+  "name": "Widerøe",
+  "non_free": true,
+  "website": "http://www.wideroe.no"
+ },
+ "Wilderness Air": {
+  "file": "File:WildernessAirLogo2011.png",
+  "license": "Fair use",
+  "logo": "logos/wilderness-air.png",
+  "name": "Wilderness Air",
+  "non_free": true,
+  "website": "https://www.wilderness-air.com"
+ },
+ "Winair": {
+  "file": "File:Logo Winair.svg",
+  "license": "CC BY-SA 4.0",
+  "logo": "logos/winair.svg",
+  "name": "Winair",
+  "non_free": false,
+  "website": "http://www.fly-winair.sx"
+ },
+ "Wingo": {
+  "name": "Wingo",
+  "website": null
+ },
+ "Wingo (airline)": {
+  "file": "File:Wingo Logo.svg",
+  "license": "PD",
+  "logo": "logos/wingo-airline.svg",
+  "name": "Wingo",
+  "non_free": false,
+  "website": "http://www.wingo.com/en"
+ },
+ "Wings Air": {
+  "file": "File:Wings Air.svg",
+  "license": "Fair use",
+  "logo": "logos/wings-air.svg",
+  "name": "Wings Air",
+  "non_free": true,
+  "website": "http://www.lionair.co.id"
+ },
+ "Wizz Air": {
+  "file": "File:Wizz Air logo 2015.svg",
+  "license": "Public domain",
+  "logo": "logos/wizz-air.svg",
+  "name": "Wizz Air",
+  "non_free": false,
+  "website": "https://www.wizzair.com/"
+ },
+ "World Atlantic Airlines": {
+  "file": "File:World Atlantic Airlines logo.png",
+  "license": "Fair use",
+  "logo": "logos/world-atlantic-airlines.png",
+  "name": "World Atlantic Airlines",
+  "non_free": true,
+  "website": "http://www.flywaa.com"
+ },
+ "World2Fly": {
+  "file": "File:W2fly logo.svg",
+  "license": "Public domain",
+  "logo": "logos/world2fly.svg",
+  "name": "World2Fly",
+  "non_free": false,
+  "website": "https://www.w2fly.es/"
+ },
+ "Wright Air Service": {
+  "file": "File:Wright Air Service Logo.png",
+  "license": "Fair use",
+  "logo": "logos/wright-air-service.png",
+  "name": "Wright Air Service",
+  "non_free": true,
+  "website": "http://www.wrightairservice.com/"
+ },
+ "XiamenAir": {
+  "file": "File:XiamenAir.svg",
+  "license": "Fair use",
+  "logo": "logos/xiamenair.svg",
+  "name": "XiamenAir",
+  "non_free": true,
+  "website": "http://www.xiamenair.com"
+ },
+ "Xizang Airlines": {
+  "file": "File:TibetAirlinesLogo.png",
+  "license": "Fair use",
+  "logo": "logos/xizang-airlines.png",
+  "name": "Xizang Airlines",
+  "non_free": true,
+  "website": "https://www.airxizang.com/stdair/homepage"
+ },
+ "Yakutia Airlines": {
+  "file": "File:Yakutia Airlines Eng Logo.png",
+  "license": "Fair use",
+  "logo": "logos/yakutia-airlines.png",
+  "name": "Yakutia Airlines",
+  "non_free": true,
+  "website": "https://www.yakutia.aero/"
+ },
+ "Yamal Airlines": {
+  "file": "File:Logo yamal.png",
+  "license": "Fair use",
+  "logo": "logos/yamal-airlines.png",
+  "name": "Yamal Airlines",
+  "non_free": true,
+  "website": "https://yamalaero.ru/"
+ },
+ "Yazd Airways": {
+  "file": "File:Logo Yazd Airways (Iran).png",
+  "license": "Fair use",
+  "logo": "logos/yazd-airways.png",
+  "name": "Yazd Airways",
+  "non_free": true,
+  "website": "https://www.yazdairways.com"
+ },
  "Yemenia": {
   "file": "File:Yemenia Logo.svg",
   "license": "Fair use",
@@ -878,5 +6622,69 @@
   "name": "Yemenia",
   "non_free": true,
   "website": "https://www.yemenia.com"
+ },
+ "Yeti Airlines": {
+  "file": "File:Yeti Airlines logo.png",
+  "license": "Fair use",
+  "logo": "logos/yeti-airlines.png",
+  "name": "Yeti Airlines",
+  "non_free": true,
+  "website": "http://www.yetiairlines.com/"
+ },
+ "Yute Commuter Service": {
+  "file": "File:Yute Commuter Service.png",
+  "license": "Fair use",
+  "logo": "logos/yute-commuter-service.png",
+  "name": "Yute Commuter Service",
+  "non_free": true,
+  "website": "https://yutebethel.com/"
+ },
+ "Z Air": {
+  "file": "File:Z-Air Logo.png",
+  "license": "Public domain",
+  "logo": "logos/z-air.png",
+  "name": "Z Air",
+  "non_free": false,
+  "website": "http://flyzair.com"
+ },
+ "Zagros Airlines": {
+  "file": "https://www.zagrosairlines.ir/en",
+  "license": "Trademark (airline's website)",
+  "logo": "logos/zagros-airlines.png",
+  "name": "Zagros Airlines",
+  "non_free": true,
+  "website": "http://www.zagrosairlines.com/"
+ },
+ "Zambia Airways": {
+  "file": "File:Zambia Airways logo.png",
+  "license": "Fair use",
+  "logo": "logos/zambia-airways.png",
+  "name": "Zambia Airways",
+  "non_free": true,
+  "website": "http://www.zambia-airways.com"
+ },
+ "ZanAir": {
+  "name": "ZanAir",
+  "website": "http://www.zanair.com/"
+ },
+ "Zhetysu (airline)": {
+  "name": "Zhetysu",
+  "website": "http://www.zhetysuavia.kz"
+ },
+ "Zhezkazgan Air": {
+  "file": "File:Zhezair Logo.png",
+  "license": "Fair use",
+  "logo": "logos/zhezkazgan-air.png",
+  "name": "Zhezkazgan Air",
+  "non_free": true,
+  "website": "http://zhezair.com/"
+ },
+ "Zipair Tokyo": {
+  "file": "File:ZIPAIR logo.svg",
+  "license": "Public domain",
+  "logo": "logos/zipair-tokyo.svg",
+  "name": "Zipair Tokyo",
+  "non_free": false,
+  "website": "http://www.zipair.net/en"
  }
 }

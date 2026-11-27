@@ -3,7 +3,7 @@ import { localTime } from "../lib/time";
 import { DayIcon } from "./LocalTime";
 
 // Solid chips so the two ends of the route stand out from the (deliberately quiet) base map:
-// the departure city in ink, the destination in its route colour (magenta in India, teal abroad).
+// the departure city in ink, the destination in its route colour (magenta in the same country, teal abroad).
 const TONES = {
   ink: "bg-ink text-paper",
   airway: "bg-airway text-on-airway",

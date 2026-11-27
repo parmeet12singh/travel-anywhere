@@ -1,9 +1,9 @@
 import type { AirlineOnRoute, Airport, Dataset } from "./data";
-import { distanceKm } from "./geo";
+import { distanceKm, unwrapLongitudes, unwrapped } from "./geo";
 
 /**
  * Routes between two countries, worked out from the route data in a general way: any airport in the source
- * country linked (in either direction) to any airport in the target country. Today every route touches India;
+ * country linked (in either direction) to any airport in the target country. Today every route touches a covered country;
  * when other countries' routes are added, these functions pick them up unchanged.
  */
 export type Link = {
@@ -33,7 +33,15 @@ export function countryLinks(data: Dataset, source: string, target: string): Lin
     }
     byPair.set(key, link);
   }
-  return [...byPair.values()].sort(
+  const links = [...byPair.values()];
+  if (links.length > 0) {
+    const unwrap = unwrapLongitudes(links[0].from.lon, links.flatMap((l) => [l.from.lon, l.to.lon]));
+    for (const l of links) {
+      l.from = unwrapped(l.from, unwrap);
+      l.to = unwrapped(l.to, unwrap);
+    }
+  }
+  return links.sort(
     (x, y) => y.airlines.length - x.airlines.length || x.from.label.localeCompare(y.from.label) || x.to.label.localeCompare(y.to.label),
   );
 }

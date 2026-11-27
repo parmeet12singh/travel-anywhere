@@ -1,6 +1,6 @@
 import { useState } from "react";
 import type { AirlineInfo, Country } from "../lib/data";
-import { HOME_COUNTRY } from "../lib/data";
+import { inSentence } from "../lib/names";
 import type { Link } from "../lib/pairs";
 import { linkSummary } from "../lib/pairs";
 import { formatKm } from "../lib/geo";
@@ -15,9 +15,11 @@ export const linkKey = (l: Link) => `${l.from.iata}-${l.to.iata}`;
  * Routes between the country in the picker (source) and another country (target): a compact summary, the airlines,
  * and the busiest airport pairs. Each pair opens the usual route page.
  */
-export function PairView({ source, target, links, airlines, emphasised, onHover, onPick }: {
+export function PairView({ source, target, covered, links, airlines, emphasised, onHover, onPick }: {
   source: Country;
   target: Country;
+  /** At least one side has full route lists, so "no routes" really means none. Otherwise it may mean "not collected". */
+  covered: boolean;
   links: Link[];
   airlines: Map<string, AirlineInfo>;
   emphasised: string | null;
@@ -39,17 +41,17 @@ export function PairView({ source, target, links, airlines, emphasised, onHover,
         </h1>
         {links.length > 0 ? (
           <p className="mt-2 text-slate">
-            {plural(sum.routes, "non-stop route")} between {plural(sum.fromAirports, "airport")} in {source.name} and{" "}
-            {plural(sum.toAirports, "airport")} in {target.name}.
+            {plural(sum.routes, "non-stop route")} between {plural(sum.fromAirports, "airport")} in {inSentence(source)} and{" "}
+            {plural(sum.toAirports, "airport")} in {inSentence(target)}.
           </p>
         ) : null}
       </div>
 
       {links.length === 0 ? (
         <div className="rounded-lg border border-rule bg-surface p-4">
-          <p className="font-medium">No routes between {source.name} and {target.name} in our data yet.</p>
-          {source.iso2 !== HOME_COUNTRY && target.iso2 !== HOME_COUNTRY ? (
-            <p className="mt-1 text-sm text-slate">Only routes to and from India are covered for now.</p>
+          <p className="font-medium">{covered ? `No non-stop routes between ${inSentence(source)} and ${inSentence(target)}.` : `No routes between ${inSentence(source)} and ${inSentence(target)} in our data yet.`}</p>
+          {!covered ? (
+            <p className="mt-1 text-sm text-slate">We only have routes to and from the countries covered so far.</p>
           ) : null}
         </div>
       ) : (
@@ -58,7 +60,7 @@ export function PairView({ source, target, links, airlines, emphasised, onHover,
             <h2 className="text-sm font-medium text-slate">{plural(sum.airlines.length, "airline")}</h2>
             <ul className="mt-2 flex flex-wrap gap-1.5">
               {sum.airlines.map(({ airline, count }) => (
-                <li key={airline.airline} title={`${airline.airline}: ${plural(count, "route")}`}>
+                <li key={airline.airline_wiki ?? airline.airline} title={`${airline.airline}: ${plural(count, "route")}`}>
                   <AirlineLogo airline={airline} logo={logoOf(airline.airline_wiki)} size="sm" />
                   <span className="sr-only">{airline.airline}, {plural(count, "route")}</span>
                 </li>
@@ -92,7 +94,7 @@ export function PairView({ source, target, links, airlines, emphasised, onHover,
                         </span>
                         <span className="mt-1.5 flex items-center gap-1" aria-hidden="true">
                           {l.airlines.slice(0, 4).map((a) => (
-                            <AirlineLogo key={a.airline} airline={a} logo={logoOf(a.airline_wiki)} size="sm" />
+                            <AirlineLogo key={a.airline_wiki ?? a.airline} airline={a} logo={logoOf(a.airline_wiki)} size="sm" />
                           ))}
                           {l.airlines.length > 4 ? <span className="text-xs text-slate">+{l.airlines.length - 4}</span> : null}
                         </span>

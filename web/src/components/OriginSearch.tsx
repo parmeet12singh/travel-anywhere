@@ -2,7 +2,6 @@ import { useDeferredValue, useId, useMemo, useRef, useState } from "react";
 import { Fragment } from "react";
 import { XMarkIcon } from "@heroicons/react/24/outline";
 import type { Airport } from "../lib/data";
-import { HOME_COUNTRY } from "../lib/data";
 import { formatKm } from "../lib/geo";
 import type { SearchResult } from "../lib/search";
 
@@ -10,11 +9,13 @@ type Props = {
   search: (q: string) => SearchResult[];
   onPick: (iata: string) => void;
   hasOrigin: boolean;
+  /** The picker's country: its airports don't need their country spelled out in the results. */
+  country: string;
   /** Put the cursor in the box (after "Change city"), on devices with a mouse/trackpad only. */
   focusOnMount?: boolean;
 };
 
-export function OriginSearch({ search, onPick, hasOrigin, focusOnMount = false }: Props) {
+export function OriginSearch({ search, onPick, hasOrigin, country, focusOnMount = false }: Props) {
   const id = useId();
   const [query, setQuery] = useState("");
   const inputRef = useRef<HTMLInputElement>(null);
@@ -108,8 +109,13 @@ export function OriginSearch({ search, onPick, hasOrigin, focusOnMount = false }
               No airport with scheduled flights matches “{query.trim()}”. Try the nearest bigger city.
             </li>
           ) : (
-            results.map(({ airport: a, nearby, inCountry }, i) => (
+            results.map(({ airport: a, nearby, inCountry, group }, i) => (
               <Fragment key={a.iata}>
+                {group && group !== results[i - 1]?.group ? (
+                  <li role="presentation" className={`px-3.5 pt-2 pb-1 text-sm font-medium text-slate ${i > 0 ? "mt-1 border-t border-rule" : ""}`}>
+                    {group}
+                  </li>
+                ) : null}
                 {inCountry && i === 0 ? (
                   <li role="presentation" className="px-3.5 pt-2 pb-1 text-sm font-medium text-slate">
                     Airports in {inCountry}
@@ -137,7 +143,7 @@ export function OriginSearch({ search, onPick, hasOrigin, focusOnMount = false }
                     <span className="block truncate text-sm text-slate">
                       {nearby
                         ? `${formatKm(nearby.km)} from ${nearby.of.label}`
-                        : a.country === HOME_COUNTRY || inCountry // the heading already names the country
+                        : a.country === country || inCountry || group // a heading already names the country
                           ? a.name
                           : `${a.name}, ${a.country_name}`}
                     </span>
